@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="">
+<html lang="en">
 
 <head>
 <title>The Software Design Specification Outline</title>
@@ -52,52 +52,21 @@
     
     <div class="content three_quarter"> 
       
-      <h1>Main page title</h1>
-      
-      <p>Here some details about members, project. etc</p>
-      
+      <h1>Architecture</h1>
+      <p>The automated accommodation system design has been divided into four major sub-system; server application, client application, database system and maps. The server application is then separated into five major sub-sections; the server component, server communication, server GUI (Graphical User Interface), all information in database and shows in table with graphical interface. The client application separated into two sub-sections; the client component and the client communication. <br> <br>
+ 
+The server application’s major design considerations include easy database store, easy database update and delete option, multiple client support, and a minimal set of administrative features. The server application has been designed to be as flexible as possible. Given the project’s constraints of human resources, software resources, and time, the server is not completely “data independent”. Portions of the server application are specific to this automated accommodation. This portion are discussed in the server application’s detailed design strategies. <br><br>
+ 
+The client application is designed to support the following major feature; a simple and maps with perfect direction of house and maps with vocal user interface, easy to understand dialogs, flexible dialog structure support, and support of an internet transport (hosting and server) for any automated accommodation information retrieval. <br><br>
+ 
+Unlike the server application, the client application has been designed completely data independent but with very strong user information privacy. No portion of the client application is implementation independent with their information and reviews, comments, store house information, picture and other related things. This provides flexibility for other potential uses for the client application. <br><br>
+ 
+Given the system’s requirement that the client application must be supported on a web platform, the design uses several web specific technologies like Laravel, html5, css3, bootstrap, PHP. And specially also build for android users “android application”. 
+This technology was chosen because they required the least amount of research and learning time, both of which we are limited in. </p>
+
+     
 
 
-      <p>If anyone need table use this (copy paste and value change)</p>
-      <h1>Table(s)</h1>
-      <div class="scrollable">
-        <table>
-          <thead>
-            <tr>
-              <th>Header 1</th>
-              <th>Header 2</th>
-              <th>Header 3</th>
-              <th>Header 4</th>
-            </tr>
-          </thead>
-          <tbody>
-            <tr>
-              <td><a href="#">Value 1</a></td>
-              <td>Value 2</td>
-              <td>Value 3</td>
-              <td>Value 4</td>
-            </tr>
-            <tr>
-              <td>Value 5</td>
-              <td>Value 6</td>
-              <td>Value 7</td>
-              <td><a href="#">Value 8</a></td>
-            </tr>
-            <tr>
-              <td>Value 9</td>
-              <td>Value 10</td>
-              <td>Value 11</td>
-              <td>Value 12</td>
-            </tr>
-            <tr>
-              <td>Value 13</td>
-              <td><a href="#">Value 14</a></td>
-              <td>Value 15</td>
-              <td>Value 16</td>
-            </tr>
-          </tbody>
-        </table>
-      </div>
       
  
     </div>
