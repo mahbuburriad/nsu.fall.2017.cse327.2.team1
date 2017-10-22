@@ -1,8 +1,8 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html lang="en">
 
 <head>
-<title>The Software Design Specification Outline</title>
+<title>SDS ||  User interface issues </title>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 <link href="layout/styles/layout.css" rel="stylesheet" type="text/css" media="all">
@@ -40,7 +40,18 @@
           <li><a href="introduction.html">01. Introduction</a></li>
           <li><a href="Architecture.html">02. Architecture</a></li>
           <li><a href="Component Design Specification.html">03. Component Design Specification(s)</a></li>
-          <li><a href="User interface issues.html">04. User interface issues</a></li>
+          <li><a href="User interface issues.html">04. User interface issues</a>
+<ul>
+  <li><a href="#pcc">4.1 Pc Clients</a>
+<ul>
+  <li><a href="#lpc">4.1.1 Login as admin with PC</a></li>
+  <li><a href="#lc">4.1.2 Login as Client</a></li>
+</ul>
+  </li>
+  <li><a href="#ac">4.2 Android Client</a></li>
+</ul>
+
+          </li>
           <li><a href="Execution Architectures.html">05. Execution Architectures</a></li>
           <li><a href="Design decisions and tradeoffs.html">06. Design decisions and tradeoffs</a></li>
           <li><a href="Appendices.html">07. Appendices (if any)</a></li>
@@ -54,11 +65,11 @@
       
       <h1>4. User interface issues</h1>
       <p>The user interface of the Project will be divided into two main section: “PC clients” application and “Android clients” application. The PC client application divided into two major section “Admin Panel” and “User Panel”. This tool will allow the various users of accomplish the management of the software and the management of the rest of their projects. The SRS represent the type of people who will make use of the Project – and the purpose of this section is to describe how the user interface allow those people to do their tasks.</p>
-
+<div id= pcc>
       <h3>4.1 Pc Clients</h3>
       <p>The Pc clients are divided into two section that is admin login option and login as Client. First page will be description about this project.</p>
 
-      
+      <div id = lpc>
         <ul>
           <li><h2>4.1.1 Login as admin with PC</h2>
             <ul type="square">
@@ -110,7 +121,8 @@
        </li>
             </ul>
 
-
+</div>
+<div id = lc>
 
             <h2>4.1.2 Login as Client</h2>
             <ul type="square">
@@ -167,7 +179,11 @@
 
           </li>
         </ul>
-  
+      </div>
+  </div>
+
+
+  <div id = ac>
   <h1>4.2 Android Client</h1>
   <ul type="square">
               <li>
@@ -223,6 +239,7 @@
 
           </li>
         </ul>
+      </div>
     </div>
 
     <div class="clear"></div>
