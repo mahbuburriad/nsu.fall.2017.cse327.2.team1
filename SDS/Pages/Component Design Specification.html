@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html lang="">
 
 <head>
@@ -388,44 +388,167 @@
           </thead>
           <tbody>
             <tr>
-              <td></td>
-              <td></td>
+              <td>Identification</td>
+              <td>Desktop Client</td>
             </tr>
             <tr>
-              <td></td>
-              <td></td>
+              <td>Type</td>
+              <td>User Interface</td>
             </tr>
             <tr>
-              <td></td>
-              <td></td>
+              <td>Purpose</td>
+              <td>Provide the user access to project data stored locally or on a database.</td>
             </tr>
             <tr>
-              <td></td>
-              <td></td>
+              <td>Functions</td>
+              <td>1. Logs the user into the system, and attempts to connect to a specified project server using the Server Procedure Proxy. </br>
+		        2. When possible, downloads any new?or modified projects?from the specified server, and uploads any changes that have been made locally since the last successful server connection.??In some cases, there may be conflicts?between local and remote project data, and the?Desktop client will provide a means for conflict resolution through user interaction.</br>
+		        3. Allows the user to see a list of their projects, which consists of those downloaded and those created by the user locally.? Allows the user to create new projects.</br>
+		        4. Allows the user to inspect and change?a specified project's data.</br>
+		        5. Allows a user to report times and costs associated with a project.</td>
             </tr>
 			<tr>
-              <td></td>
-              <td></td>
+              <td>Sobordinates</td>
+	      <td>
+
+		 <table>
+          <thead>
+            <tr>
+              <th>Description of login page</th>
+              
+             
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Identification : LoginScreen</td>
+              </tr>
+           
+              <tr>
+              <td>Type : Class/Form </td>
+              </tr>
+              
+              <tr>
+              <td>Purpose : This login screen confirms that only those users who have registered with the website can enter into the homepage. </td>
+              </tr>
+              
+              <tr>
+                  <td>Subordinates :This screen contains link of</br> &emsp;&emsp; 1.Homepage </br> &emsp;&emsp; 2.Registration page </br> &emsp;&emsp; 3.Recover password page  </td>
+              </tr>
+              
+              <tr>
+              <td>Processing : Processing required inputting credentials about users into text boxes and navigating to other forms using links in the bottom of the page. Each link sends user to a different page as per user demands. </td>
+              </tr>
+              
+              <tr>
+              <td>Data : Data for LoginScreen is valid username and password provided by the user. User can get into homepage if he/she is associated with our database. </td>
+              </tr>
+              
+          </tbody>
+        </table>
+        
+        <table>
+            <thead>
+                <tr>
+                    <th>Description of New User Registration </th>
+                    
+                </tr>
+            </thead>
+            
+            <tbody>
+            <tr>
+              <td>Identification : RegistrationScreen </td>
+              </tr>
+           
+              <tr>
+              <td>Type : Class/Form </td>
+              </tr>
+              
+              <tr>
+              <td>Purpose : Registration page allows user to create a new account with the website. Users can be Owner of houses or can be people who wants to buy or rent a place. </td>
+              </tr>
+              
+              <tr>
+                  <td>Subordinates :This screen contains link of</br> &emsp;&emsp; 1.Login screen   </td>
+              </tr>
+              
+              
+              
+              <tr>
+              <td>Data : RegistrationScreen will provide some information for the user that they must enter. The appropriate information provided by the user will be recorded into Database. Some information will be checked into Database for duplicates. Such as username should be unique, so if someone's username matches in our database user will be asked to put in a different username. </td>
+              </tr>
+              
+          </tbody>
+          </table>
+        
+        <table>
+            <thead>
+                <tr>
+                    <th>Description of Homepage </th>
+                    
+                </tr>
+            </thead>
+            
+            <tbody>
+            <tr>
+              <td>Identification : Homepage </td>
+              </tr>
+           
+              <tr>
+              <td>Type : Class/Form </td>
+              </tr>
+              
+              <tr>
+              <td>Purpose : This page helps the user by presenting all the information user required. This page is very user friendly, which can be handled easily by user. </td>
+              </tr>
+              
+              <tr>
+                  <td>Subordinates :This screen contains link of</br> &emsp;&emsp; 1.Location of building  </br> &emsp;&emsp; 2.Different rent of houses/apartments  </br> &emsp;&emsp; 3.Selling or renting apartments or building </br> &emsp;&emsp; 4.Dealing with owner  </td>
+              </tr>
+              
+              
+              
+              <tr>
+              <td>Data : Data about buildings or houses, renting or selling prices. </td>
+              </tr>
+              
+          </tbody> 
+    
+        </table>
+
+			
+
+
+
+	      </td>
+              
+			</tr>
+  
+
+           			<tr>
+              <td>Dependencies</td>
+              <td>This component will interact closely with the Server Procedure Proxy for the retrieval of project data.The gui will create and pass around an instance of the Server Procedure Proxy class?and use it toget and put data on the server. Such server calls will be synchronous, so there will be no timing issues for the PocketPC client to consider. 
+The?Desktop Client will use?various data classes found in the Class Library. Data from the Server Procedure Proxy will be packaged into one of these classes, and the Desktop Client can then access that data through the public methods of the appropriate class. These classes also provide the Desktop Client with a handy way to save the data locally (as do all PHP classes).</td>
             </tr>
 			<tr>
-              <td></td>
-              <td></td>
+              <td>Interfaces</td>
+              <td>The Desktop Client uses Swing classes?for?interaction with the user.
+Uses the Server Procedure Proxy for interaction with a server.For more information on the Server Procedure Proxy see section 3.6. </td>
             </tr>
 			<tr>
-              <td></td>
-              <td></td>
+              <td>Resources</td>
+              <td>The Desktop Client will not have any significantly CPU- or memory-intensive tasks--however, normal overhead associated with Swing components is to be expected in both cases. 
+Much of the project data to be queried will be accessed on a remote database.</td>
             </tr>
 			<tr>
-              <td></td>
-              <td></td>
+              <td>Processing</td>
+              <td>Some psuedocode related to the application can be found here.</td>
             </tr>
 			<tr>
-              <td></td>
-              <td></td>
-            </tr>
-			<tr>
-              <td></td>
-              <td></td>
+              <td>Data</td>
+              <td>A project list kept on the disk as a serialized List of Project objects, loaded into memory in the same format.? Such a list will of course initially be empty.  
+Associated project data kept on the disk as a serialized List of Objects, of any of several formats, loaded into?memory in the same format.? Initially empty. 
+A list of user names and passwords encrypted on disk using PHPx.crypto.</td>
             </tr>
           </tbody>
         </table>
