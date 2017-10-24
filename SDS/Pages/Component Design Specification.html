@@ -74,43 +74,157 @@
       
 
 
-      <p>If anyone need table use this (copy paste and value change)</p>
-      <h1>Table(s)</h1>
+      <p>Here we are reciting our components by some table:</p>
+      <h3>3.1.Database</h3>
+		<p>We will use MySQL as our database software.
+		It will contain tables to narrate different categories of data and will also recite connections and dependencies between each table. </p>
       <div class="scrollable">
         <table>
           <thead>
             <tr>
-              <th>Header 1</th>
-              <th>Header 2</th>
-              <th>Header 3</th>
-              <th>Header 4</th>
+              <th>Attributes</th>
+              <th>Details</th>
+              
             </tr>
           </thead>
           <tbody>
             <tr>
-              <td><a href="#">Value 1</a></td>
-              <td>Value 2</td>
-              <td>Value 3</td>
-              <td>Value 4</td>
+              <td>Identification</td>
+              <td>Automated Accomodation System </td>
+              
             </tr>
             <tr>
-              <td>Value 5</td>
-              <td>Value 6</td>
-              <td>Value 7</td>
-              <td><a href="#">Value 8</a></td>
+              <td>Type</td>
+              <td>Module</td>
+              
             </tr>
             <tr>
-              <td>Value 9</td>
-              <td>Value 10</td>
-              <td>Value 11</td>
-              <td>Value 12</td>
+              <td>Purpose</td>
+              <td>Provides all type advertise of vacant flat or house with enough information about the place,
+			  owner and related services through online delivery system and support </td>
+              
             </tr>
             <tr>
-              <td>Value 13</td>
-              <td><a href="#">Value 14</a></td>
-              <td>Value 15</td>
-              <td>Value 16</td>
+              <td>Function</td>
+              <td>Takes SQLQUERY and UPDATE commands from the server software, and stores the data according to those commands. </td>
+              
             </tr>
+			<tr>
+				<td>Dependencies</td>
+				<td>An admin must perform database setup functions and should only modify the structure of tables so that the server
+				software can store the data appropriately</td>
+			</tr>
+			<tr>
+				<td>Interfaces</td>
+				<td>Apart from administrative setup, all modification of the database items will be performed by the server application.  
+				Employees can see the items added to carts by the owner of the houses/flats. They can also see all the reservations and can control it.</td>
+			</tr>
+			<tr>
+				<td>Subordinates</td>
+				<td>The database will store all information in database table class library
+					<ul>
+						<li>Registration
+							<ol>
+								<li> client_ID</li>
+								<li>User name</li>
+								<li>E-mail</li>
+								<li>Password</li>
+								<li>Location</li>
+								<li> Birthday</li>
+								<li>TimeUP()</li>
+								<li>NID</li>
+								<li>Social media Registration</li>
+								<li> Contact No.</li>
+							</ol></li>
+						<li>Payment Option
+							<ol>
+								<li>Payment_id</li>
+								<li>Card or Mobile Agent No.</li>
+								<li>CVV</li>
+								<li>Bank Transaction</li>
+								<li>Payment_confirmation</li>
+							</ol></li>
+						<li>Advertisement
+							<ol>
+								<li>Aded</li>
+								<li>User Name</li>
+								<li>E-mail</li>
+								<li>Location</li>
+								<li>Flat_type</li>
+								<li>Flat_size</li>
+								<li>Flat_room</li>
+								<li>Flat_kitchen</li>
+								<li>Flat _washroom</li>
+								<li>Flat_belcony</li>
+								<li>Buy/sell</li>
+								<li>Image</li>
+								<li>From Date</li>
+								<li>To Date</li>
+								<li>Adversite_time_date</li>
+								<li>Contact No</li>
+								<li>Gps Location</li>
+								<li></li>
+							</ol></li>
+						<li>Office_Employee
+							<ol>
+							<li>emID</li>
+							<li>User Name</li>
+							<li>E-mail</li>
+							<li>Password</li>
+							<li>Location</li>
+							<li>Birthday</li>
+							<li>Time()</li>
+							<li>Employee_type</li>
+							<li>NID</li>
+							<li>Imergency Contact No.</li>
+							</ol></li>	
+					</ul>
+				</td>
+			</tr>
+			<tr>
+				<td>Resources</td>
+				<td>The database we are using which will run on a Windows/Unix based computer. All tables will be created by our admin. 
+				We will use the  interface to manually enter initial data in the following tables: 
+					<ul>
+						<li>Address</li>
+						<li>Employee</li>
+						<li>Owner</li>
+						<li>Buyer</li>
+						<li>Renter</li>
+						<li>Registered User</li>
+						<li>House Rent</li>
+						<li>Flat</li>
+						<li>Advertisement</li>
+						<li>System and Contact</li>
+					</ul>
+
+
+				Once these are entered, we will use the data held in these fields as a baseline for our user interface.
+				Once the server gets a request for a certain data type from a user it will look up the table that is associated with the requested object,
+				then parse the restriction clause and create a valid SQL statement. Once it has generated a valid SQL statement, 
+				the server will connect to the database, execute the query and get a PHP ResultSet back. At this point, it will convert the ResultSet to the 
+				Object that was requested by the user and send it back to the client via Sockets and ObjectStreams over the network.
+				Calls to the database should not take longer than (but should be much less than) 30 seconds and transfers of the each Object over the network
+				should not take longer than 1 minute. Conversion of a ResultSet to a PHP Object should take less than 1 second. Data retrievals in general 
+				should be less than 2MB.
+				A client may also send an updated object to the server, in this case it will convert to a Set and then do an UPDATE to the database. This is a
+				basic database call so it should not take longer than 1 second from start to finish.
+				</td>
+			</tr>
+			<tr>
+				<td>Processing</td>
+				<td>SQL QUERY will come from the user in the form of Object.getAll(String("condition1 = condition2 and condition3 = condition 4"))
+				We will determine the Project class is associated to the project table in the database and it will generate the following SQL statement:
+				It will send this to the database and will get a PHP ResultSet. A ResultSet is easily converted to our object because the column names 
+				in the database will exactly match the fields in our class. SQL UPDATE will come from the user in the form Object.update();
+				</td>
+			</tr>
+			<tr>
+				<td>Data</td>
+				<td>We’ll take information from user and filled the database by those information. We’ll use valid SQL called through PHP. 
+				In every case we will either get a ResultSet (for queries), a working return code or a SQLException. We will handle all type of
+				exceptions according to their type.than</td>
+			</tr>
           </tbody>
         </table>
       </div>
