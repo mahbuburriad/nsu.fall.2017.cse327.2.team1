@@ -307,6 +307,129 @@
         </table>
       </div>
       
+	  <h3>3.3.SERVER PROCEDURE PROXY</h3>
+	        <div class="scrollable">
+        <table>
+          <thead>
+            <tr>
+              <th>Attributes</th>
+              <th>Details</th>
+              
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Identification</td>
+              <td>aa.ServerProcedureProxy</td>
+            </tr>
+            <tr>
+              <td>Type</td>
+              <td>Package, class</td>
+            </tr>
+            <tr>
+              <td>Purpose</td>
+              <td>Manages communication with the server on the client side.  
+			  Hides all the network specifics from the client code. 
+			  Exposes a simple API to call the methods that the server exposes.</td>
+            </tr>
+            <tr>
+              <td>Function</td>
+              <td>The server procedure proxy class implements the communication protocol with the server. 
+			  It knows how to connect to and communicate with the server.  It marshals data over the network using PHP's serialization mechanism.</td>
+            </tr>
+			<tr>
+              <td>Subordinates</td>
+              <td>The server procedure proxy will rely on the class library.</td>
+            </tr>
+			<tr>
+              <td>Dependencies</td>
+              <td>Client applications will use this class to retrieve and synchronize project data with the server.  
+			  The server will rely on the clients utilizing this class for this purpose,
+			  since the server and the server procedure proxy agree in terms of the communication protocol.</td>
+            </tr>
+			<tr>
+              <td>Interfaces</td>
+              <td>The server procedure proxy simply exposes the methods offered by the server to the client.  These are: 
+				The first method will retrieve from the database all DataObjects of the given type and with the given filter string applied. 
+				A filter string has the exact same syntax and semantics as a SQL WHERE clause, except the object's field names are used instead of 
+				column names.  The second method inserts the given DataObject into the database on the condition that the object which is currently
+				stored in the database is older than the ifOlderThan parameter.
+			  </td>
+            </tr>
+			<tr>
+              <td>Resources</td>
+              <td>As mentioned, the server procedure proxy will use the TCP/IP network protocol, 
+			  relying on PHP's Socket and ServerSocket classes to do this. </td>
+            </tr>
+			<tr>
+              <td>Processing</td>
+              <td>The exposed methods are described in the Interfaces sub-section.</td>
+            </tr>
+			<tr>
+              <td>Data</td>
+              <td>The server procedure proxy will use the class library to encapsulate data.  These will be passed over the network to and from the server. 
+			  The server is free to use whatever mechanism it chooses to store the data on its side.</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+	  
+	  
+	  
+	  <h3>3.4.Desktop Client</h3>
+	        <div class="scrollable">
+        <table>
+          <thead>
+            <tr>
+              <th>Attributes</th>
+              <th>Details</th>
+              
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td></td>
+              <td></td>
+            </tr>
+            <tr>
+              <td></td>
+              <td></td>
+            </tr>
+            <tr>
+              <td></td>
+              <td></td>
+            </tr>
+            <tr>
+              <td></td>
+              <td></td>
+            </tr>
+			<tr>
+              <td></td>
+              <td></td>
+            </tr>
+			<tr>
+              <td></td>
+              <td></td>
+            </tr>
+			<tr>
+              <td></td>
+              <td></td>
+            </tr>
+			<tr>
+              <td></td>
+              <td></td>
+            </tr>
+			<tr>
+              <td></td>
+              <td></td>
+            </tr>
+			<tr>
+              <td></td>
+              <td></td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
  
     </div>
   </div>
