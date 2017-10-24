@@ -228,6 +228,78 @@
           </tbody>
         </table>
       </div>
+	  
+	  
+	  <h3>3.2.SERVER SOFTWARE</h3>
+	        <div class="scrollable">
+        <table>
+          <thead>
+            <tr>
+              <th>Attributes</th>
+              <th>Details</th>
+             
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Identification</td>
+              <td>aa.Server</td>
+              
+            </tr>
+            <tr>
+              <td>Type</td>
+              <td>Subprogram, package</td>
+              
+            </tr>
+            <tr>
+              <td>Purpose</td>
+              <td>The server program will run on the same machine as the database engine. 
+			  It is the program that the client applications connect to and communicate with to retrieve
+			  and synchronize project data and to run reports.</td>
+              
+            </tr>
+            <tr>
+              <td>Function</td>
+              <td>The server continuously listens on a known port for client connections. 
+			     It creates a new thread to handle each connection.</td> 
+            </tr>
+			<tr>
+              <td>Subordinates</td>
+              <td>The server will rely on the class library outlined above.</td> 
+            </tr>
+			<tr>
+              <td>Dependencies</td>
+              <td>The server depends on the database engine.  It relies on the implementation of the DataObject classes in the class library.  
+			     The client applications rely on the server to retrieve and synchronize project data and to run reports.</td> 
+            </tr>
+			<tr>
+              <td>Interfaces</td>
+              <td>The server will listen on a predefined TCP/IP port.  It will coordinate with the Server Procedure Proxy 
+			     (which sits on the client side) and use PHP's ObjectStream along with the serializable DataObjects in the class library to pass information 
+				 across the network.  There are two basic methods that the server will expose:
+				 The first method will retrieve from the database all DataObjects of the given type and with the given filter string applied. 
+				 A filter string has the exact same syntax and semantics as a SQL WHERE clause, except the object's field names are used instead of column names. 
+				 The second method inserts the given DataObject into the database on the condition that the object which is currently stored in the database
+				 is older than the ifOlderThan parameter.
+			  </td> 
+            </tr>
+			<tr>
+              <td>Resources</td>
+              <td>As previously mentioned, the server will use the TCP/IP network protocol, relying on PHP's Socket and ServerSocket classes to do this. 
+			  It also relies on PHP's ObjectStream class and PHP's serialization mechanism.</td> 
+            </tr>
+			<tr>
+              <td>Processing</td>
+              <td>The exposed methods are described in the Interfaces sub-section.</td> 
+            </tr>
+			<tr>
+              <td>Data</td>
+              <td>The server uses the Ingres database engine to store data, and is ignorant to the specific logic utilized to load, 
+			      store, and manipulate the data.  The server acts only as a communication device between the clients and the database.</td> 
+            </tr>
+          </tbody>
+        </table>
+      </div>
       
  
     </div>
