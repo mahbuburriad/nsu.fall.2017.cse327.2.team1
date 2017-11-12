@@ -1,0 +1,4 @@
+You have to copy this file into xammp or wamp, then edit then push from your local repository
+
+
+edit by joy
