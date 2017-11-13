@@ -4,10 +4,10 @@
 
 <!-- Favicon and Touch Icons -->
 <link href="images/favicon.jpg" rel="shortcut icon" type="image/png">
-<link href="images/apple-touch-icon.png" rel="apple-touch-icon">
-<link href="images/apple-touch-icon-72x72.png" rel="apple-touch-icon" sizes="72x72">
-<link href="images/apple-touch-icon-114x114.png" rel="apple-touch-icon" sizes="114x114">
-<link href="images/apple-touch-icon-144x144.png" rel="apple-touch-icon" sizes="144x144">
+<link href="images/apple-touch-icon.jpg" rel="apple-touch-icon">
+<link href="images/apple-touch-icon-72x72.jpg" rel="apple-touch-icon" sizes="72x72">
+<link href="images/apple-touch-icon-114x114.jpg" rel="apple-touch-icon" sizes="114x114">
+<link href="images/apple-touch-icon-144x144.jpg" rel="apple-touch-icon" sizes="144x144">
 
 <!-- Stylesheet -->
 <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css">
@@ -104,7 +104,7 @@
             </div>
             <div class="widget no-border m-0 mr-15 pull-right flip sm-pull-none sm-text-center">
               <ul class="styled-icons icon-circled icon-sm pull-right flip sm-pull-none sm-text-center mt-sm-15">
-                <li><a href="https://www.facebook.com/diversity15/" target="_blank"><i class="fa fa-facebook text-white"></i></a></li>
+                <li><a href="#" target="_blank"><i class="fa fa-facebook text-white"></i></a></li>
                 <li><a href="#"><i class="fa fa-twitter text-white"></i></a></li>
                 <li><a href="#"><i class="fa fa-google-plus text-white"></i></a></li>
                 <li><a href="#"><i class="fa fa-instagram text-white"></i></a></li>
