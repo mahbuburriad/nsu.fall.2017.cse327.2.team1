@@ -25,3 +25,8 @@ to open the web format
 				it will automatically catch your work and you have to push it
 6. do this trick again and again
 
+
+who want to edit laravel section
+1. always see the updated file and copy to laravel section and edit it.
+
+
