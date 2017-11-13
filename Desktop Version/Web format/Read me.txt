@@ -11,3 +11,17 @@ then click on
 5. then they give you a serve domain like "localhost:8080"
 6. then you can edit your code from here and push your code as soon as possible
 	because everyone wants that and if any error or any need all can help
+
+
+to open the web format
+1. first of all pull
+2. copy this folder to xampp -> htdocs
+3. open your browser and type "localhost/yourfoldername"
+4. edit on notepad++ or sublime or as your wish
+5. delete that file from local repo.
+	suppose you edited account.php.
+		delete account.php from local repo
+			copy your work account.php file in local repo.
+				it will automatically catch your work and you have to push it
+6. do this trick again and again
+
