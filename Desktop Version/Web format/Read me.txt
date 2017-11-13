@@ -1,4 +1,7 @@
-You have to copy this file into xammp or wamp, then edit then push from your local repository
+You have to copy this file into xammp or wamp, then edit then push from your local repository..
 
-
-edit by joy
+if you are using laravel go to your local folder
+then click on
+1. Shift+local folder
+2. you may find "open with CMD"
+3. click on open with CMD
