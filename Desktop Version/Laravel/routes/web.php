@@ -21,18 +21,24 @@ Route::get('/login',[
 	'uses'=>'pagesController@login'
 ]);
 
-Route::group(['prefix' => 'auth'],function()
-{
+Route::post('register', [ 
+	'as' => 'register', 
+	'uses' => 'Auth\RegisterController@store'
+]);
 
-	Route::get('register',[
-		'as' => 'get_register',
-		'uses' => 'Auth\RegisterController@getRegister'
-	]);
 
-	Route::post('register',[
-		'as' => 'post_register',
-		'uses' => 'Auth\RegisterController@postRegister'
-	]);
+$s='social.';
+Route::get('/social/redirect/{provider}',
+[
+	'as'=> $s.'redirect',
+	'uses'=>'Auth\SocialController@getSocialRedirect'
 
-});
+]); 
+
+Route::get('/social/handle/{provider}',
+[
+	'as'=> $s.'handle',
+	'uses'=>'Auth\SocialController@getSocialHandle'
+
+]); 
 
