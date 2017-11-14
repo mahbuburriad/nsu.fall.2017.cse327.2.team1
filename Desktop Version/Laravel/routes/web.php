@@ -26,6 +26,10 @@ Route::post('register', [
 	'uses' => 'Auth\RegisterController@store'
 ]);
 
+Route::post('login', [ 
+	'as' => 'login', 
+	'uses' => 'Auth\LoginController@loginn'
+]);
 
 $s='social.';
 Route::get('/social/redirect/{provider}',

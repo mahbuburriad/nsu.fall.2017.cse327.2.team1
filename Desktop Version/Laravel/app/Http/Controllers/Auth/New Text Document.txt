@@ -1,0 +1,1 @@
+https://github.com/codingo-me/laravel-social-email-authentication
