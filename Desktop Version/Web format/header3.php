@@ -76,7 +76,7 @@
       <div class="header-nav-wrapper">
         <div class="container-fluid p-0">
           <div id="menuzord-verticalnav" class="menuzord">
-            <a class="menuzord-brand p-30" href="javascript:void(0)"><img width="200" alt="logo" src="images/logo-wide.jpg"></a>
+            <a class="menuzord-brand p-30" href="javascript:void(0)"><img width="100" alt="logo"  src="images/logo-wide.jpg">Automated Accommodation</a>
             <?php
             require_once('nav2.php');
             ?>
