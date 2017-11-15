@@ -1,7 +1,7 @@
 <?php
 require_once ('header1.php');
 ?>
-<title>Automated Accommodation || All Pages All things</title>
+<title>Automated Accommodation || Account</title>
 <?php
 require_once ('header2.php');
 ?>
