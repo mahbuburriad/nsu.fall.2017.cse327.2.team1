@@ -116,7 +116,7 @@
         <div class="row">
           <div class="col-xs-12 col-sm-4 col-md-5">
             <div class="widget no-border m-0">
-              <a class="menuzord-brand pull-left flip xs-pull-center mb-15" href="javascript:void(0)"><img src="images/logo-wide.jpg" alt=""></a>
+              <a class="menuzord-brand pull-left flip xs-pull-center mb-15" href="javascript:void(0)"><img src="images/logo-wide.jpg" alt="">Automated Accommodation</a>
             </div>
           </div>
           <div class="col-xs-12 col-sm-4 col-md-4">
