@@ -14,9 +14,11 @@
               </li>
 			  
 			   <li><a href="#">Rent</a>
-			   <ul class="dropdown">
-                  <li><a href="#">House</a></li>
-				  <li><a href="#">Apartment</a></li>
+			    <ul class="dropdown">
+                   <li><a href="rent_house.php">House</a></li>
+				   <li><a href="rent_appartment.php">Apartment</a></li>
+				   <li><a href="rent_shop.php">Shops/Office</a></li>
+				   <li><a href="rent_openfloor.php">Open Floor</a></li>
                 </ul>
 				
 				</li>
