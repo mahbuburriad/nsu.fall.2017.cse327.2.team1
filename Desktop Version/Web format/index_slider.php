@@ -12,9 +12,9 @@
             <ul>
 
               <!-- SLIDE 1 -->
-              <li data-index="rs-1" data-transition="slidingoverlayhorizontal" data-slotamount="default" data-easein="default" data-easeout="default" data-masterspeed="default" data-thumb="http://estateimagery.com.au/wp-content/uploads/2012/11/19-21-Caruana-Dr_17_web1.jpg" data-rotate="0" data-saveperformance="off" data-title="Slide 1" data-description="">
+              <li data-index="rs-1" data-transition="slidingoverlayhorizontal" data-slotamount="default" data-easein="default" data-easeout="default" data-masterspeed="default" data-thumb="Images/slider1.jpg" data-rotate="0" data-saveperformance="off" data-title="Slide 1" data-description="">
                 <!-- MAIN IMAGE -->
-                <img src="http://estateimagery.com.au/wp-content/uploads/2012/11/19-21-Caruana-Dr_17_web1.jpg"  alt=""  data-bgposition="center 10%" data-bgfit="cover" data-bgrepeat="no-repeat" class="rev-slidebg" data-bgparallax="10" data-no-retina>
+                <img src="Images/slider1.jpg"  alt=""  data-bgposition="center 10%" data-bgfit="cover" data-bgrepeat="no-repeat" class="rev-slidebg" data-bgparallax="10" data-no-retina>
                 <!-- LAYERS -->
 
                 <!-- LAYER NR. 1 -->
@@ -117,9 +117,9 @@
               </li>
 
               <!-- SLIDE 2 -->
-              <li data-index="rs-2" data-transition="slidingoverlayhorizontal" data-slotamount="default" data-easein="default" data-easeout="default" data-masterspeed="default" data-thumb="http://www.coyyiontis.com.au/cy-cms/wp-content/uploads/2017/03/B_House01-1920x1280.jpg" data-rotate="0" data-saveperformance="off" data-title="Slide 2" data-description="">
+              <li data-index="rs-2" data-transition="slidingoverlayhorizontal" data-slotamount="default" data-easein="default" data-easeout="default" data-masterspeed="default" data-thumb="Images/slider2.jpg" data-rotate="0" data-saveperformance="off" data-title="Slide 2" data-description="">
                 <!-- MAIN IMAGE -->
-                <img src="http://www.coyyiontis.com.au/cy-cms/wp-content/uploads/2017/03/B_House01-1920x1280.jpg"  alt=""  data-bgposition="center 40%" data-bgfit="cover" data-bgrepeat="no-repeat" class="rev-slidebg" data-bgparallax="10" data-no-retina>
+                <img src="Images/slider2.jpg"  alt=""  data-bgposition="center 40%" data-bgfit="cover" data-bgrepeat="no-repeat" class="rev-slidebg" data-bgparallax="10" data-no-retina>
                 <!-- LAYERS -->
 
                 <!-- LAYER NR. 1 -->
@@ -222,9 +222,9 @@
               </li>
 
               <!-- SLIDE 3 -->
-              <li data-index="rs-3" data-transition="slidingoverlayhorizontal" data-slotamount="default" data-easein="default" data-easeout="default" data-masterspeed="default" data-thumb="http://www.soprovich.com/i-779401cc/real-estate/001_160.luxury-lg.default.jpg" data-rotate="0" data-saveperformance="off" data-title="Slide 3" data-description="">
+              <li data-index="rs-3" data-transition="slidingoverlayhorizontal" data-slotamount="default" data-easein="default" data-easeout="default" data-masterspeed="default" data-thumb="Images/slider3.jpg" data-rotate="0" data-saveperformance="off" data-title="Slide 3" data-description="">
                 <!-- MAIN IMAGE -->
-                <img src="http://www.soprovich.com/i-779401cc/real-estate/001_160.luxury-lg.default.jpg"  alt=""  data-bgposition="center center" data-bgfit="cover" data-bgrepeat="no-repeat" class="rev-slidebg" data-bgparallax="10" data-no-retina>
+                <img src="Images/slider3.jpg"  alt=""  data-bgposition="center center" data-bgfit="cover" data-bgrepeat="no-repeat" class="rev-slidebg" data-bgparallax="10" data-no-retina>
                 <!-- LAYERS -->
 
                 <!-- LAYER NR. 1 -->
