@@ -1,7 +1,3 @@
-
-
-
-
 <!-- Favicon and Touch Icons -->
 <link href="images/favicon.jpg" rel="shortcut icon" type="image/png">
 <link href="images/apple-touch-icon.jpg" rel="apple-touch-icon">
