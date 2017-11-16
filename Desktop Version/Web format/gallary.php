@@ -4,7 +4,7 @@
         <div class="section-title mb-10">
           <div class="row">
             <div class="col-md-12">
-              <h2 class="mt-0 text-uppercase text-theme-colored title line-bottom line-height-1">Our<span class="text-theme-color-2 font-weight-400"> Gllery</span></h2>
+              <h2 class="mt-0 text-uppercase text-theme-colored title line-bottom line-height-1">Our<span class="text-theme-color-2 font-weight-400"> Gallery</span></h2>
             </div>
           </div>
         </div>
@@ -14,9 +14,9 @@
               <!-- Works Filter -->
               <div class="portfolio-filter font-alt align-center">
                 <a href="#" class="active" data-filter="*">All</a>
-                <a href="#select1" class="" data-filter=".select1">Photos</a>
-                <a href="#select2" class="" data-filter=".select2">Campus</a>
-                <a href="#select3" class="" data-filter=".select3">Students</a>
+                <a href="#select1" class="" data-filter=".select1">Flat</a>
+                <a href="#select2" class="" data-filter=".select2">Office</a>
+                <a href="#select3" class="" data-filter=".select3">open space</a>
               </div>
               <!-- End Works Filter -->
               
