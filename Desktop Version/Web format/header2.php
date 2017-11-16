@@ -29,7 +29,7 @@
 <link  href="js/revolution-slider/css/navigation.css" rel="stylesheet" type="text/css"/>
 
 <!-- CSS | Theme Color -->
-<link href="css/colors/theme-skin-color-set-1.css" rel="stylesheet" type="text/css">
+<link href="css/colors/theme-skin-color-set-2.css" rel="stylesheet" type="text/css">
 
 <!-- external javascripts -->
 <script src="js/jquery-2.2.4.min.js"></script>
