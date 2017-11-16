@@ -141,9 +141,9 @@
                 <div class="modal fade bs-example-modal-lg" tabindex="-1" role="dialog">
                 <div class="modal-dialog modal-lg">
                   <div class="modal-content">
-                    <div class="modal-header">
-                      <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-                      <h4 class="modal-title" id="myModalLabel2">Search</h4>
+                    <div class="modal-header" style="background-color: #002e5b">
+                      <button style="color: white" type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                      <h4 style="color: white" class="modal-title" id="myModalLabel2">Search</h4>
                     </div>
                     <div class="modal-body">
                      <form action="#" method="post">
