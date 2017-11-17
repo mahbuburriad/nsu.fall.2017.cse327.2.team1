@@ -6,7 +6,7 @@
           <div class="row">
             <div class="col-md-5">
             
-              <h2 style="color:#02A94F">About</h2>
+              <h2 >About</h2>
 			  
               
 			  <p style="text-align:justify; text-justify:inter-word" >
@@ -34,18 +34,14 @@
     
     </section>
 	</div>
-	
-	
-	 
 
-    <!-- Section: Plan -->
-	<!--
+    <!-- Section: Most rated Accommodation -->
     <section class="bg-lighter">
       <div class="container pb-60">
         <div class="section-title mb-10">
         <div class="row">
           <div class="col-md-8">
-            <h2 class="mt-0 text-uppercase font-28 line-bottom line-height-1">Our <span class="text-theme-color-2 font-weight-400">Plans</span></h2>
+            <h2 class="mt-0 text-uppercase font-28 line-bottom line-height-1">Most Rated<span class="text-theme-color-2 font-weight-400">Accommodation</span></h2>
          </div>
         </div>
         </div>
@@ -120,5 +116,4 @@
           </div>
         </div>
       </div>
-    </section>  
-	-->
+    </section>

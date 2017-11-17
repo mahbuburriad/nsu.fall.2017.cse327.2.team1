@@ -4,7 +4,7 @@
         <div class="section-title mb-10">
           <div class="row">
             <div class="col-md-12">
-              <h2 class="mt-0 text-uppercase text-theme-colored title line-bottom line-height-1">Our<span class="text-theme-color-2 font-weight-400"> Gallery</span></h2>
+              <h2 class="mt-0 text-uppercase text-theme-colored title line-bottom line-height-1">Most Viewed<span class="text-theme-color-2 font-weight-400"> Accommodation</span></h2>
             </div>
           </div>
         </div>
