@@ -51,62 +51,63 @@
               <div class="owl-carousel-4col" data-dots="true">
                 <div class="item ">
                   <div class="service-block bg-white">
-                    <div class="thumb"> <img alt="featured project" src="http://asiaexpatguides.com/wp-content/uploads/2013/05/Accommodation-6.jpg" class="img-fullwidth">
-                    <h4 class="text-white mt-0 mb-0"><span class="price">$125</span></h4>
+                    <div class="thumb"> <img alt="featured project" src="Images/rated_flat1.jpg" class="img-fullwidth">
+                    <h4 class="text-white mt-0 mb-0"><span class="price">20,000BDT</span></h4>
                     </div>
                     <div class="content text-left flip p-25 pt-0">
-                      <h4 class="line-bottom mb-10">AAAAAAAAAAAAAAAAAAA</h4>
-                      <p>EverAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA view.</p>
+                      <h4 class="line-bottom mb-10">Medium Size Flat for Rent</h4>
+                      <p style="text-align:justify; text-justify:inter-word">There are two medium size bedroom, three bath and one small dining space.</p>
                      <a class="btn btn-dark btn-theme-colored btn-sm text-uppercase mt-10" href="page-courses-accounting-technologies.html">view details</a>
                     </div>
                   </div>
                 </div>
                 <div class="item">
                   <div class="service-block mb-md-30 bg-white">
-                    <div class="thumb"> <img alt="featured project" src="http://asiaexpatguides.com/wp-content/uploads/2013/05/Accommodation-6.jpg" class="img-responsive img-fullwidth">
-                    <h4 class="text-white mt-0 mb-0"><span class="price">$125</span></h4>
+                    <div class="thumb"> <img alt="featured project" src="Images/rated_flat2.jpg" class="img-responsive img-fullwidth">
+                    <h4 class="text-white mt-0 mb-0"><span class="price">15,000BDT</span></h4>
                     </div>
                     <div class="content text-left flip p-25 pt-0">
-                      <h4 class="line-bottom mb-10">PrAAAAAAAAAAAAAAAAAAAAA</h4>
-                      <p>EAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAiew.</p>
-                     <a class="btn btn-dark btn-theme-colored btn-sm text-uppercase mt-10" href="page-courses-accounting-technologies.html">view details</a>
-                   </div>
-                  </div>
-                </div>
-                <div class="item">
-                  <div class="service-block mb-md-30 bg-white">
-                    <div class="thumb"> <img alt="featured project" src="http://asiaexpatguides.com/wp-content/uploads/2013/05/Accommodation-6.jpg" class="img-responsive img-fullwidth">
-                    <h4 class="text-white mt-0 mb-0"><span class="price">$125</span></h4>
-                    </div>
-                    <div class="content text-left flip p-25 pt-0">
-                      <h4 class="line-bottom mb-10">Psssssss</h4>
-                      <p>AAAAAAAAAAAAAAAAAAAA</h4>
-                      <p>EAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAiew</p>
+                      <h4 class="line-bottom mb-10">Small Flat for Rent</h4>
+                      <p style="text-align:justify; text-justify:inter-word">There are two small size bedroom, two bath and one small open space.</p>
                      <a class="btn btn-dark btn-theme-colored btn-sm text-uppercase mt-10" href="page-courses-accounting-technologies.html">view details</a>
                    </div>
                   </div>
                 </div>
                 <div class="item">
                   <div class="service-block mb-md-30 bg-white">
-                    <div class="thumb"> <img alt="featured project" src="http://asiaexpatguides.com/wp-content/uploads/2013/05/Accommodation-6.jpg" class="img-responsive img-fullwidth">
-                    <h4 class="text-white mt-0 mb-0"><span class="price">$125</span></h4>
+                    <div class="thumb"> <img alt="featured project" src="Images/rated_flat3.jpg" class="img-responsive img-fullwidth">
+                    <h4 class="text-white mt-0 mb-0"><span class="price">1,50,00,000BDT</span></h4>
                     </div>
                     <div class="content text-left flip p-25 pt-0">
-                      <h4 class="line-bottom mb-10">Program 4</h4>
-                      <p>EAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA.</p>
+                      <h4 class="line-bottom mb-10">Duplex House for Sale</h4>
+                      <p style="text-align:justify; text-justify:inter-word">There are two medium size bedroom and two bath in the upper floor. At ground floor there are a 
+					  medium space gor drawing and dining with one washroom</p>
+                     <a class="btn btn-dark btn-theme-colored btn-sm text-uppercase mt-10" href="page-courses-accounting-technologies.html">view details</a>
+                   </div>
+                  </div>
+                </div>
+                <div class="item">
+                  <div class="service-block mb-md-30 bg-white">
+                    <div class="thumb"> <img alt="featured project" src="Images/rated_flat4.jpg" class="img-responsive img-fullwidth">
+                    <h4 class="text-white mt-0 mb-0"><span class="price">2,00,00,000BDT</span></h4>
+                    </div>
+                    <div class="content text-left flip p-25 pt-0">
+                      <h4 class="line-bottom mb-10">Luxurious Appartment for sale</h4>
+                      <p style="text-align:justify; text-justify:inter-word">There are one big attractive space for drawing room, one small dining space, three bedroom, four bathroom. </p>
                       <a class="btn btn-dark btn-theme-colored btn-sm text-uppercase mt-10" href="page-courses-accounting-technologies.html">view details</a>
                     </div>
                   </div>
                 </div>
                 <div class="item">
                   <div class="service-block mb-md-30 bg-white">
-                    <div class="thumb"> <img alt="featured project" src="http://asiaexpatguides.com/wp-content/uploads/2013/05/Accommodation-6.jpg" class="img-responsive img-fullwidth">
-                    <h4 class="text-white mt-0 mb-0"><span class="price">$125</span></h4>
+                    <div class="thumb"> <img alt="featured project" src="Images/rated_flat5.jpg" class="img-responsive img-fullwidth">
+                    <h4 class="text-white mt-0 mb-0"><span class="price">60,000</span></h4>
                     </div>
                     <div class="content text-left flip p-25 pt-0">
               
-                      <h4 class="line-bottom mb-10">Program 5</h4>
-                      <p>EvAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA</p>
+                      <h4 class="line-bottom mb-10">Luxurious Appartment for sale</h4>
+                      <p style="text-align:justify; text-justify:inter-word">There are one big attractive space for drawing room, one small dining space,
+					  three bedroom, four bathroom.</p>
                       <a class="btn btn-dark btn-theme-colored btn-sm text-uppercase mt-10" href="page-courses-accounting-technologies.html">view details</a>
                     </div>
                   </div>
