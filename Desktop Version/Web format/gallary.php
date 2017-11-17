@@ -26,7 +26,7 @@
                 <!-- Portfolio Item Start -->
                 <div class="gallery-item select1">
                   <div class="thumb">
-                    <img class="img-fullwidth" src="https://s.hswstatic.com/gif/consider-before-buying-home-hp-orig.jpg" alt="project">
+                    <img class="img-fullwidth" src="Images/Flat1.jpg" alt="project">
                     <div class="overlay-shade"></div>
                     <div class="icons-holder">
                       <div class="icons-holder-inner">
@@ -44,7 +44,7 @@
                 <!-- Portfolio Item Start -->
                 <div class="gallery-item select1">
                   <div class="thumb">
-                    <img class="img-fullwidth" src="https://s.hswstatic.com/gif/consider-before-buying-home-hp-orig.jpg" alt="project">
+                    <img class="img-fullwidth" src="Images/Flat2.jpg" alt="project">
                     <div class="overlay-shade"></div>
                     <div class="icons-holder">
                       <div class="icons-holder-inner">
@@ -62,7 +62,7 @@
                 <!-- Portfolio Item Start -->
                 <div class="gallery-item select2">
                   <div class="thumb">
-                    <img class="img-fullwidth" src="https://s.hswstatic.com/gif/consider-before-buying-home-hp-orig.jpg" alt="project">
+                    <img class="img-fullwidth" src="Images/office1.jpg" alt="project">
                     <div class="overlay-shade"></div>
                     <div class="icons-holder">
                       <div class="icons-holder-inner">
@@ -80,7 +80,7 @@
                 <!-- Portfolio Item Start -->
                 <div class="gallery-item select3">
                   <div class="thumb">
-                    <img class="img-fullwidth" src="https://s.hswstatic.com/gif/consider-before-buying-home-hp-orig.jpg" alt="project">
+                    <img class="img-fullwidth" src="Images/openspace1.jpg" alt="project">
                     <div class="overlay-shade"></div>
                     <div class="icons-holder">
                       <div class="icons-holder-inner">
@@ -98,7 +98,7 @@
                 <!-- Portfolio Item Start -->
                 <div class="gallery-item select1">
                   <div class="thumb">
-                    <img class="img-fullwidth" src="https://s.hswstatic.com/gif/consider-before-buying-home-hp-orig.jpg" alt="project">
+                    <img class="img-fullwidth" src="Images/Flat3.jpg" alt="project">
                     <div class="overlay-shade"></div>
                     <div class="icons-holder">
                       <div class="icons-holder-inner">
@@ -116,7 +116,7 @@
                 <!-- Portfolio Item Start -->
                 <div class="gallery-item select3">
                   <div class="thumb">
-                    <img class="img-fullwidth" src="https://s.hswstatic.com/gif/consider-before-buying-home-hp-orig.jpg" alt="project">
+                    <img class="img-fullwidth" src="Images/openspace2.jpg" alt="project">
                     <div class="overlay-shade"></div>
                     <div class="icons-holder">
                       <div class="icons-holder-inner">
@@ -134,7 +134,7 @@
                 <!-- Portfolio Item Start -->
                 <div class="gallery-item select2">
                   <div class="thumb">
-                    <img class="img-fullwidth" src="https://s.hswstatic.com/gif/consider-before-buying-home-hp-orig.jpg" alt="project">
+                    <img class="img-fullwidth" src="Images/office2.jpg" alt="project">
                     <div class="overlay-shade"></div>
                     <div class="icons-holder">
                       <div class="icons-holder-inner">
@@ -152,7 +152,7 @@
                 <!-- Portfolio Item Start -->
                 <div class="gallery-item select3">
                   <div class="thumb">
-                    <img class="img-fullwidth" src="https://s.hswstatic.com/gif/consider-before-buying-home-hp-orig.jpg" alt="project">
+                    <img class="img-fullwidth" src="Images/openspace3.jpg" alt="project">
                     <div class="overlay-shade"></div>
                     <div class="icons-holder">
                       <div class="icons-holder-inner">
@@ -170,7 +170,7 @@
                 <!-- Portfolio Item Start -->
                 <div class="gallery-item select1">
                   <div class="thumb">
-                    <img class="img-fullwidth" src="https://s.hswstatic.com/gif/consider-before-buying-home-hp-orig.jpg" alt="project">
+                    <img class="img-fullwidth" src="Images/Flat4.jpg" alt="project">
                     <div class="overlay-shade"></div>
                     <div class="icons-holder">
                       <div class="icons-holder-inner">
@@ -188,7 +188,7 @@
                 <!-- Portfolio Item Start -->
                 <div class="gallery-item select2">
                   <div class="thumb">
-                    <img class="img-fullwidth" src="https://s.hswstatic.com/gif/consider-before-buying-home-hp-orig.jpg" alt="project">
+                    <img class="img-fullwidth" src="Images/office3.jpg" alt="project">
                     <div class="overlay-shade"></div>
                     <div class="icons-holder">
                       <div class="icons-holder-inner">
@@ -206,7 +206,7 @@
                 <!-- Portfolio Item Start -->
                 <div class="gallery-item select1">
                   <div class="thumb">
-                    <img class="img-fullwidth" src="https://s.hswstatic.com/gif/consider-before-buying-home-hp-orig.jpg" alt="project">
+                    <img class="img-fullwidth" src="Images/Flat5.jpg" alt="project">
                     <div class="overlay-shade"></div>
                     <div class="icons-holder">
                       <div class="icons-holder-inner">
@@ -224,7 +224,7 @@
                 <!-- Portfolio Item Start -->
                 <div class="gallery-item select3">
                   <div class="thumb">
-                    <img class="img-fullwidth" src="https://s.hswstatic.com/gif/consider-before-buying-home-hp-orig.jpg" alt="project">
+                    <img class="img-fullwidth" src="Images/openspace4.jpg" alt="project">
                     <div class="overlay-shade"></div>
                     <div class="icons-holder">
                       <div class="icons-holder-inner">
