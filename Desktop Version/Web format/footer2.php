@@ -4,7 +4,7 @@
     <div class="container pt-60 pb-40">
       <div class="row">
         <div class="col-md-6 col-md-offset-3 text-center">
-          <img style="height: 60px; width: 90px" src="images/logo-wide.jpg" alt="">
+          <img style="height: 60px; width: 90px" src="images/logo.jpg" alt="">
           <p class="font-12 mt-20 mb-20">The Admin Panel, here admin can edit their file and controll all functions</p>
           <ul class="styled-icons">
             <li><a href="#"><i class="fa fa-facebook"></i></a> </li>
