@@ -11,7 +11,8 @@ require_once ('index_slider.php');
 require_once ('index_homebox.php');
 require_once ('index_aboutsection.php');
 require_once ('funfact.php');
-require_once ('team.php');
+
+// require_once ('team.php'); 
 require_once ('gallary.php');
 require_once ('Why_Choose_Us.php');
 require_once ('testimonial.php');

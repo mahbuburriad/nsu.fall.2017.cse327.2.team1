@@ -34,8 +34,12 @@
     
     </section>
 	</div>
+	
+	
+	 
 
     <!-- Section: Plan -->
+	<!--
     <section class="bg-lighter">
       <div class="container pb-60">
         <div class="section-title mb-10">
@@ -116,4 +120,5 @@
           </div>
         </div>
       </div>
-    </section>
+    </section>  
+	-->
