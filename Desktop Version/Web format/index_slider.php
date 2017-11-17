@@ -25,7 +25,7 @@
                   data-hoffset="['30']"
                   data-y="['middle']"
                   data-voffset="['-110']" 
-                  data-fontsize="['100']"
+                  data-fontsize="['45']"
                   data-lineheight="['110']"
                   data-width="none"
                   data-height="none"
@@ -39,7 +39,7 @@
                   data-splitin="none" 
                   data-splitout="none" 
                   data-responsive_offset="on"
-                  style="z-index: 7; white-space: nowrap; font-weight:700;">AA
+                  style="z-index: 7; white-space: nowrap; font-weight:650;">Automated Accomodation
                 </div>
 
                 <!-- LAYER NR. 2 -->
@@ -50,7 +50,7 @@
                   data-hoffset="['35']"
                   data-y="['middle']"
                   data-voffset="['-25']" 
-                  data-fontsize="['35']"
+                  data-fontsize="['31']"
                   data-lineheight="['54']"
                   data-width="none"
                   data-height="none"
@@ -64,13 +64,39 @@
                   data-splitin="none" 
                   data-splitout="none" 
                   data-responsive_offset="on"
-                  style="z-index: 7; white-space: nowrap; font-weight:600;">Ddddddddddddddddddddddd
+                  style="z-index: 7; white-space: nowrap; font-weight:600;">Trusted resource for home seeker 
                 </div>
-
-                <!-- LAYER NR. 3 -->
+				
+				 <!-- LAYER NR. 3.1 -->
                 <div class="tp-caption tp-resizeme text-white" 
                   id="rs-1-layer-3"
 
+                  data-x="['left']"
+                  data-hoffset="['35']"
+                  data-y="['middle']"
+                  data-voffset="['35']"
+                  data-fontsize="['20']"
+                  data-lineheight="['28']"
+                  data-width="none"
+                  data-height="none"
+                  data-whitespace="nowrap"
+                  data-transform_idle="o:1;s:500"
+                  data-transform_in="y:100;scaleX:1;scaleY:1;opacity:0;"
+                  data-transform_out="x:left(R);s:1000;e:Power3.easeIn;s:1000;e:Power3.easeIn;"
+                  data-mask_in="x:0px;y:0px;s:inherit;e:inherit;"
+                  data-mask_out="x:inherit;y:inherit;s:inherit;e:inherit;"
+                  data-start="1400" 
+                  data-splitin="none" 
+                  data-splitout="none" 
+                  data-responsive_offset="on"
+                  style="z-index: 5; white-space: nowrap; letter-spacing:0px; font-weight:100;">Discover Your Perfect Home with the most complete
+																								<br /> source of homes for sale near you.
+                </div>
+
+                <!-- LAYER NR. 3.2 -->
+				<!--
+                <div class="tp-caption tp-resizeme text-white" 
+                  id="rs-1-layer-3"
                   data-x="['left']"
                   data-hoffset="['35']"
                   data-y="['middle']"
@@ -89,8 +115,8 @@
                   data-splitin="none" 
                   data-splitout="none" 
                   data-responsive_offset="on"
-                  style="z-index: 5; white-space: nowrap; letter-spacing:0px; font-weight:400;">ddddddddddddddddddddddddddddddddddddples<br>dddddddddddddddde.
-                </div>
+                  style="z-index: 5; white-space: nowrap; letter-spacing:0px; font-weight:400;">We save home seekers time by showing <br> the best home based on their choice.
+                </div> -->
 
                 <!-- LAYER NR. 4 -->
                 <div class="tp-caption tp-resizeme" 
@@ -144,7 +170,7 @@
                   data-splitin="none" 
                   data-splitout="none" 
                   data-responsive_offset="on"
-                  style="z-index: 7; white-space: nowrap; font-weight:400; border-radius: 30px;">Udddddddddddd
+                  style="z-index: 7; white-space: nowrap; font-weight:400; border-radius: 30px;">The True Condominium
                 </div>
 
                 <!-- LAYER NR. 2 -->
@@ -155,7 +181,7 @@
                   data-hoffset="['0']"
                   data-y="['middle']"
                   data-voffset="['-20']"
-                  data-fontsize="['48']"
+                  data-fontsize="['40']"
                   data-lineheight="['70']"
                   data-width="none"
                   data-height="none"
@@ -169,7 +195,7 @@
                   data-splitin="none" 
                   data-splitout="none" 
                   data-responsive_offset="on"
-                  style="z-index: 7; white-space: nowrap; font-weight:700; border-radius: 30px;"> Buiddddddddddddddddd
+                  style="z-index: 7; white-space: nowrap; font-weight:600; border-radius: 30px;">Automated Accomodation
                 </div>
 
                 <!-- LAYER NR. 3 -->
@@ -194,7 +220,9 @@
                   data-splitin="none" 
                   data-splitout="none" 
                   data-responsive_offset="on"
-                  style="z-index: 5; white-space: nowrap; letter-spacing:0px; font-weight:400;">Udddddddddddddddddddddddty.<br>Plidddddddddddddddddy are AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA’.
+                  style="z-index: 5; white-space: nowrap; letter-spacing:0px; font-weight:400;">We provide unsurpassed information, tools and professional <br />
+																								expertise across a family of websites and mobile experiences for 
+																								consumers through all stages of the home journey.
                 </div>
 
                 <!-- LAYER NR. 4 -->
@@ -217,7 +245,7 @@
                   data-splitin="none" 
                   data-splitout="none" 
                   data-responsive_offset="on"
-                  style="z-index: 5; white-space: nowrap; letter-spacing:1px;"><a class="btn btn-default btn-circled btn-transparent pl-20 pr-20" href="#">Read More</a> 
+                  style="z-index: 5; white-space: nowrap; letter-spacing:1px;"><a class="btn btn-default btn-circled btn-transparent pl-20 pr-20" style="background-color:#002E5B" href="#">Read More</a> 
                 </div>
               </li>
 
@@ -235,7 +263,7 @@
                   data-hoffset="['30']"
                   data-y="['middle']"
                   data-voffset="['-90']" 
-                  data-fontsize="['64']"
+                  data-fontsize="['40']"
                   data-lineheight="['72']"
                   data-width="none"
                   data-height="none"
@@ -249,7 +277,7 @@
                   data-splitin="none" 
                   data-splitout="none" 
                   data-responsive_offset="on"
-                  style="z-index: 7; white-space: nowrap; font-weight:600;">AAAAAAAA
+                  style="z-index: 7; white-space: nowrap; font-weight:600;">Automated Accomodation
                 </div>
 
                 <!-- LAYER NR. 2 -->
@@ -260,7 +288,7 @@
                   data-hoffset="['35']"
                   data-y="['middle']"
                   data-voffset="['-25']" 
-                  data-fontsize="['32']"
+                  data-fontsize="['28']"
                   data-lineheight="['54']"
                   data-width="none"
                   data-height="none"
@@ -274,7 +302,7 @@
                   data-splitin="none" 
                   data-splitout="none" 
                   data-responsive_offset="on"
-                  style="z-index: 7; white-space: nowrap; font-weight:600;">EAAAAAAAAAAAAAAAAA
+                  style="z-index: 7; white-space: nowrap; font-weight:300;">Sell Your Property In Best rate.
                 </div>
 
                 <!-- LAYER NR. 3 -->
@@ -299,7 +327,10 @@
                   data-splitin="none" 
                   data-splitout="none" 
                   data-responsive_offset="on"
-                  style="z-index: 5; white-space: nowrap; letter-spacing:0px; font-weight:400;">AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAinst discrimination. <br>DiAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+                  style="z-index: 5; white-space: nowrap; letter-spacing:0px; font-weight:110;">
+																				We provide a complete online property management solution, packed<br>
+																		        with value-adding features to help you
+																				run your property with ease.
                 </div>
 
                 <!-- LAYER NR. 4 -->
