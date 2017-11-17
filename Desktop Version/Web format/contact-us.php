@@ -39,13 +39,13 @@ require_once ('header2.php');
                 <div class="col-sm-6">
                   <div class="form-group">
                     <label for="form_name">Name <small>*</small></label>
-                    <input name="form_name" class="form-control" type="text" placeholder="Enter Name" required="">
+                    <input style="color: #002e5b" name="form_name" class="form-control" type="text" placeholder="Enter Name" required="">
                   </div>
                 </div>
                 <div class="col-sm-6">
                   <div class="form-group">
                     <label for="form_email">Email <small>*</small></label>
-                    <input name="form_email" class="form-control required email" type="email" placeholder="Enter Email">
+                    <input style="color: #002e5b"  name="form_email" class="form-control required email" type="email" placeholder="Enter Email">
                   </div>
                 </div>
               </div>
@@ -53,19 +53,19 @@ require_once ('header2.php');
                 <div class="col-sm-6">
                   <div class="form-group">
                     <label for="form_name">Subject <small>*</small></label>
-                    <input name="form_subject" class="form-control required" type="text" placeholder="Enter Subject">
+                    <input style="color: #002e5b"  name="form_subject" class="form-control required" type="text" placeholder="Enter Subject">
                   </div>
                 </div>
                 <div class="col-sm-6">
                   <div class="form-group">
                     <label for="form_phone">Phone</label>
-                    <input name="form_phone" class="form-control" type="text" placeholder="Enter Phone">
+                    <input style="color: #002e5b"  name="form_phone" class="form-control" type="text" placeholder="Enter Phone">
                   </div>
                 </div>
               </div>
               <div class="form-group">
                 <label for="form_name">Message</label>
-                <textarea name="form_message" class="form-control required" rows="5" placeholder="Enter Message"></textarea>
+                <textarea style="color: #002e5b"  name="form_message" class="form-control required" rows="5" placeholder="Enter Message"></textarea>
               </div>
               <div class="form-group">
                 <input name="form_botcheck" class="form-control" type="hidden" value="" />
