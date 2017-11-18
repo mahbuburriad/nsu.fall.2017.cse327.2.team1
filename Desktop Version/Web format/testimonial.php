@@ -15,44 +15,44 @@
               <div class="item">
                 <div class="testimonial pt-10">
                   <div class="thumb pull-left mb-0 mr-0 pr-20">
-                    <img style="height: 100px; width: 100px" class="img-circle" alt="" src="http://is1.mzstatic.com/image/thumb/Purple62/v4/46/ea/1f/46ea1f26-58ba-6ef8-fb71-c02358d58b41/source/512x512bb.jpg">
+                    <img style="height: 100px; width: 100px" class="img-circle" alt="" src="Images/riad.jpg">
                   </div>
                   <div class="ml-100 ">
-                    <h4 class="text-white mt-0">EAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA,</h4>
-                    <p class="author mt-20">- <span class="text-theme-color-2">Khan bahadur,</span> <small><em class="text-gray-lightgray">CEO NSU</em></small></p>
+                    <h4 class="text-white mt-0">Admin,</h4>
+                    <p class="author mt-20">- <span class="text-theme-color-2">Mahbubur Riad,</span> <small><em class="text-gray-lightgray">Admin, Automated Accomodation.</em></small></p>
                   </div>
                 </div>
               </div>
               <div class="item">
                 <div class="testimonial pt-10">
                   <div class="thumb pull-left mb-0 mr-0 pr-20">
-                    <img style="height: 100px; width: 100px" class="img-circle" alt="" src="http://is1.mzstatic.com/image/thumb/Purple62/v4/46/ea/1f/46ea1f26-58ba-6ef8-fb71-c02358d58b41/source/512x512bb.jpg">
+                    <img style="height: 100px; width: 100px" class="img-circle" alt="" src="Images/shakil.jpg">
                   </div>
                   <div class="ml-100 ">
-                    <h4 class="text-white mt-0">EAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAes,</h4>
-                    <p class="author mt-20">- <span class="text-theme-color-2">Khan bahadur,</span> <small><em class="text-gray-lightgray">CEO NSU</em></small></p>
+                    <h4 class="text-white mt-0">CEO,</h4>
+                    <p class="author mt-20">- <span class="text-theme-color-2">Shakilur Rahman,</span> <small><em class="text-gray-lightgray">CEO, Automated Accomodation.</em></small></p>
                   </div>
                 </div>
               </div>
               <div class="item">
                 <div class="testimonial pt-10">
                   <div class="thumb pull-left mb-0 mr-0 pr-20">
-                    <img style="height: 100px; width: 100px" class="img-circle" alt="" src="http://is1.mzstatic.com/image/thumb/Purple62/v4/46/ea/1f/46ea1f26-58ba-6ef8-fb71-c02358d58b41/source/512x512bb.jpg">
+                    <img style="height: 100px; width: 100px" class="img-circle" alt="" src="Images/aziz.jpg">
                   </div>
                   <div class="ml-100 ">
-                    <h4 class="text-white mt-0">EAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAs,</h4>
-                    <p class="author mt-20">- <span class="text-theme-color-2">Khan bahadur,</span> <small><em class="text-gray-lightgray">CEO NSU</em></small></p>
+                    <h4 class="text-white mt-0">Adviser,</h4>
+                    <p class="author mt-20">- <span class="text-theme-color-2">Azizur Rahman,</span> <small><em class="text-gray-lightgray">Adviser, Automated Accomodation.</em></small></p>
                   </div>
                 </div>
               </div>
               <div class="item">
                 <div class="testimonial pt-10">
                   <div class="thumb pull-left mb-0 mr-0 pr-20">
-                    <img style="height: 100px; width: 100px" class="img-circle" alt="" src="http://is1.mzstatic.com/image/thumb/Purple62/v4/46/ea/1f/46ea1f26-58ba-6ef8-fb71-c02358d58b41/source/512x512bb.jpg">
+                    <img style="height: 100px; width: 100px" class="img-circle" alt="" src="Images/joydip.jpg">
                   </div>
                   <div class="ml-100 ">
-                    <h4 class="text-white mt-0">EvAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA,</h4>
-                    <p class="author mt-20">- <span class="text-theme-color-2">Khan bahadur,</span> <small><em class="text-gray-lightgray">CEO NSU</em></small></p>
+                    <h4 class="text-white mt-0">Vise Controller,</h4>
+                    <p class="author mt-20">- <span class="text-theme-color-2">Joydip Chowdhury,</span> <small><em class="text-gray-lightgray">Vise Controller, Automated Accomodation.</em></small></p>
                   </div>
                 </div>
               </div>
