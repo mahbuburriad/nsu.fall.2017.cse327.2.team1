@@ -30,7 +30,7 @@
                 
              
 			  
-			     <li><a href="#ab">About</a></li>
+			     
 			  
 
 
@@ -41,6 +41,8 @@
                   <li><a href="account.php">How to Use Mobile App</a></li>
 				  <li><a href="account.php">How to Use Website</a></li>
 				  <li><a href="account.php">How to Buy/Rent/Sell</a></li>
+          <li><a href="about.php">About</a></li>
+          <li><a href="team-profile.php">Team</a></li>
 				  <li><a href="account.php">Faq</a></li>
 				 
                   
