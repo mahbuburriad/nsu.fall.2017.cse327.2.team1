@@ -36,11 +36,11 @@ require_once ('header2.php');
 		  
 		  
             <div class="list-group scrolltofixed">
-              <a href="#section-one" class="list-group-item smooth-scroll-to-target" style="color:#02A94F">What is Accomodation System?</a>
+              <a href="#section-one" class="list-group-item smooth-scroll-to-target" >What is Accomodation System?</a>
 
-              <a href="#section-two" class="list-group-item smooth-scroll-to-target" style="color:#02A94F">Information Update</a>
+              <a href="#section-two" class="list-group-item smooth-scroll-to-target" >Information Update</a>
 
-              <a href="#section-three" class="list-group-item smooth-scroll-to-target" style="color:#02A94F">GPS service</a>
+              <a href="#section-three" class="list-group-item smooth-scroll-to-target" >GPS service</a>
 
             
             </div>
@@ -48,8 +48,8 @@ require_once ('header2.php');
 		  <div style="text-align:justify; text-justify:inter-word" >
           <div class="col-md-9">
             <div id="section-one" class="mb-50">
-              <h3 style="color:#02A94F">What is Accomodation System?</h3>
-              <hr>
+              <h3 class="mt-0 text-uppercase font-28 line-bottom line-height-1">What is Accomodation System?</h3>
+             
               <p class="mb-20" >Automated Accomodation is the trusted resource for home buyers, sellers, renters and dreamers
 								offering the most comprehensive source for-sale properties. We provide enough
 								information, tools and professional expertise to help people move confidently through 
@@ -70,8 +70,8 @@ require_once ('header2.php');
 								<i class="fa fa-cog fa-spin"></i>
 			</div>
             <div id="section-two" class="mb-50">
-              <h3 style="color:#02A94F">Information Update</h3>
-              <hr>
+              <h3 class="mt-0 text-uppercase font-28 line-bottom line-height-1">Information Update</h3>
+             
               <p class="mb-20">Our dedicated team is constantly working to increase the number of properties available. As a home seeker,
 							   you also need to know the listings shown are quality and accurate. We continually scan our listings and make sure 
 							   that any issues that are low quality or inaccurate are removed. So the information is continually updated and user can browse easily.</p>
@@ -81,8 +81,8 @@ require_once ('header2.php');
 								<i class="fa fa-cog fa-spin"></i>
 			</div>
             <div id="section-three" class="mb-50">
-              <h3 style="color:#02A94F">GPS service</h3>
-              <hr>
+              <h3 class="mt-0 text-uppercase font-28 line-bottom line-height-1">GPS service</h3>
+              
              <p class="mb-20">The most attactive part od this project is the GPS service. It can pinpoint user's location and knowing user's location the nearest 
 							  opportunities will be shown first.
 							</p>
