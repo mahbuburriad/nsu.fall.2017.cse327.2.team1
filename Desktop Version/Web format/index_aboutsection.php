@@ -6,7 +6,7 @@
           <div class="row">
             <div class="col-md-5">
             
-              <h2 >About</h2>
+              <h2 class="mt-0 text-uppercase font-28 line-bottom line-height-1" >About</h2>
 			  
               
 			  <p style="text-align:justify; text-justify:inter-word" >
