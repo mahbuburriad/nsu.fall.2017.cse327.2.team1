@@ -33,7 +33,7 @@ require_once ('header2.php');
 
 
 		                <!-- Tab panes -->
-						<h3 style="color:#02A94F">Available Open Floors</h3>
+						<h3 class="mt-0 text-uppercase font-28 line-bottom line-height-1">Available Open Floors</h3>
 						<div  style="font-size:16px"><p>Here you can choose your advantageous open floors in reasonable price from the list below.
 						You can give your desire price range and location to find a proper open floor.</p></div>
 						
@@ -51,7 +51,7 @@ require_once ('header2.php');
 <div class="col-xs-2">
     <input type="text" class="form-control" placeholder="Location">
   </div>
-  <button type="submit"  style="color:#02A94F; font-size:15px">Search Now</button>
+  <button type="submit"  class="btn btn-primary text-white">Search Now</button>
   
               </div>
 			  </form>
