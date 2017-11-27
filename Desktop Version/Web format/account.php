@@ -14,7 +14,7 @@ require_once ('header2.php');
             <div class="col-md-12">
               <h2 class="title text-white">AA || Account</h2>
               <ol class="breadcrumb text-left text-black mt-10">
-                <li><a href="#">Home</a></li>
+                <li><a href="/">Home</a></li>
                 <li class="active text-gray-silver">All</li>
               </ol>
             </div>
@@ -34,7 +34,7 @@ require_once ('header2.php');
                 <img src="images/user.png" alt="">
               </div>
               <div class="info p-20 bg-black-333">
-                <h4 class="text-uppercase text-white">Riad</h4>
+                <h4 class="text-uppercase text-white">{{ Auth::user()->name }}</h4>
                 <p class="text-gray-silver">Lol Lol Details</p>
                 <ul class="list angle-double-right m-0">
                   <li class="mt-0 text-gray-silver"><strong class="text-gray-lighter">Email</strong><br> aaa@gmail.com</li>
