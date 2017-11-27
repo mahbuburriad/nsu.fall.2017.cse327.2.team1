@@ -14,7 +14,7 @@
               <article class="post clearfix mb-sm-30">
                 <div class="entry-header">
                   <div class="post-thumb thumb"> 
-                    <img src="http://carers.net.nz/wp-content/uploads/2013/01/home.jpg" alt="" class="img-responsive img-fullwidth"> 
+                    <img style="height: 225px; width: 330px;" src="Images/20.jpg" alt="" class="img-responsive img-fullwidth"> 
                   </div>
                 </div>
                 <div class="entry-content p-20 pr-10 bg-white">
@@ -27,13 +27,13 @@
                     </div>
                     <div class="media-body pl-15">
                       <div class="event-content pull-left flip">
-                        <h4 class="entry-title text-white text-uppercase m-0 mt-5"><a href="#">Post title here</a></h4>
+                        <h4 class="entry-title text-white text-uppercase m-0 mt-5"><a href="#">20% Discount.</a></h4>
                         <span class="mb-10 text-gray-darkgray mr-10 font-13"><i class="fa fa-commenting-o mr-5 text-theme-colored"></i> 214 Comments</span>                       
                         <span class="mb-10 text-gray-darkgray mr-10 font-13"><i class="fa fa-heart-o mr-5 text-theme-colored"></i> 895 Likes</span>                       
                       </div>
                     </div>
                   </div>
-                  <p class="mt-10">EAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAs,</p>
+                  <p class="mt-10">20% discount for regular customer till the 31st night.</p>
                   <a href="#" class="btn-read-more">Read more</a>
                   <div class="clearfix"></div>
                 </div>
@@ -43,7 +43,7 @@
               <article class="post clearfix mb-sm-30">
                 <div class="entry-header">
                   <div class="post-thumb thumb"> 
-                    <img src="http://carers.net.nz/wp-content/uploads/2013/01/home.jpg" alt="" class="img-responsive img-fullwidth"> 
+                    <img style="height: 225px; width: 330px;" src="Images/10.jpg" alt="" class="img-responsive img-fullwidth"> 
                   </div>
                 </div>
                 <div class="entry-content p-20 pr-10 bg-white">
@@ -56,13 +56,13 @@
                     </div>
                     <div class="media-body pl-15">
                       <div class="event-content pull-left flip">
-                        <h4 class="entry-title text-white text-uppercase m-0 mt-5"><a href="#">Post title here</a></h4>
+                        <h4 class="entry-title text-white text-uppercase m-0 mt-5"><a href="#">Offer For Monthly Users.</a></h4>
                         <span class="mb-10 text-gray-darkgray mr-10 font-13"><i class="fa fa-commenting-o mr-5 text-theme-colored"></i> 214 Comments</span>                       
                         <span class="mb-10 text-gray-darkgray mr-10 font-13"><i class="fa fa-heart-o mr-5 text-theme-colored"></i> 895 Likes</span>                       
                       </div>
                     </div>
                   </div>
-                  <p class="mt-10">EAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA,</p>
+                  <p class="mt-10">10% discount for Monthly Users till the 31st night.</p>
                   <a href="#" class="btn-read-more">Read more</a>
                   <div class="clearfix"></div>
                 </div>
@@ -73,7 +73,7 @@
               <article class="post clearfix mb-sm-30">
                 <div class="entry-header">
                   <div class="post-thumb thumb"> 
-                    <img src="http://carers.net.nz/wp-content/uploads/2013/01/home.jpg" alt="" class="img-responsive img-fullwidth"> 
+                    <img style="height: 225px; width: 330px;" src="Images/5.jpg" alt="" class="img-responsive img-fullwidth"> 
                   </div>
                 </div>
                 <div class="entry-content p-20 pr-10 bg-white">
@@ -86,13 +86,13 @@
                     </div>
                     <div class="media-body pl-15">
                       <div class="event-content pull-left flip">
-                        <h4 class="entry-title text-white text-uppercase m-0 mt-5"><a href="#">Post title here</a></h4>
+                        <h4 class="entry-title text-white text-uppercase m-0 mt-5"><a href="#">Discount for Weekly Users.</a></h4>
                         <span class="mb-10 text-gray-darkgray mr-10 font-13"><i class="fa fa-commenting-o mr-5 text-theme-colored"></i> 214 Comments</span>                       
                         <span class="mb-10 text-gray-darkgray mr-10 font-13"><i class="fa fa-heart-o mr-5 text-theme-colored"></i> 895 Likes</span>                       
                       </div>
                     </div>
                   </div>
-                  <p class="mt-10">EAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA,</p>
+                  <p class="mt-10">5% discount for weekly Users till the 31st night.</p>
                   <a href="#" class="btn-read-more">Read more</a>
                   <div class="clearfix"></div>
                 </div>

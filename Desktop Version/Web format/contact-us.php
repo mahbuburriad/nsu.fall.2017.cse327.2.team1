@@ -26,102 +26,53 @@ require_once ('header2.php');
     </section>
 
 
-    <!-- Divider: Contact -->
-    <section class="divider">
-      <div class="container pt-0">
-        <div class="row mb-60 bg-deep">
-          <div class="col-sm-12 col-md-4">
-            <div class="contact-info text-center pt-60 pb-60 border-right">
-              <i class="fa fa-phone font-36 mb-10 text-theme-colored"></i>
-              <h4>Call Us</h4>
-              <h6 class="text-gray">Phone: +555 555 5555</h6>
-            </div>
-          </div>
-          <div class="col-sm-12 col-md-4">
-            <div class="contact-info text-center  pt-60 pb-60 border-right">
-              <i class="fa fa-map-marker font-36 mb-10 text-theme-colored"></i>
-              <h4>Address</h4>
-              <h6 class="text-gray">Bashundhara Baridhara, Dhaka</h6>
-            </div>
-          </div>
-          <div class="col-sm-12 col-md-4">
-            <div class="contact-info text-center  pt-60 pb-60">
-              <i class="fa fa-envelope font-36 mb-10 text-theme-colored"></i>
-              <h4>Email</h4>
-              <h6 class="text-gray">info@automatedaccommodation.com</h6>
-            </div>
-          </div>
-        </div>
-        <div class="row pt-10">
-          <div class="col-md-5">
-          <h4 class="mt-0 mb-30 line-bottom">Find Our Location</h4>
-          <!-- Google Map HTML Codes -->
-          <div 
-            data-address="North South University, Bashundhara, Dhaka-1229, Bangladesh, Dhaka-1229 1229"
-            data-popupstring-id="#popupstring1"
-            class="map-canvas autoload-map"
-            data-mapstyle="style8"
-            data-height="420"
-            data-latlng="-37.817314,144.955431"
-            data-title="sample title"
-            data-zoom="12"
-            data-marker="images/map-marker.png">
-          </div>
-          <div class="map-popupstring hidden" id="popupstring1">
-            <div class="text-center">
-              <h3>Automated Accommodation Office</h3>
-              <p>Basundhara Residential Area, Dhaka</p>
-            </div>
-          </div>
-          <!-- Google Map Javascript Codes -->
-          <script src="http://maps.google.com/maps/api/js"></script>
-          <script src="js/google-map-init.js"></script>
-          </div>
-          <div class="col-md-7">
-            <h4 class="mt-0 mb-30 line-bottom">Interested in discussing?</h4>
+   
+ <!-- Divider: Contact -->
+    <section class="divider layer-overlay overlay-white-9" data-bg-img="images/bg/bg15.jpg">
+      <div class="container">
+        <div class="row pt-30">
+          <div class="col-md-8">
+            <h3 class="line-bottom mt-0 mb-20">Interested in discussing?</h3>
             <!-- Contact Form -->
-            <form id="contact_form" name="contact_form" class="" action="#" method="post">
-
+            <form id="contact_form" name="contact_form" class="form-transparent" action="includes/sendmail.php" method="post">
               <div class="row">
                 <div class="col-sm-6">
                   <div class="form-group">
                     <label for="form_name">Name <small>*</small></label>
-                    <input name="form_name" class="form-control" type="text" placeholder="Enter Name" required="">
+                    <input style="color: #002e5b" name="form_name" class="form-control" type="text" placeholder="Enter Name" required="">
                   </div>
                 </div>
                 <div class="col-sm-6">
                   <div class="form-group">
-                    <label>Email <small>*</small></label>
-                    <input name="form_email" class="form-control required email" type="email" placeholder="Enter Email">
+                    <label for="form_email">Email <small>*</small></label>
+                    <input style="color: #002e5b"  name="form_email" class="form-control required email" type="email" placeholder="Enter Email">
                   </div>
                 </div>
-              </div>                
+              </div>
               <div class="row">
                 <div class="col-sm-6">
                   <div class="form-group">
                     <label for="form_name">Subject <small>*</small></label>
-                    <input name="form_subject" class="form-control required" type="text" placeholder="Enter Subject">
+                    <input style="color: #002e5b"  name="form_subject" class="form-control required" type="text" placeholder="Enter Subject">
                   </div>
                 </div>
                 <div class="col-sm-6">
                   <div class="form-group">
                     <label for="form_phone">Phone</label>
-                    <input name="form_phone" class="form-control" type="text" placeholder="Enter Phone">
+                    <input style="color: #002e5b"  name="form_phone" class="form-control" type="text" placeholder="Enter Phone">
                   </div>
                 </div>
               </div>
-
               <div class="form-group">
                 <label for="form_name">Message</label>
-                <textarea name="form_message" class="form-control required" rows="5" placeholder="Enter Message"></textarea>
+                <textarea style="color: #002e5b"  name="form_message" class="form-control required" rows="5" placeholder="Enter Message"></textarea>
               </div>
               <div class="form-group">
                 <input name="form_botcheck" class="form-control" type="hidden" value="" />
-                <button type="submit" class="btn btn-flat btn-theme-colored text-uppercase mt-10 mb-sm-30 border-left-theme-color-2-4px" data-loading-text="Please wait...">Send your message</button>
-                <button type="reset" class="btn btn-flat btn-theme-colored text-uppercase mt-10 mb-sm-30 border-left-theme-color-2-4px">Reset</button>
+                <button type="submit" class="btn btn-dark btn-theme-colored btn-flat mr-5" data-loading-text="Please wait...">Send your message</button>
+                <button type="reset" class="btn btn-default btn-flat btn-theme-colored">Reset</button>
               </div>
             </form>
-
             <!-- Contact Form Validation-->
             <script type="text/javascript">
               $("#contact_form").validate({
@@ -147,6 +98,48 @@ require_once ('header2.php');
               });
             </script>
           </div>
+          <div class="col-md-4">
+            <div class="row">
+              <div class="col-xs-12 col-sm-12 col-md-12">
+                <div class="icon-box left media bg-black-333 p-25 mb-20"> <a class="media-left pull-left" href="#"> <i class="pe-7s-map-2 text-theme-color-2"></i></a>
+                  <div class="media-body"> <strong class="text-white">OUR OFFICE LOCATION</strong>
+                    <p class="text-white">North South University Road, Bashundhara Residential area, Dhaka</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-xs-12 col-sm-6 col-md-12 text-white">
+                <div class="icon-box left media bg-black-333 p-25 mb-20"> <a class="media-left pull-left" href="#"> <i class="pe-7s-call text-theme-color-2"></i></a>
+                  <div class="media-body"> <strong class="text-white">OUR CONTACT NUMBER</strong>
+                    <p>+880 12345 65478</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-xs-12 col-sm-6 col-md-12 text-white">
+                <div class="icon-box left media bg-black-333 p-25 mb-20"> <a class="media-left pull-left" href="#"> <i class="pe-7s-mail text-theme-color-2"></i></a>
+                  <div class="media-body"> <strong class="text-white">OUR CONTACT E-MAIL</strong>
+                    <p>supporte@aa.com</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-xs-12 col-sm-6 col-md-12 text-white">
+                <div class="icon-box left media bg-black-333 p-25 mb-20"> <a class="media-left pull-left" href="#"> <i class="fa fa-skype text-theme-color-2"></i></a>
+                  <div class="media-body"> <strong class="text-white">Make a Video Call</strong>
+                    <p>accommodationSkype</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    
+    <!-- Divider: Google Map -->
+    <section>
+      <div class="container-fluid p-0">
+        <div class="row">
+          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3650.0983083934116!2d90.42334931552533!3d23.8151029845574!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3755c64c103a8093%3A0xd660a4f50365294a!2sNorth+South+University!5e0!3m2!1sen!2sbd!4v1510865355935" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+
         </div>
       </div>
     </section>

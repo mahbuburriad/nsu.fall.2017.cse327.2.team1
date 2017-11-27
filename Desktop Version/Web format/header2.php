@@ -1,7 +1,3 @@
-
-
-
-
 <!-- Favicon and Touch Icons -->
 <link href="images/favicon.jpg" rel="shortcut icon" type="image/png">
 <link href="images/apple-touch-icon.jpg" rel="apple-touch-icon">
@@ -33,7 +29,7 @@
 <link  href="js/revolution-slider/css/navigation.css" rel="stylesheet" type="text/css"/>
 
 <!-- CSS | Theme Color -->
-<link href="css/colors/theme-skin-color-set-1.css" rel="stylesheet" type="text/css">
+<link href="css/colors/theme-skin-color-set-2.css" rel="stylesheet" type="text/css">
 
 <!-- external javascripts -->
 <script src="js/jquery-2.2.4.min.js"></script>
@@ -120,7 +116,7 @@
         <div class="row">
           <div class="col-xs-12 col-sm-4 col-md-5">
             <div class="widget no-border m-0">
-              <a class="menuzord-brand pull-left flip xs-pull-center mb-15" href="javascript:void(0)"><img src="images/logo-wide.jpg" alt=""></a>
+              <a class="menuzord-brand pull-left flip xs-pull-center mb-15" href="javascript:void(0)"><img src="images/logo.jpg" alt="">Automated Accommodation</a>
             </div>
           </div>
           <div class="col-xs-12 col-sm-4 col-md-4">
