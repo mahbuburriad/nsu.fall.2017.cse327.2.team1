@@ -16,6 +16,9 @@ use Illuminate\Support\Facades\Auth;
 class LoginController extends Controller
 {
 
+    /*
+    this function is ready to check the login credentials
+    */
     public function loginn()
     {
         $data=Input::except(array('_token'));
@@ -36,7 +39,7 @@ class LoginController extends Controller
             $email=Input::get('email');
             $password=Input::get('password');
             if(Auth::attempt(['email' => $email, 'password' => $password]))
-                return Redirect::to('/');
+                return Redirect::to('account');
             else
                 return Redirect::to('login');
         }

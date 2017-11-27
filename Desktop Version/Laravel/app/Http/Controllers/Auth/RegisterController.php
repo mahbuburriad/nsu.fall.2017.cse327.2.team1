@@ -14,16 +14,6 @@ use Illuminate\Database\Eloquent\Model;
 
 class RegisterController extends Controller
 {
-    /*
-    |--------------------------------------------------------------------------
-    | Register Controller
-    |--------------------------------------------------------------------------
-    |
-    | This controller handles the registration of new users as well as their
-    | validation and creation. By default this controller uses a trait to
-    | provide this functionality without requiring any additional code.
-    |
-    */
 
     use RegistersUsers;
 
@@ -38,6 +28,7 @@ class RegisterController extends Controller
      * @param  array  $data
      * @return \Illuminate\Contracts\Validation\Validator
      */
+    //validate the input
     protected function validator(array $data)
     {
         return Validator::make($data, [
@@ -62,6 +53,7 @@ class RegisterController extends Controller
             'password' => bcrypt($data['password']),
         ]);
     }
+    //get the inputs and store them into database for a new user
     public function store()
     {
         $data=Input::except(array('token'));
@@ -87,7 +79,7 @@ class RegisterController extends Controller
         else
         {
             RegisterController::create(Input::except(array('_token','repassword')));
-            return Redirect::to('login')->with('sucess','sucessfully registered');
+            return Redirect::to('login')->with('success','sucessfully registered');
         }
     }
 }
