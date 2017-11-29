@@ -1,10 +1,7 @@
-<?php
-require_once ('header1.php');
-?>
-<title>Automated Accommodation || Login & Register</title>
-<?php
-require_once ('header2.php');
-?>
+@extends('layout')
+@section('title', 'Automated Accommodation || Buy House')
+
+@section('content')
   <div class="main-content">
 
     <!-- Section: inner-header -->
@@ -99,9 +96,4 @@ require_once ('header2.php');
 </div>
 </section>
 
-
-
-
-<?php
-require_once ('footer.php');
-?>
+@endsection
