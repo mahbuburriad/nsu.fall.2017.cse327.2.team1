@@ -196,7 +196,7 @@ drift.load('n4dhvzxke8hv');
         <ul class="dropdown">
                   <li>{!! Html::link('buy_house', 'House') !!}</li>
           <li>{!! Html::link('buy_appartment', 'Apartment') !!}</li>
-           <li><a href="buy_shop.php">Shops/Office</a></li>
+           <li>{!! Html::link('buy_shop', 'Shops/Office') !!}</li>
             <li><a href="buy_openfloor.php">Open Floor</a></li>
                 </ul>
                 

@@ -25,3 +25,11 @@ Route::get('login', function () {
 Route::get('buy_house', function () {
     return view('buy_house');
 });
+
+Route::get('buy_shop', function () {
+    return view('buy_shop');
+});
+
+Route::get('buy_appartment', function () {
+    return view('buy_appartment');
+});
