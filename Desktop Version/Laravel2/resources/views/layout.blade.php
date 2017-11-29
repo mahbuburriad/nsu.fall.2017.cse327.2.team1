@@ -189,7 +189,7 @@ drift.load('n4dhvzxke8hv');
           <nav id="menuzord" class="menuzord bg-theme-colored pull-left flip menuzord-responsive">
             
 <ul class="menuzord-menu">
-              <li><a href="index.php">Home</a></li>
+              <li>{!! Html::link('index', 'Home') !!}</li>
 
         
          <li><a href="#">Buy</a>
