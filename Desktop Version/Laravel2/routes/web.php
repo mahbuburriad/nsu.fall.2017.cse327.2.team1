@@ -36,3 +36,7 @@ Route::get('buy_shop', function () {
 Route::get('buy_appartment', function () {
     return view('buy_appartment');
 });
+
+Route::get('buy_openfloor', function () {
+    return view('buy_openfloor');
+});
