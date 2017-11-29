@@ -30,3 +30,4 @@ Route::get('team', 'linkcontroller@team');
 Route::get('about', 'linkcontroller@about');
 Route::get('account', 'linkcontroller@account');
 Route::get('editprofile', 'linkcontroller@editprofile');
+Route::get('admin', 'linkcontroller@admin');

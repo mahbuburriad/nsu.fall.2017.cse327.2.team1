@@ -77,4 +77,8 @@ class linkcontroller extends Controller
 		return view('editprofile');
 	}
     
+    public function admin()
+	{
+		return view('admin');
+	}
 }
