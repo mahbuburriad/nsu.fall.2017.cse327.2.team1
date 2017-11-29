@@ -59,5 +59,10 @@ class linkcontroller extends Controller
 	{
 		return view('pricing');
 	}
+
+	public function team()
+	{
+		return view('team');
+	}
     
 }

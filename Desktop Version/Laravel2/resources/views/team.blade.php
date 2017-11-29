@@ -1,10 +1,7 @@
-<?php
-require_once ('header1.php');
-?>
-<title>Automated Accommodation || Team Profile</title>
-<?php
-require_once ('header2.php');
-?>
+@extends('layout')
+@section('title', 'Team Member')
+@section('content')
+
 
 <!-- Start main-content -->
   <div class="main-content">
@@ -1531,8 +1528,4 @@ require_once ('header2.php');
     </section>
   </div>
   <!-- end main-content -->
-
-<?php
-require_once ('footer.php');
-?>
-
+@endsection
