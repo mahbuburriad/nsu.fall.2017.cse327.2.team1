@@ -37,11 +37,11 @@ drift.load('n4dhvzxke8hv');
 
 
 <!-- Favicon and Touch Icons -->
-<link href="images/favicon.jpg" rel="shortcut icon" type="image/png">
-<link href="images/apple-touch-icon.jpg" rel="apple-touch-icon">
-<link href="images/apple-touch-icon-72x72.jpg" rel="apple-touch-icon" sizes="72x72">
-<link href="images/apple-touch-icon-114x114.jpg" rel="apple-touch-icon" sizes="114x114">
-<link href="images/apple-touch-icon-144x144.jpg" rel="apple-touch-icon" sizes="144x144">
+<link href="autoacco/images/favicon.jpg" rel="shortcut icon" type="image/png">
+<link href="autoacco/images/apple-touch-icon.jpg" rel="apple-touch-icon">
+<link href="autoacco/images/apple-touch-icon-72x72.jpg" rel="apple-touch-icon" sizes="72x72">
+<link href="autoacco/images/apple-touch-icon-114x114.jpg" rel="apple-touch-icon" sizes="114x114">
+<link href="autoacco/images/apple-touch-icon-144x144.jpg" rel="apple-touch-icon" sizes="144x144">
 
 <!-- Stylesheet -->
 {!! Html::style('autoacco/css/bootstrap.min.css')!!}
@@ -109,7 +109,10 @@ drift.load('n4dhvzxke8hv');
                 </li>
                 <li class="text-white">|</li>
                 <li>
-                  <a class="text-white" href="login.php">Login</a>
+
+                  {!! Html::link('login', 'Login', array('class' => 'text-white')) !!}
+                  
+                 
                 </li>
               </ul>
             </div>
@@ -191,8 +194,8 @@ drift.load('n4dhvzxke8hv');
         
          <li><a href="#">Buy</a>
         <ul class="dropdown">
-                  <li><a href="buy_house.php">House</a></li>
-          <li><a href="buy_appartment.php">Apartment</a></li>
+                  <li>{!! Html::link('buy_house', 'House') !!}</li>
+          <li>{!! Html::link('buy_appartment', 'Apartment') !!}</li>
            <li><a href="buy_shop.php">Shops/Office</a></li>
             <li><a href="buy_openfloor.php">Open Floor</a></li>
                 </ul>
