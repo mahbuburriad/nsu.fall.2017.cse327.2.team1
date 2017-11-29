@@ -15,5 +15,45 @@ class linkcontroller extends Controller
 	{
 		return view('login');
 	}
+
+	public function buy_house()
+	{
+		return view('buy_house');
+	}
+
+	public function buy_shop()
+	{
+		return view('buy_shop');
+	}
+
+	public function buy_appartment()
+	{
+		return view('buy_appartment');
+	}
+
+	public function buy_openfloor()
+	{
+		return view('buy_openfloor');
+	}
+
+	public function rent_house()
+	{
+		return view('rent_house');
+	}
+
+	public function rent_appartment()
+	{
+		return view('rent_appartment');
+	}
+
+	public function rent_shop()
+	{
+		return view('rent_shop');
+	}
+	
+	public function app_page()
+	{
+		return view('app_page');
+	}
     
 }
