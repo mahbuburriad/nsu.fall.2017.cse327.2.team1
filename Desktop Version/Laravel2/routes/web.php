@@ -10,8 +10,6 @@
 | contains the "web" middleware group. Now create something great!
 
 
-|
-*/
 
 
 Route::get('/', function () {
@@ -56,3 +54,13 @@ Route::get('rent_appartment', function () {
 Route::get('rent_openfloor', function () {
     return view('rent_openfloor');
 });
+|
+*/
+Route::get('/', function () {
+    return view('index');
+});
+
+
+Route::get('index', 'linkcontroller@index');
+Route::get('login', 'linkcontroller@login');
+
