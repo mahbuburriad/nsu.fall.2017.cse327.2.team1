@@ -1,5 +1,5 @@
 @extends('layout')
-@section('title', 'Automated Accommodation || Open Floor')
+@section('title', 'Open Floor')
 @section('content')
 
   <div class="main-content">

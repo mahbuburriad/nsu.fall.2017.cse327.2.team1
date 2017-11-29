@@ -204,10 +204,10 @@ drift.load('n4dhvzxke8hv');
         
          <li><a href="#">Rent</a>
           <ul class="dropdown">
-                   <li><a href="rent_house.php">House</a></li>
-           <li><a href="rent_appartment.php">Apartment</a></li>
-           <li><a href="rent_shop.php">Shops/Office</a></li>
-           <li><a href="rent_openfloor.php">Open Floor</a></li>
+                   <li>{!! Html::link('rent_house', 'House') !!}</li>
+          <li>{!! Html::link('rent_appartment', 'Apartment') !!}</li>
+           <li>{!! Html::link('rent_shop', 'Shops/Office') !!}</li>
+            <li>{!! Html::link('rent_openfloor', 'Open Floor') !!}</li>
                 </ul>
         
         </li>

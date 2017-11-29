@@ -40,3 +40,19 @@ Route::get('buy_appartment', function () {
 Route::get('buy_openfloor', function () {
     return view('buy_openfloor');
 });
+
+Route::get('rent_house', function () {
+    return view('rent_house');
+});
+
+Route::get('rent_shop', function () {
+    return view('rent_shop');
+});
+
+Route::get('rent_appartment', function () {
+    return view('rent_appartment');
+});
+
+Route::get('rent_openfloor', function () {
+    return view('rent_openfloor');
+});
