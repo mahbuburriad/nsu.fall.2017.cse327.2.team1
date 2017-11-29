@@ -437,7 +437,7 @@ drift.load('n4dhvzxke8hv');
 @yield('content')
 
  <!-- Footer -->
-  <footer id="footer" class="footer divider layer-overlay overlay-dark-9" data-bg-img="images/footer.jpg">
+  <footer id="footer" class="footer divider layer-overlay overlay-dark-9" data-bg-img="autoacco/images/footer.jpg">
     <div class="container">
       <div class="row border-bottom">
         <div class="col-sm-6 col-md-3">
@@ -455,11 +455,11 @@ drift.load('n4dhvzxke8hv');
           <div class="widget dark">
             <h4 class="widget-title">Useful Links</h4>
             <ul class="list angle-double-right list-border">
-              <li><a href="page-about-style1.html">About Us</a></li>
-              <li><a href="page-course-list.html">Our Programs</a></li>
-              <li><a href="page-pricing-style1.html">Gallary</a></li>
-              <li><a href="page-gallery-3col.html">Menu</a></li>
-              <li><a href="shop-category.html">Events</a></li>              
+              <li><a href="page-about-style1">About Us</a></li>
+              <li><a href="page-course-list">Our Programs</a></li>
+              <li><a href="page-pricing-style">Gallary</a></li>
+              <li><a href="page-gallery-3col">Menu</a></li>
+              <li><a href="shop-category">Events</a></li>              
             </ul>
           </div>
         </div>

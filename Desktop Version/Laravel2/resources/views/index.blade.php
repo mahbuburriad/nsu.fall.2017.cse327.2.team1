@@ -604,7 +604,7 @@
               
               
 
-                  <img alt="" src="Images/Search-for-Homes.jpg" class="img-responsive img-fullwidth">
+                  <img alt="" src="autoacco/Images/Search-for-Homes.jpg" class="img-responsive img-fullwidth">
                
               </div>
             </div>
@@ -620,7 +620,7 @@
         <div class="section-title mb-10">
         <div class="row">
           <div class="col-md-8">
-            <h2 class="mt-0 text-uppercase font-28 line-bottom line-height-1">Most Rated<span class="text-theme-color-2 font-weight-400">Accommodation</span></h2>
+            <h2 class="mt-0 text-uppercase font-28 line-bottom line-height-1">Most Rated<span class="text-theme-color-2 font-weight-400"> Accommodation</span></h2>
          </div>
         </div>
         </div>
@@ -630,7 +630,7 @@
               <div class="owl-carousel-4col" data-dots="true">
                 <div class="item ">
                   <div class="service-block bg-white">
-                    <div class="thumb"> <img alt="featured project" src="Images/rated_flat1.jpg" class="img-fullwidth">
+                    <div class="thumb"> <img alt="featured project" src="autoacco/Images/rated_flat1.jpg" class="img-fullwidth">
                     <h4 class="text-white mt-0 mb-0"><span class="price">20,000BDT</span></h4>
                     </div>
                     <div class="content text-left flip p-25 pt-0">
@@ -642,7 +642,7 @@
                 </div>
                 <div class="item">
                   <div class="service-block mb-md-30 bg-white">
-                    <div class="thumb"> <img alt="featured project" src="Images/rated_flat2.jpg" class="img-responsive img-fullwidth">
+                    <div class="thumb"> <img alt="featured project" src="autoacco/Images/rated_flat2.jpg" class="img-responsive img-fullwidth">
                     <h4 class="text-white mt-0 mb-0"><span class="price">15,000BDT</span></h4>
                     </div>
                     <div class="content text-left flip p-25 pt-0">
@@ -654,7 +654,7 @@
                 </div>
                 <div class="item">
                   <div class="service-block mb-md-30 bg-white">
-                    <div class="thumb"> <img alt="featured project" src="Images/rated_flat3.jpg" class="img-responsive img-fullwidth">
+                    <div class="thumb"> <img alt="featured project" src="autoacco/Images/rated_flat3.jpg" class="img-responsive img-fullwidth">
                     <h4 class="text-white mt-0 mb-0"><span class="price">1,50,00,000BDT</span></h4>
                     </div>
                     <div class="content text-left flip p-25 pt-0">
@@ -667,7 +667,7 @@
                 </div>
                 <div class="item">
                   <div class="service-block mb-md-30 bg-white">
-                    <div class="thumb"> <img alt="featured project" src="Images/rated_flat4.jpg" class="img-responsive img-fullwidth">
+                    <div class="thumb"> <img alt="featured project" src="autoacco/Images/rated_flat4.jpg" class="img-responsive img-fullwidth">
                     <h4 class="text-white mt-0 mb-0"><span class="price">2,00,00,000BDT</span></h4>
                     </div>
                     <div class="content text-left flip p-25 pt-0">
@@ -679,7 +679,7 @@
                 </div>
                 <div class="item">
                   <div class="service-block mb-md-30 bg-white">
-                    <div class="thumb"> <img alt="featured project" src="Images/rated_flat5.jpg" class="img-responsive img-fullwidth">
+                    <div class="thumb"> <img alt="featured project" src="autoacco/Images/rated_flat5.jpg" class="img-responsive img-fullwidth">
                     <h4 class="text-white mt-0 mb-0"><span class="price">60,000</span></h4>
                     </div>
                     <div class="content text-left flip p-25 pt-0">
@@ -766,17 +766,17 @@
                 <!-- Portfolio Item Start -->
                 <div class="gallery-item select1">
                   <div class="thumb">
-                    <img class="img-fullwidth" src="Images/Flat1.jpg" alt="project">
+                    <img class="img-fullwidth" src="autoacco/Images/Flat1.jpg" alt="project">
                     <div class="overlay-shade"></div>
                     <div class="icons-holder">
                       <div class="icons-holder-inner">
                         <div class="styled-icons icon-sm icon-dark icon-circled icon-theme-colored">
-                          <a data-lightbox="image" href="images/gallery/1.jpg"><i class="fa fa-plus"></i></a>
+                          <a data-lightbox="image" href="autoacco/images/gallery/1.jpg"><i class="fa fa-plus"></i></a>
                           <a href="#"><i class="fa fa-link"></i></a>
                         </div>
                       </div>
                     </div>
-                    <a class="hover-link" data-lightbox="image" href="images/gallery/1.jpg">View more</a>
+                    <a class="hover-link" data-lightbox="image" href="autoacco/images/gallery/1.jpg">View more</a>
                   </div>
                 </div>
                 <!-- Portfolio Item End -->
@@ -784,17 +784,17 @@
                 <!-- Portfolio Item Start -->
                 <div class="gallery-item select1">
                   <div class="thumb">
-                    <img class="img-fullwidth" src="Images/Flat2.jpg" alt="project">
+                    <img class="img-fullwidth" src="autoacco/Images/Flat2.jpg" alt="project">
                     <div class="overlay-shade"></div>
                     <div class="icons-holder">
                       <div class="icons-holder-inner">
                         <div class="styled-icons icon-sm icon-dark icon-circled icon-theme-colored">
-                          <a data-lightbox="image" href="images/gallery/2.jpg"><i class="fa fa-plus"></i></a>
+                          <a data-lightbox="image" href="autoacco/images/gallery/2.jpg"><i class="fa fa-plus"></i></a>
                           <a href="#"><i class="fa fa-link"></i></a>
                         </div>
                       </div>
                     </div>
-                    <a class="hover-link" data-lightbox="image" href="images/gallery/2.jpg">View more</a>
+                    <a class="hover-link" data-lightbox="image" href="autoacco/images/gallery/2.jpg">View more</a>
                   </div>
                 </div>
                 <!-- Portfolio Item End -->
@@ -802,17 +802,17 @@
                 <!-- Portfolio Item Start -->
                 <div class="gallery-item select2">
                   <div class="thumb">
-                    <img class="img-fullwidth" src="Images/office1.jpg" alt="project">
+                    <img class="img-fullwidth" src="autoacco/Images/office1.jpg" alt="project">
                     <div class="overlay-shade"></div>
                     <div class="icons-holder">
                       <div class="icons-holder-inner">
                         <div class="styled-icons icon-sm icon-dark icon-circled icon-theme-colored">
-                          <a data-lightbox="image" href="images/gallery/3.jpg"><i class="fa fa-plus"></i></a>
+                          <a data-lightbox="image" href="autoacco/images/gallery/3.jpg"><i class="fa fa-plus"></i></a>
                           <a href="#"><i class="fa fa-link"></i></a>
                         </div>
                       </div>
                     </div>
-                    <a class="hover-link" data-lightbox="image" href="images/gallery/3.jpg">View more</a>
+                    <a class="hover-link" data-lightbox="image" href="autoacco/images/gallery/3.jpg">View more</a>
                   </div>
                 </div>
                 <!-- Portfolio Item End -->
@@ -820,17 +820,17 @@
                 <!-- Portfolio Item Start -->
                 <div class="gallery-item select3">
                   <div class="thumb">
-                    <img class="img-fullwidth" src="Images/openspace1.jpg" alt="project">
+                    <img class="img-fullwidth" src="autoacco/Images/openspace1.jpg" alt="project">
                     <div class="overlay-shade"></div>
                     <div class="icons-holder">
                       <div class="icons-holder-inner">
                         <div class="styled-icons icon-sm icon-dark icon-circled icon-theme-colored">
-                          <a data-lightbox="image" href="images/gallery/4.jpg"><i class="fa fa-plus"></i></a>
+                          <a data-lightbox="image" href="autoacco/images/gallery/4.jpg"><i class="fa fa-plus"></i></a>
                           <a href="#"><i class="fa fa-link"></i></a>
                         </div>
                       </div>
                     </div>
-                    <a class="hover-link" data-lightbox="image" href="images/gallery/4.jpg">View more</a>
+                    <a class="hover-link" data-lightbox="image" href="autoacco/images/gallery/4.jpg">View more</a>
                   </div>
                 </div>
                 <!-- Portfolio Item End -->
@@ -838,12 +838,12 @@
                 <!-- Portfolio Item Start -->
                 <div class="gallery-item select1">
                   <div class="thumb">
-                    <img class="img-fullwidth" src="Images/Flat3.jpg" alt="project">
+                    <img class="img-fullwidth" src="autoacco/Images/Flat3.jpg" alt="project">
                     <div class="overlay-shade"></div>
                     <div class="icons-holder">
                       <div class="icons-holder-inner">
                         <div class="styled-icons icon-sm icon-dark icon-circled icon-theme-colored">
-                          <a data-lightbox="image" href="images/gallery/5.jpg"><i class="fa fa-plus"></i></a>
+                          <a data-lightbox="image" href="autoacco/images/gallery/5.jpg"><i class="fa fa-plus"></i></a>
                           <a href="#"><i class="fa fa-link"></i></a>
                         </div>
                       </div>
@@ -856,17 +856,17 @@
                 <!-- Portfolio Item Start -->
                 <div class="gallery-item select3">
                   <div class="thumb">
-                    <img class="img-fullwidth" src="Images/openspace2.jpg" alt="project">
+                    <img class="img-fullwidth" src="autoacco/Images/openspace2.jpg" alt="project">
                     <div class="overlay-shade"></div>
                     <div class="icons-holder">
                       <div class="icons-holder-inner">
                         <div class="styled-icons icon-sm icon-dark icon-circled icon-theme-colored">
-                          <a data-lightbox="image" href="images/gallery/6.jpg"><i class="fa fa-plus"></i></a>
+                          <a data-lightbox="image" href="autoacco/images/gallery/6.jpg"><i class="fa fa-plus"></i></a>
                           <a href="#"><i class="fa fa-link"></i></a>
                         </div>
                       </div>
                     </div>
-                    <a class="hover-link" data-lightbox="image" href="images/gallery/6.jpg">View more</a>
+                    <a class="hover-link" data-lightbox="image" href="autoacco/images/gallery/6.jpg">View more</a>
                   </div>
                 </div>
                 <!-- Portfolio Item End -->
@@ -874,17 +874,17 @@
                 <!-- Portfolio Item Start -->
                 <div class="gallery-item select2">
                   <div class="thumb">
-                    <img class="img-fullwidth" src="Images/office2.jpg" alt="project">
+                    <img class="img-fullwidth" src="autoacco/Images/office2.jpg" alt="project">
                     <div class="overlay-shade"></div>
                     <div class="icons-holder">
                       <div class="icons-holder-inner">
                         <div class="styled-icons icon-sm icon-dark icon-circled icon-theme-colored">
-                          <a data-lightbox="image" href="images/gallery/7.jpg"><i class="fa fa-plus"></i></a>
+                          <a data-lightbox="image" href="autoacco/images/gallery/7.jpg"><i class="fa fa-plus"></i></a>
                           <a href="#"><i class="fa fa-link"></i></a>
                         </div>
                       </div>
                     </div>
-                    <a class="hover-link" data-lightbox="image" href="images/gallery/7.jpg">View more</a>
+                    <a class="hover-link" data-lightbox="image" href="autoacco/images/gallery/7.jpg">View more</a>
                   </div>
                 </div>
                 <!-- Portfolio Item End -->
@@ -892,17 +892,17 @@
                 <!-- Portfolio Item Start -->
                 <div class="gallery-item select3">
                   <div class="thumb">
-                    <img class="img-fullwidth" src="Images/openspace3.jpg" alt="project">
+                    <img class="img-fullwidth" src="autoacco/Images/openspace3.jpg" alt="project">
                     <div class="overlay-shade"></div>
                     <div class="icons-holder">
                       <div class="icons-holder-inner">
                         <div class="styled-icons icon-sm icon-dark icon-circled icon-theme-colored">
-                          <a data-lightbox="image" href="images/gallery/8.jpg"><i class="fa fa-plus"></i></a>
+                          <a data-lightbox="image" href="autoacco/images/gallery/8.jpg"><i class="fa fa-plus"></i></a>
                           <a href="#"><i class="fa fa-link"></i></a>
                         </div>
                       </div>
                     </div>
-                    <a class="hover-link" data-lightbox="image" href="images/gallery/8.jpg">View more</a>
+                    <a class="hover-link" data-lightbox="image" href="autoacco/images/gallery/8.jpg">View more</a>
                   </div>
                 </div>
                 <!-- Portfolio Item End -->
@@ -910,17 +910,17 @@
                 <!-- Portfolio Item Start -->
                 <div class="gallery-item select1">
                   <div class="thumb">
-                    <img class="img-fullwidth" src="Images/Flat4.jpg" alt="project">
+                    <img class="img-fullwidth" src="autoacco/Images/Flat4.jpg" alt="project">
                     <div class="overlay-shade"></div>
                     <div class="icons-holder">
                       <div class="icons-holder-inner">
                         <div class="styled-icons icon-sm icon-dark icon-circled icon-theme-colored">
-                          <a data-lightbox="image" href="images/gallery/9.jpg"><i class="fa fa-plus"></i></a>
+                          <a data-lightbox="image" href="autoacco/images/gallery/9.jpg"><i class="fa fa-plus"></i></a>
                           <a href="#"><i class="fa fa-link"></i></a>
                         </div>
                       </div>
                     </div>
-                    <a class="hover-link" data-lightbox="image" href="images/gallery/9.jpg">View more</a>
+                    <a class="hover-link" data-lightbox="image" href="autoacco/images/gallery/9.jpg">View more</a>
                   </div>
                 </div>
                 <!-- Portfolio Item End -->
@@ -928,17 +928,17 @@
                 <!-- Portfolio Item Start -->
                 <div class="gallery-item select2">
                   <div class="thumb">
-                    <img class="img-fullwidth" src="Images/office3.jpg" alt="project">
+                    <img class="img-fullwidth" src="autoacco/Images/office3.jpg" alt="project">
                     <div class="overlay-shade"></div>
                     <div class="icons-holder">
                       <div class="icons-holder-inner">
                         <div class="styled-icons icon-sm icon-dark icon-circled icon-theme-colored">
-                          <a data-lightbox="image" href="images/gallery/10.jpg"><i class="fa fa-plus"></i></a>
+                          <a data-lightbox="image" href="autoacco/images/gallery/10.jpg"><i class="fa fa-plus"></i></a>
                           <a href="#"><i class="fa fa-link"></i></a>
                         </div>
                       </div>
                     </div>
-                    <a class="hover-link" data-lightbox="image" href="images/gallery/10.jpg">View more</a>
+                    <a class="hover-link" data-lightbox="image" href="autoacco/images/gallery/10.jpg">View more</a>
                   </div>
                 </div>
                 <!-- Portfolio Item End -->
@@ -946,17 +946,17 @@
                 <!-- Portfolio Item Start -->
                 <div class="gallery-item select1">
                   <div class="thumb">
-                    <img class="img-fullwidth" src="Images/Flat5.jpg" alt="project">
+                    <img class="img-fullwidth" src="autoacco/Images/Flat5.jpg" alt="project">
                     <div class="overlay-shade"></div>
                     <div class="icons-holder">
                       <div class="icons-holder-inner">
                         <div class="styled-icons icon-sm icon-dark icon-circled icon-theme-colored">
-                          <a data-lightbox="image" href="images/gallery/11.jpg"><i class="fa fa-plus"></i></a>
+                          <a data-lightbox="image" href="autoacco/images/gallery/11.jpg"><i class="fa fa-plus"></i></a>
                           <a href="#"><i class="fa fa-link"></i></a>
                         </div>
                       </div>
                     </div>
-                    <a class="hover-link" data-lightbox="image" href="images/gallery/11.jpg">View more</a>
+                    <a class="hover-link" data-lightbox="image" href="autoacco/images/gallery/11.jpg">View more</a>
                   </div>
                 </div>
                 <!-- Portfolio Item End -->
@@ -964,17 +964,17 @@
                 <!-- Portfolio Item Start -->
                 <div class="gallery-item select3">
                   <div class="thumb">
-                    <img class="img-fullwidth" src="Images/openspace4.jpg" alt="project">
+                    <img class="img-fullwidth" src="autoacco/Images/openspace4.jpg" alt="project">
                     <div class="overlay-shade"></div>
                     <div class="icons-holder">
                       <div class="icons-holder-inner">
                         <div class="styled-icons icon-sm icon-dark icon-circled icon-theme-colored">
-                          <a data-lightbox="image" href="images/gallery/12.jpg"><i class="fa fa-plus"></i></a>
+                          <a data-lightbox="image" href="autoacco/images/gallery/12.jpg"><i class="fa fa-plus"></i></a>
                           <a href="#"><i class="fa fa-link"></i></a>
                         </div>
                       </div>
                     </div>
-                    <a class="hover-link" data-lightbox="image" href="images/gallery/12.jpg">View more</a>
+                    <a class="hover-link" data-lightbox="image" href="autoacco/images/gallery/12.jpg">View more</a>
                   </div>
                 </div>
                 <!-- Portfolio Item End -->
@@ -1005,7 +1005,7 @@
               <div class="item">
                 <div class="testimonial pt-10">
                   <div class="thumb pull-left mb-0 mr-0 pr-20">
-                    <img style="height: 100px; width: 100px" class="img-circle" alt="" src="Images/test01.jpg">
+                    <img style="height: 100px; width: 100px" class="img-circle" alt="" src="autoacco/Images/test01.jpg">
                   </div>
                   <div class="ml-100 ">
                     <h4 class="text-white mt-0">This is very good site and helps to solve all problems about Accommodation</h4>
@@ -1016,7 +1016,7 @@
               <div class="item">
                 <div class="testimonial pt-10">
                   <div class="thumb pull-left mb-0 mr-0 pr-20">
-                    <img style="height: 100px; width: 100px" class="img-circle" alt="" src="Images/test02.jpg">
+                    <img style="height: 100px; width: 100px" class="img-circle" alt="" src="autoacco/Images/test02.jpg">
                   </div>
                   <div class="ml-100 ">
                     <h4 class="text-white mt-0">very good in all accoommodation purpose</h4>
@@ -1027,7 +1027,7 @@
               <div class="item">
                 <div class="testimonial pt-10">
                   <div class="thumb pull-left mb-0 mr-0 pr-20">
-                    <img style="height: 100px; width: 100px" class="img-circle" alt="" src="Images/test03.jpg">
+                    <img style="height: 100px; width: 100px" class="img-circle" alt="" src="autoacco/Images/test03.jpg">
                   </div>
                   <div class="ml-100 ">
                     <h4 class="text-white mt-0">Very good at social service with accommodation</h4>
@@ -1038,7 +1038,7 @@
               <div class="item">
                 <div class="testimonial pt-10">
                   <div class="thumb pull-left mb-0 mr-0 pr-20">
-                    <img style="height: 100px; width: 100px" class="img-circle" alt="" src="Images/test04.jpg">
+                    <img style="height: 100px; width: 100px" class="img-circle" alt="" src="autoacco/Images/test04.jpg">
                   </div>
                   <div class="ml-100 ">
                     <h4 class="text-white mt-0">Very good in all services</h4>
@@ -1069,7 +1069,7 @@
               <article class="post clearfix mb-sm-30">
                 <div class="entry-header">
                   <div class="post-thumb thumb"> 
-                    <img style="height: 225px; width: 330px;" src="Images/20.jpg" alt="" class="img-responsive img-fullwidth"> 
+                    <img style="height: 225px; width: 330px;" src="autoacco/Images/20.jpg" alt="" class="img-responsive img-fullwidth"> 
                   </div>
                 </div>
                 <div class="entry-content p-20 pr-10 bg-white">
@@ -1098,7 +1098,7 @@
               <article class="post clearfix mb-sm-30">
                 <div class="entry-header">
                   <div class="post-thumb thumb"> 
-                    <img style="height: 225px; width: 330px;" src="Images/10.jpg" alt="" class="img-responsive img-fullwidth"> 
+                    <img style="height: 225px; width: 330px;" src="autoacco/Images/10.jpg" alt="" class="img-responsive img-fullwidth"> 
                   </div>
                 </div>
                 <div class="entry-content p-20 pr-10 bg-white">
@@ -1128,7 +1128,7 @@
               <article class="post clearfix mb-sm-30">
                 <div class="entry-header">
                   <div class="post-thumb thumb"> 
-                    <img style="height: 225px; width: 330px;" src="Images/5.jpg" alt="" class="img-responsive img-fullwidth"> 
+                    <img style="height: 225px; width: 330px;" src="autoacco/Images/5.jpg" alt="" class="img-responsive img-fullwidth"> 
                   </div>
                 </div>
                 <div class="entry-content p-20 pr-10 bg-white">
@@ -1167,16 +1167,16 @@
           <div class="col-md-12">
             <!-- Section: Clients -->
             <div class="owl-carousel-6col clients-logo transparent text-center owl-nav-top">
-              <div class="item"> <a href="#"><img src="Images/Flat3.jpg" alt=""></a></div>
-              <div class="item"> <a href="#"><img src="Images/Flat4.jpg" alt=""></a></div>
-              <div class="item"> <a href="#"><img src="Images/rated_flat1.jpg" alt=""></a></div>
-              <div class="item"> <a href="#"><img src="Images/rated_flat2.jpg" alt=""></a></div>
-              <div class="item"> <a href="#"><img src="Images/rated_flat3.jpg" alt=""></a></div>
-              <div class="item"> <a href="#"><img src="Images/rated_flat4.jpg" alt=""></a></div>
-              <div class="item"> <a href="#"><img src="Images/rated_flat5.jpg" alt=""></a></div>
-              <div class="item"> <a href="#"><img src="Images/rated_flat6.jpg" alt=""></a></div>
-              <div class="item"> <a href="#"><img src="Images/Flat1.jpg" alt=""></a></div>
-              <div class="item"> <a href="#"><img src="Images/Flat2.jpg" alt=""></a></div>
+              <div class="item"> <a href="#"><img src="autoacco/Images/Flat3.jpg" alt=""></a></div>
+              <div class="item"> <a href="#"><img src="autoacco/Images/Flat4.jpg" alt=""></a></div>
+              <div class="item"> <a href="#"><img src="autoacco/Images/rated_flat1.jpg" alt=""></a></div>
+              <div class="item"> <a href="#"><img src="autoacco/Images/rated_flat2.jpg" alt=""></a></div>
+              <div class="item"> <a href="#"><img src="autoacco/Images/rated_flat3.jpg" alt=""></a></div>
+              <div class="item"> <a href="#"><img src="autoacco/Images/rated_flat4.jpg" alt=""></a></div>
+              <div class="item"> <a href="#"><img src="autoacco/Images/rated_flat5.jpg" alt=""></a></div>
+              <div class="item"> <a href="#"><img src="autoacco/Images/rated_flat6.jpg" alt=""></a></div>
+              <div class="item"> <a href="#"><img src="autoacco/Images/Flat1.jpg" alt=""></a></div>
+              <div class="item"> <a href="#"><img src="autoacco/Images/Flat2.jpg" alt=""></a></div>
             </div>
           </div>
         </div>
