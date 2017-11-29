@@ -1,10 +1,7 @@
-<?php
-require_once ('header1.php');
-?>
-<title>Automated Accommodation || Account</title>
-<?php
-require_once ('header2.php');
-?>
+@extends('layout')
+@section('title', 'User Account')
+@section('content')
+
   <div class="main-content">
 <section class="inner-header divider parallax layer-overlay overlay-dark-5" data-bg-img="images/pagetitle.jpg">
       <div class="container pt-70 pb-20">
@@ -234,8 +231,4 @@ require_once ('header2.php');
     </section>
 
   </div>
-
-
-<?php
-require_once ('footer.php');
-?>
+@endsection

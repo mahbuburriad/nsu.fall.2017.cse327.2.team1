@@ -17,7 +17,7 @@
     <!-- SLIDE  -->
     <li data-index="rs-919" data-transition="fade" data-slotamount="default"  data-easein="Power1.easeInOut" data-easeout="Power1.easeInOut" data-masterspeed="500"  data-rotate="0"  data-fstransition="fade" data-fsmasterspeed="500" data-fsslotamount="7" data-saveperformance="off"  data-title="First" data-param1="" data-param2="" data-param3="" data-param4="" data-param5="" data-param6="" data-param7="" data-param8="" data-param9="" data-param10="" data-description=""> 
       <!-- MAIN IMAGE --> 
-      <img src="images/user.png"  alt=""  data-bgposition="center center" data-bgfit="cover" data-bgrepeat="no-repeat" class="rev-slidebg" data-no-retina> 
+      <img src="autoacco/images/user.png"  alt=""  data-bgposition="center center" data-bgfit="cover" data-bgrepeat="no-repeat" class="rev-slidebg" data-no-retina> 
       <!-- LAYERS --> 
       
       <!-- LAYER NR. 1 -->
@@ -200,7 +200,7 @@
                         <!-- SLIDE  -->
     <li data-index="rs-920" data-transition="fade" data-slotamount="default"  data-easein="Power1.easeInOut" data-easeout="Power1.easeInOut" data-masterspeed="500"  data-rotate="0"  data-saveperformance="off"  data-title="Second" data-param1="" data-param2="" data-param3="" data-param4="" data-param5="" data-param6="" data-param7="" data-param8="" data-param9="" data-param10="" data-description=""> 
       <!-- MAIN IMAGE --> 
-      <img src="images/user.png"  alt=""  data-bgposition="center center" data-bgfit="cover" data-bgrepeat="no-repeat" class="rev-slidebg" data-no-retina> 
+      <img src="autoacco/images/user.png"  alt=""  data-bgposition="center center" data-bgfit="cover" data-bgrepeat="no-repeat" class="rev-slidebg" data-no-retina> 
       <!-- LAYERS --> 
       
       <!-- LAYER NR. 1 -->
@@ -382,7 +382,7 @@
     <!-- SLIDE  -->
     <li data-index="rs-921" data-transition="fade" data-slotamount="default"  data-easein="Power1.easeInOut" data-easeout="Power1.easeInOut" data-masterspeed="500"  data-rotate="0"  data-saveperformance="off"  data-title="Third" data-param1="" data-param2="" data-param3="" data-param4="" data-param5="" data-param6="" data-param7="" data-param8="" data-param9="" data-param10="" data-description=""> 
       <!-- MAIN IMAGE --> 
-      <img src="images/user.png"  alt=""  data-bgposition="center center" data-bgfit="cover" data-bgrepeat="no-repeat" class="rev-slidebg" data-no-retina> 
+      <img src="autoacco/images/user.png"  alt=""  data-bgposition="center center" data-bgfit="cover" data-bgrepeat="no-repeat" class="rev-slidebg" data-no-retina> 
       <!-- LAYERS --> 
       
       <!-- LAYER NR. 1 -->
@@ -564,7 +564,7 @@
     <!-- SLIDE  -->
     <li data-index="rs-922" data-transition="fade" data-slotamount="default"  data-easein="Power1.easeInOut" data-easeout="Power1.easeInOut" data-masterspeed="500"  data-rotate="0"  data-saveperformance="off"  data-title="Fourth" data-param1="" data-param2="" data-param3="" data-param4="" data-param5="" data-param6="" data-param7="" data-param8="" data-param9="" data-param10="" data-description=""> 
       <!-- MAIN IMAGE --> 
-      <img src="images/user.png"  alt=""  data-bgposition="center center" data-bgfit="cover" data-bgrepeat="no-repeat" class="rev-slidebg" data-no-retina> 
+      <img src="autoacco/images/user.png"  alt=""  data-bgposition="center center" data-bgfit="cover" data-bgrepeat="no-repeat" class="rev-slidebg" data-no-retina> 
       <!-- LAYERS --> 
       
       <!-- LAYER NR. 1 -->
@@ -746,7 +746,7 @@
     <!-- SLIDE  -->
     <li data-index="rs-923" data-transition="fade" data-slotamount="default"  data-easein="Power1.easeInOut" data-easeout="Power1.easeInOut" data-masterspeed="500"  data-rotate="0"  data-saveperformance="off"  data-title="Fifth" data-param1="" data-param2="" data-param3="" data-param4="" data-param5="" data-param6="" data-param7="" data-param8="" data-param9="" data-param10="" data-description=""> 
       <!-- MAIN IMAGE --> 
-      <img src="images/user.png"  alt=""  data-bgposition="center center" data-bgfit="cover" data-bgrepeat="no-repeat" class="rev-slidebg" data-no-retina> 
+      <img src="autoacco/images/user.png"  alt=""  data-bgposition="center center" data-bgfit="cover" data-bgrepeat="no-repeat" class="rev-slidebg" data-no-retina> 
       <!-- LAYERS --> 
       
       <!-- LAYER NR. 1 -->
@@ -928,7 +928,7 @@
     <!-- SLIDE  -->
     <li data-index="rs-924" data-transition="fade" data-slotamount="default"  data-easein="Power1.easeInOut" data-easeout="Power1.easeInOut" data-masterspeed="500"  data-rotate="0"  data-saveperformance="off"  data-title="Sixth" data-param1="" data-param2="" data-param3="" data-param4="" data-param5="" data-param6="" data-param7="" data-param8="" data-param9="" data-param10="" data-description=""> 
       <!-- MAIN IMAGE --> 
-      <img src="images/user.png"  alt=""  data-bgposition="center center" data-bgfit="cover" data-bgrepeat="no-repeat" class="rev-slidebg" data-no-retina> 
+      <img src="autoacco/images/user.png"  alt=""  data-bgposition="center center" data-bgfit="cover" data-bgrepeat="no-repeat" class="rev-slidebg" data-no-retina> 
       <!-- LAYERS --> 
       
       <!-- LAYER NR. 1 -->
@@ -992,7 +992,7 @@
                         data-responsive_offset="on" 
 
                         
-                        style="z-index: 7; white-space: nowrap;">CEO </div>
+                        style="z-index: 7; white-space: nowrap;">ad </div>
       
       <!-- LAYER NR. 4 -->
       <div class="tp-caption Team-Description   tp-resizeme" 
@@ -1111,7 +1111,7 @@
     <!-- SLIDE  -->
     <li data-index="rs-925" data-transition="fade" data-slotamount="default"  data-easein="Power1.easeInOut" data-easeout="Power1.easeInOut" data-masterspeed="500"  data-rotate="0"  data-saveperformance="off"  data-title="Seventh" data-param1="" data-param2="" data-param3="" data-param4="" data-param5="" data-param6="" data-param7="" data-param8="" data-param9="" data-param10="" data-description=""> 
       <!-- MAIN IMAGE --> 
-      <img src="images/user.png"  alt=""  data-bgposition="center center" data-bgfit="cover" data-bgrepeat="no-repeat" class="rev-slidebg" data-no-retina> 
+      <img src="autoacco/images/user.png"  alt=""  data-bgposition="center center" data-bgfit="cover" data-bgrepeat="no-repeat" class="rev-slidebg" data-no-retina> 
       <!-- LAYERS --> 
       
       <!-- LAYER NR. 1 -->
@@ -1175,7 +1175,7 @@
                         data-responsive_offset="on" 
 
                         
-                        style="z-index: 7; white-space: nowrap;">Vice President </div>
+                        style="z-index: 7; white-space: nowrap;">des</div>
       
       <!-- LAYER NR. 4 -->
       <div class="tp-caption Team-Description   tp-resizeme" 
@@ -1335,7 +1335,7 @@
                         data-startslide="0" 
                         data-endslide="6" 
                         
-                        style="z-index: 6; line-height: 22px;cursor:pointer;"><img src="images/user.png" alt="" width="300" height="300" data-ww="['200px','140px','140px','80px']" data-hh="['200px','140px','140px','80px']" data-no-retina> </div>
+                        style="z-index: 6; line-height: 22px;cursor:pointer;"><img src="autoacco/images/user.png" alt="" width="300" height="300" data-ww="['200px','140px','140px','80px']" data-hh="['200px','140px','140px','80px']" data-no-retina> </div>
     
     <!-- LAYER NR. 3 -->
     <div class="tp-caption   tp-resizeme tp-static-layer" 
@@ -1358,7 +1358,7 @@
                         data-startslide="0" 
                         data-endslide="6" 
                         
-                        style="z-index: 7;cursor:pointer;"><img src="images/user.png" alt="" width="300" height="300" data-ww="['200px','140px','140px','80px']" data-hh="['200px','140px','140px','80px']" data-no-retina> </div>
+                        style="z-index: 7;cursor:pointer;"><img src="autoacco/images/user.png" alt="" width="300" height="300" data-ww="['200px','140px','140px','80px']" data-hh="['200px','140px','140px','80px']" data-no-retina> </div>
     
     <!-- LAYER NR. 4 -->
     <div class="tp-caption   tp-resizeme tp-static-layer" 
@@ -1381,7 +1381,7 @@
                         data-startslide="0" 
                         data-endslide="6" 
                         
-                        style="z-index: 8;cursor:pointer;"><img src="images/user.png" alt="" width="300" height="300" data-ww="['200px','140px','140px','80px']" data-hh="['200px','140px','140px','80px']" data-no-retina> </div>
+                        style="z-index: 8;cursor:pointer;"><img src="autoacco/images/user.png" alt="" width="300" height="300" data-ww="['200px','140px','140px','80px']" data-hh="['200px','140px','140px','80px']" data-no-retina> </div>
     
     <!-- LAYER NR. 5 -->
     <div class="tp-caption   tp-resizeme tp-static-layer" 
@@ -1404,7 +1404,7 @@
                         data-startslide="0" 
                         data-endslide="6" 
                         
-                        style="z-index: 9;cursor:pointer;"><img src="images/user.png" alt="" width="300" height="300" data-ww="['200px','140px','140px','80px']" data-hh="['200px','140px','140px','80px']" data-no-retina> </div>
+                        style="z-index: 9;cursor:pointer;"><img src="autoacco/images/user.png" alt="" width="300" height="300" data-ww="['200px','140px','140px','80px']" data-hh="['200px','140px','140px','80px']" data-no-retina> </div>
     
     <!-- LAYER NR. 6 -->
     <div class="tp-caption   tp-resizeme tp-static-layer" 
@@ -1427,7 +1427,7 @@
                         data-startslide="0" 
                         data-endslide="6" 
                         
-                        style="z-index: 10;cursor:pointer;"><img src="images/user.png" alt="" width="300" height="300" data-ww="['200px','140px','140px','80px']" data-hh="['200px','140px','140px','80px']" data-no-retina> </div>
+                        style="z-index: 10;cursor:pointer;"><img src="autoacco/images/user.png" alt="" width="300" height="300" data-ww="['200px','140px','140px','80px']" data-hh="['200px','140px','140px','80px']" data-no-retina> </div>
     
     <!-- LAYER NR. 7 -->
     <div class="tp-caption   tp-resizeme tp-static-layer" 
@@ -1450,7 +1450,7 @@
                         data-startslide="0" 
                         data-endslide="6" 
                         
-                        style="z-index: 11;cursor:pointer;"><img src="images/user.png" alt="" width="300" height="300" data-ww="['200px','140px','140px','80px']" data-hh="['200px','140px','140px','80px']" data-no-retina> </div>
+                        style="z-index: 11;cursor:pointer;"><img src="autoacco/images/user.png" alt="" width="300" height="300" data-ww="['200px','140px','140px','80px']" data-hh="['200px','140px','140px','80px']" data-no-retina> </div>
     
     <!-- LAYER NR. 8 -->
     <div class="tp-caption   tp-resizeme tp-static-layer" 
@@ -1473,7 +1473,7 @@
                         data-startslide="0" 
                         data-endslide="6" 
                         
-                        style="z-index: 12;cursor:pointer;"><img src="images/user.png" alt="" width="300" height="300" data-ww="['200px','140px','140px','80px']" data-hh="['200px','140px','140px','80px']" data-no-retina> </div>
+                        style="z-index: 12;cursor:pointer;"><img src="autoacco/images/user.png" alt="" width="300" height="300" data-ww="['200px','140px','140px','80px']" data-hh="['200px','140px','140px','80px']" data-no-retina> </div>
   </div>
   <div class="tp-bannertimer tp-bottom" style="visibility: hidden !important;"></div>
 </div>
