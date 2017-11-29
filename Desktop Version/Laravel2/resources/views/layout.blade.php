@@ -213,9 +213,7 @@ drift.load('n4dhvzxke8hv');
         </li>
         <li>{!! Html::link('app_page', 'Mobile App') !!}</li>
         
-           <li><a href="pricing.php">Pricing</a>
-                
-              </li>
+           <li>{!! Html::link('pricing', 'Pricing') !!}</li>
                 
              
         

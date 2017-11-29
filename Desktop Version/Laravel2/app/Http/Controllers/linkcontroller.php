@@ -55,5 +55,9 @@ class linkcontroller extends Controller
 	{
 		return view('app_page');
 	}
+	public function pricing()
+	{
+		return view('pricing');
+	}
     
 }

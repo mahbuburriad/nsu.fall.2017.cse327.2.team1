@@ -25,3 +25,4 @@ Route::get('rent_house', 'linkcontroller@rent_house');
 Route::get('rent_appartment', 'linkcontroller@rent_appartment');
 Route::get('rent_shop', 'linkcontroller@rent_shop');
 Route::get('app_page', 'linkcontroller@app_page');
+Route::get('pricing', 'linkcontroller@pricing');

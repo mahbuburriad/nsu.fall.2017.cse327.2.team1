@@ -1,10 +1,7 @@
-<?php
-require_once ('header1.php');
-?>
-<title>Automated Accommodation || Login & Register</title>
-<?php
-require_once ('header2.php');
-?>
+@extends('layout')
+@section('title', 'Our Pricing')
+@section('content')
+
   <div class="main-content">
 
     <!-- Section: inner-header -->
@@ -26,7 +23,7 @@ require_once ('header2.php');
     </section>
 
 <!-- Section: Pricing -->
-    <section id="pricing" data-bg-img="images/pattern/p4.png">
+    <section id="pricing" data-bg-img="autoacco/images/pagetitle.jpg">
       <div class="container">
         <div class="section-content">
           <div class="row">
@@ -90,8 +87,4 @@ require_once ('header2.php');
     </section>
   </div>
   <!-- end main-content -->
-
-
-    <?php
-require_once ('footer.php');
-?>
+@endsection
