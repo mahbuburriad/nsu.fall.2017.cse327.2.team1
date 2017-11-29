@@ -1,5 +1,5 @@
 @extends('layout')
-@section('title', 'Automated Accommodation')
+@section('title', 'Automated Accommodation || Home Page')
 
 @section('content')
 
