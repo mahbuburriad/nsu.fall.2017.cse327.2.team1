@@ -5,7 +5,7 @@
   <div class="main-content">
 
     <!-- Section: inner-header -->
-    <section class="inner-header divider parallax layer-overlay overlay-dark-5" data-bg-img="images/pagetitle.jpg">
+    <section class="inner-header divider parallax layer-overlay overlay-dark-5" data-bg-img="autoacco/images/pagetitle.jpg">
       <div class="container pt-70 pb-20">
         <!-- Section Content -->
         <div class="section-content">
@@ -23,7 +23,7 @@
     </section>
 
 <!-- Section: Pricing -->
-    <section id="pricing" data-bg-img="autoacco/images/pagetitle.jpg">
+    <section id="pricing" data-bg-img="images/pattern/p4.png">
       <div class="container">
         <div class="section-content">
           <div class="row">

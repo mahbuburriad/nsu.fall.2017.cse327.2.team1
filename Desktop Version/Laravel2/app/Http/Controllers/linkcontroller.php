@@ -64,5 +64,9 @@ class linkcontroller extends Controller
 	{
 		return view('team');
 	}
+	public function about()
+	{
+		return view('about');
+	}
     
 }

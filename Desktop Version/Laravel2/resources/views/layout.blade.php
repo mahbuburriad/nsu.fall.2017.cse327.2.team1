@@ -228,7 +228,7 @@ drift.load('n4dhvzxke8hv');
                   <li><a href="account.php">How to Use Mobile App</a></li>
           <li><a href="account.php">How to Use Website</a></li>
           <li><a href="account.php">How to Buy/Rent/Sell</a></li>
-          <li><a href="about.php">About</a></li>
+          <li>{!! Html::link('about', 'About') !!}</li>
           <li>{!! Html::link('team', 'Team') !!}</li>
           <li><a href="account.php">Faq</a></li>
          

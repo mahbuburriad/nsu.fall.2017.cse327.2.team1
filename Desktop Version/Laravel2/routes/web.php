@@ -27,3 +27,4 @@ Route::get('rent_shop', 'linkcontroller@rent_shop');
 Route::get('app_page', 'linkcontroller@app_page');
 Route::get('pricing', 'linkcontroller@pricing');
 Route::get('team', 'linkcontroller@team');
+Route::get('about', 'linkcontroller@about');

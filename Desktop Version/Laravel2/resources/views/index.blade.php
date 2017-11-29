@@ -595,6 +595,7 @@
 					every step of their home journey. We reduce people's tension and trouble by providing 
 					enough information to find a advantageous place to stay or make comfortable workplace.</p>
               <a class="btn btn-theme-colored btn-flat btn-lg mt-10 mb-sm-30" href="about.php" target="_blank"">Know More →</a>
+              {!! Html::link('about', 'Know More', array('class' => 'btn btn-theme-colored btn-flat btn-lg mt-10 mb-sm-30')) !!}
             </div>
 			
 			<div class="col-md-1">
