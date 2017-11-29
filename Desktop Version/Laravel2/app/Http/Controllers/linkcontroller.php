@@ -68,5 +68,13 @@ class linkcontroller extends Controller
 	{
 		return view('about');
 	}
+	public function account()
+	{
+		return view('account');
+	}
+	public function editprofile()
+	{
+		return view('editprofile');
+	}
     
 }

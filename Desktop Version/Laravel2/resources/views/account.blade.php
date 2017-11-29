@@ -43,8 +43,8 @@
                   <li><a href="#"><i class="fa fa-twitter"></i></a></li>
                   <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
                 </ul>
-                <a class="btn btn-info btn-flat mt-10 mb-sm-30" href="editprofile.php">Edit Profile</a>
-                <a class="btn btn-danger btn-flat mt-10 mb-sm-30" href="index.php">Logout</a>
+                {!! Html::link('editprofile', 'Edit Profile', array('class' => 'btn btn-info btn-flat mt-10 mb-sm-30')) !!}
+                {!! Html::link('index', 'Logout', array('class' => 'btn btn-danger btn-flat mt-10 mb-sm-30')) !!}
               </div>
             </div>
             <div class="col-xs-12 col-sm-8 col-md-8">

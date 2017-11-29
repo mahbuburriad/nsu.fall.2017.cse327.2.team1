@@ -28,3 +28,5 @@ Route::get('app_page', 'linkcontroller@app_page');
 Route::get('pricing', 'linkcontroller@pricing');
 Route::get('team', 'linkcontroller@team');
 Route::get('about', 'linkcontroller@about');
+Route::get('account', 'linkcontroller@account');
+Route::get('editprofile', 'linkcontroller@editprofile');

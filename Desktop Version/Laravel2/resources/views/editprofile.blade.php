@@ -1,10 +1,7 @@
-<?php
-require_once ('header1.php');
-?>
-<title>Automated Accommodation || All Pages All things</title>
-<?php
-require_once ('header2.php');
-?>
+@extends('layout')
+@section('title', 'Edit Profile')
+@section('content')
+
   <div class="main-content">
 <section class="inner-header divider parallax layer-overlay overlay-dark-5" data-bg-img="autoacco/images/pagetitle.jpg">
       <div class="container pt-70 pb-20">
@@ -44,8 +41,9 @@ require_once ('header2.php');
                   <li><a href="#"><i class="fa fa-twitter"></i></a></li>
                   <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
                 </ul>
-                <a class="btn btn-info btn-flat mt-10 mb-sm-30" href="editprofile.php">Edit Profile</a>
-                <a class="btn btn-danger btn-flat mt-10 mb-sm-30" href="index.php">Logout</a>
+                {!! Html::link('editprofile', 'Edit Profile', array('class' => 'btn btn-info btn-flat mt-10 mb-sm-30')) !!}
+                {!! Html::link('index', 'Logout', array('class' => 'btn btn-danger btn-flat mt-10 mb-sm-30')) !!}
+            
               </div>
             </div>
 
@@ -131,15 +129,4 @@ require_once ('header2.php');
     </section>
 
   </div>
-
-
-
-
-
-
-
-
-
-<?php
-require_once ('footer.php');
-?>
+@endsection
