@@ -29,7 +29,7 @@
       <!-- SLIDE  -->
       <li data-index="rs-1490" data-transition="fade" data-slotamount="default" data-hideafterloop="0" data-hideslideonmobile="off"  data-easein="default" data-easeout="default" data-masterspeed="300"  data-rotate="0"  data-saveperformance="off"  data-title="Slide" data-param1="" data-param2="" data-param3="" data-param4="" data-param5="" data-param6="" data-param7="" data-param8="" data-param9="" data-param10="" data-description=""> 
         <!-- MAIN IMAGE --> 
-        <img src="images/app_bg.jpg"  alt=""  data-bgposition="center center" data-kenburns="on" data-duration="30000" data-ease="Linear.easeNone" data-scalestart="100" data-scaleend="120" data-rotatestart="0" data-rotateend="0" data-offsetstart="0 0" data-offsetend="0 0" data-bgparallax="5" class="rev-slidebg" data-no-retina> 
+        <img src="autoacco/images/app_bg.jpg"  alt=""  data-bgposition="center center" data-kenburns="on" data-duration="30000" data-ease="Linear.easeNone" data-scalestart="100" data-scaleend="120" data-rotatestart="0" data-rotateend="0" data-offsetstart="0 0" data-offsetend="0 0" data-bgparallax="5" class="rev-slidebg" data-no-retina> 
         <!-- LAYERS --> 
         
         <!-- LAYER NR. 1 -->
@@ -114,7 +114,7 @@
       data-responsive_offset="on" 
 
       
-      style="z-index: 8;text-transform:left;"><img src="images/flat_ipad2.png" alt="" width="251" height="355" data-ww="['251px','251px','251px','251px']" data-hh="['355px','355px','355px','355px']" data-no-retina> </div>
+      style="z-index: 8;text-transform:left;"><img src="autoacco/images/flat_ipad2.png" alt="" width="251" height="355" data-ww="['251px','251px','251px','251px']" data-hh="['355px','355px','355px','355px']" data-no-retina> </div>
         
         <!-- LAYER NR. 5 -->
         <div class="tp-caption   tp-resizeme" 
@@ -133,7 +133,7 @@
       data-responsive_offset="on" 
 
       
-      style="z-index: 9;text-transform:left;"><img src="images/screenshot-login.png" alt="" width="218" height="291" data-ww="['218px','218px','218px','218px']" data-hh="['291px','291px','291px','291px']" data-no-retina> </div>
+      style="z-index: 9;text-transform:left;"><img src="autoacco/images/screenshot-login.png" alt="" width="218" height="291" data-ww="['218px','218px','218px','218px']" data-hh="['291px','291px','291px','291px']" data-no-retina> </div>
         
         <!-- LAYER NR. 6 -->
         <div class="tp-caption   tp-resizeme" 
@@ -151,7 +151,7 @@
       data-responsive_offset="on" 
 
       
-      style="z-index: 10;text-transform:left;"><img src="images/ipad_glare-2.png" alt="" width="251" height="355" data-ww="['251px','251px','251px','251px']" data-hh="['355px','355px','355px','355px']" data-no-retina> </div>
+      style="z-index: 10;text-transform:left;"><img src="autoacco/images/ipad_glare-2.png" alt="" width="251" height="355" data-ww="['251px','251px','251px','251px']" data-hh="['355px','355px','355px','355px']" data-no-retina> </div>
         
         <!-- LAYER NR. 7 -->
         <div class="tp-caption   tp-resizeme" 
@@ -169,7 +169,7 @@
       data-responsive_offset="on" 
 
       
-      style="z-index: 11;text-transform:left;"><img src="images/flat_iphone2.png" alt="" width="127" height="268" data-ww="['127px','127px','127px','127px']" data-hh="['268px','268px','268px','268px']" data-no-retina> </div>
+      style="z-index: 11;text-transform:left;"><img src="autoacco/images/flat_iphone2.png" alt="" width="127" height="268" data-ww="['127px','127px','127px','127px']" data-hh="['268px','268px','268px','268px']" data-no-retina> </div>
         
         <!-- LAYER NR. 8 -->
         <div class="tp-caption   tp-resizeme" 
@@ -188,7 +188,7 @@
       data-responsive_offset="on" 
 
       
-      style="z-index: 12;text-transform:left;"><img src="images/screenshot-login.png" alt="" width="110" height="194" data-ww="['110px','110px','110px','110px']" data-hh="['194px','194px','194px','194px']" data-no-retina> </div>
+      style="z-index: 12;text-transform:left;"><img src="autoacco/images/screenshot-login.png" alt="" width="110" height="194" data-ww="['110px','110px','110px','110px']" data-hh="['194px','194px','194px','194px']" data-no-retina> </div>
         
         <!-- LAYER NR. 9 -->
         <div class="tp-caption   tp-resizeme" 
@@ -206,7 +206,7 @@
       data-responsive_offset="on" 
 
       
-      style="z-index: 13;text-transform:left;"><img src="images/iphone_glare.png" alt="" width="127" height="268" data-ww="['127px','127px','127px','127px']" data-hh="['268px','268px','268px','268px']" data-no-retina> </div>
+      style="z-index: 13;text-transform:left;"><img src="autoacco/images/iphone_glare.png" alt="" width="127" height="268" data-ww="['127px','127px','127px','127px']" data-hh="['268px','268px','268px','268px']" data-no-retina> </div>
         
         <!-- LAYER NR. 10 -->
         <div class="tp-caption   tp-resizeme" 
@@ -225,7 +225,7 @@
 
       
       style="z-index: 14;text-transform:left;">
-          <div class="rs-looped rs-pulse"  data-easing="linearEaseNone" data-speed="2" data-zoomstart="1" data-zoomend="1"><img src="images/corner.png" alt="" width="120" height="120" data-ww="['60px','60px','60px','60px']" data-hh="['60px','60px','60px','60px']" data-no-retina> </div>
+          <div class="rs-looped rs-pulse"  data-easing="linearEaseNone" data-speed="2" data-zoomstart="1" data-zoomend="1"><img src="autoacco/images/corner.png" alt="" width="120" height="120" data-ww="['60px','60px','60px','60px']" data-hh="['60px','60px','60px','60px']" data-no-retina> </div>
         </div>
         
         <!-- LAYER NR. 11 -->
@@ -292,7 +292,7 @@
 
        data-end="bytrigger"
       data-lasttriggerstate="reset"
-      style="z-index: 17;text-transform:left;"><img src="images/pagetitle.jpg" alt="" width="1920" height="1190" data-ww="['full-proportional','full-proportional','full-proportional','full-proportional']" data-hh="['full-proportional','full-proportional','full-proportional','full-proportional']" data-no-retina> </div>
+      style="z-index: 17;text-transform:left;"><img src="autoacco/images/pagetitle.jpg" alt="" width="1920" height="1190" data-ww="['full-proportional','full-proportional','full-proportional','full-proportional']" data-hh="['full-proportional','full-proportional','full-proportional','full-proportional']" data-no-retina> </div>
         
         <!-- LAYER NR. 14 -->
         <div class="tp-caption LandingPage-Title   tp-resizeme" 
@@ -467,7 +467,7 @@
       data-responsive_offset="on" 
 
       
-      style="z-index: 25;text-transform:left;cursor:pointer;"><img src="images/app_store.png" alt="" width="130" height="40" data-ww="['130px','130px','130px','130px']" data-hh="['40px','40px','40px','40px']" data-no-retina> </div>
+      style="z-index: 25;text-transform:left;cursor:pointer;"><img src="autoacco/images/app_store.png" alt="" width="130" height="40" data-ww="['130px','130px','130px','130px']" data-hh="['40px','40px','40px','40px']" data-no-retina> </div>
         
         <!-- LAYER NR. 22 -->
         <div class="tp-caption   tp-resizeme" 
@@ -488,7 +488,7 @@
       data-responsive_offset="on" 
 
       
-      style="z-index: 26;text-transform:left;cursor:pointer;"><img src="images/google_play.png" alt="" width="130" height="40" data-ww="['130px','130px','130px','130px']" data-hh="['40px','40px','40px','40px']" data-no-retina> </div>
+      style="z-index: 26;text-transform:left;cursor:pointer;"><img src="autoacco/images/google_play.png" alt="" width="130" height="40" data-ww="['130px','130px','130px','130px']" data-hh="['40px','40px','40px','40px']" data-no-retina> </div>
         
         <!-- LAYER NR. 23 -->
         <div class="tp-caption   tp-resizeme" 
@@ -509,7 +509,7 @@
       data-responsive_offset="on" 
 
       
-      style="z-index: 27;text-transform:left;cursor:pointer;"><img src="images/amazon_shop.png" alt="" width="130" height="40" data-ww="['130px','130px','130px','130px']" data-hh="['40px','40px','40px','40px']" data-no-retina> </div>
+      style="z-index: 27;text-transform:left;cursor:pointer;"><img src="autoacco/images/amazon_shop.png" alt="" width="130" height="40" data-ww="['130px','130px','130px','130px']" data-hh="['40px','40px','40px','40px']" data-no-retina> </div>
       </li>
     </ul>
     <div class="tp-bannertimer tp-bottom" style="visibility: hidden !important;"></div>
@@ -597,10 +597,10 @@ For home seekers, we offer a wide selection of properties from individuals.</p>
               <i class="fa fa-cog fa-spin"></i>
             </div>
             <div class="row">
-              <div class="col-xs-6 col-md-3"> <a class="thumbnail" href="#"> <img alt="..." src="images/home1.jpg" style="height: 200px; width: 200px"  class="img-fullwidth"> </a> </div>
-              <div class="col-xs-6 col-md-3"> <a class="thumbnail" href="#"> <img alt="..." src="images/home1.jpg" style="height: 200px; width: 200px" class="img-fullwidth"> </a> </div>
-              <div class="col-xs-6 col-md-3"> <a class="thumbnail" href="#"> <img alt="..." src="images/home1.jpg" style="height: 200px; width: 200px" class="img-fullwidth"> </a> </div>
-              <div class="col-xs-6 col-md-3"> <a class="thumbnail" href="#"> <img alt="..." src="images/home1.jpg" style="height: 200px; width: 200px" class="img-fullwidth"> </a> </div>
+              <div class="col-xs-6 col-md-3"> <a class="thumbnail" href="#"> <img alt="..." src="autoacco/images/home1.jpg" style="height: 200px; width: 200px"  class="img-fullwidth"> </a> </div>
+              <div class="col-xs-6 col-md-3"> <a class="thumbnail" href="#"> <img alt="..." src="autoacco/images/home1.jpg" style="height: 200px; width: 200px" class="img-fullwidth"> </a> </div>
+              <div class="col-xs-6 col-md-3"> <a class="thumbnail" href="#"> <img alt="..." src="autoacco/images/home1.jpg" style="height: 200px; width: 200px" class="img-fullwidth"> </a> </div>
+              <div class="col-xs-6 col-md-3"> <a class="thumbnail" href="#"> <img alt="..." src="autoacco/images/home1.jpg" style="height: 200px; width: 200px" class="img-fullwidth"> </a> </div>
             </div>
             <div class="separator separator-rouned">
               <i class="fa fa-cog"></i>
