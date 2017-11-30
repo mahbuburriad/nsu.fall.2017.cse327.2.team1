@@ -13,7 +13,7 @@ class Postad extends Migration
      */
     public function up()
     {
-        Schema::create('ad', function (Blueprint $table) {
+        Schema::create('postad', function (Blueprint $table) {
             $table->increments('id');
             $table->string('location');
             $table->string('propertytype');
@@ -36,6 +36,6 @@ class Postad extends Migration
      */
     public function down()
     {
-        //
+        Schema::dropIfExists('postad');
     }
 }
