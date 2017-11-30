@@ -47,7 +47,7 @@
                 <!-- Nav tabs -->
                 <ul class="nav nav-tabs" role="tablist">
                   <li role="presentation" class="active"><a href="#orders" aria-controls="orders" role="tab" data-toggle="tab" class="font-15 text-uppercase">Orders <span class="badge">4</span></a></li>
-                  <li role="presentation"><a href="#free-orders" aria-controls="free-orders" role="tab" data-toggle="tab" class="font-15 text-uppercase">Search</a></li>
+                  <li role="presentation"><a href="#free-orders" aria-controls="free-orders" role="tab" data-toggle="tab" class="font-15 text-uppercase">Post Ad</a></li>
                   <li role="presentation"><a href="#bookmarks" aria-controls="bookmarks" role="tab" data-toggle="tab" class="font-15 text-uppercase">Bookmarks <span class="badge">5</span></a></li>
                 </ul>
 
@@ -102,16 +102,14 @@
                     <table class="table table-hover">
                     
   
-            <div class="heading-line-bottom">
-              <h4 class="heading-title">Search </h4>
-            </div>
+            
             <form action="#" method="post">
               <div class="row">
                 <div class="form-group col-md-6">
                   <label>Location</label>
                   <input type="text" placeholder="Enter Location" class="form-control">
                 </div>
-                <div class="form-group col-md-6">
+                <div class="form-group col-md-3">
                   <label>Property Type</label>
 
                   <select  class="form-control">
@@ -131,52 +129,56 @@
                    <option>Plots</option>
                   </select>
                 </div>
+
+                <div class="form-group col-md-3">
+                  <label>Property For</label>
+
+                  <select  class="form-control">
+                   <option>Rent</option>
+                   <option>Sell</option>
+                 </select>
+               </div>
+
+
               </div>
-              <label>Price Range</label>
-              <div class="row">
-                <div class="col-xs-4">
-                  
-    <input type="text" class="form-control" placeholder="Min Price">
-  </div>
-  <div class="col-xs-4">
-    <input type="text" class="form-control" placeholder="Max Price">
-  </div>
-              </div>
-              <div class="row">
-                <div class="form-group col-md-6">
-                  <label>Beds</label><br />
-                  <div class="form-group col-md-6">
-                  <label class="checkbox-inline">
-  <input type="checkbox" id="inlineCheckbox4" value="option1"> 1
-</label>
-<label class="checkbox-inline">
-  <input type="checkbox" id="inlineCheckbox5" value="option2"> 2
-</label>
-<label class="checkbox-inline">
-  <input type="checkbox" id="inlineCheckbox6" value="option3"> 3
-</label>
 
-
-</div>
-
+              <div class="form-group col-md-3">
+                <label>Price</label>
+                  <input type="text" placeholder="Enter your Price" class="form-control">
+                </div>
+                <div class="form-group col-md-3">
+                <label>Sqr. Ft</label>
+                  <input type="text" placeholder="Enter Square Feet" class="form-control">
+                </div>
+                <div class="form-group col-md-3">
+                <label>Bed Room</label>
+                  <input type="text" placeholder="Enter Bedroom Number" class="form-control">
+                </div>
+                <div class="form-group col-md-3">
+                <label>Kitchen</label>
+                  <input type="text" placeholder="Enter Kitchen Number" class="form-control">
+                </div>
 
                 </div>
-                <div class="form-group col-md-6">
-                  <label>Sqr. Ft</label>
-                  <div class="row">
-  <div class="col-xs-4">
-    <input type="text" class="form-control" placeholder="Minimum">
-  </div>
-  <div class="col-xs-4">
-    <input type="text" class="form-control" placeholder="Maximum">
-  </div>
-</div>
-                  
-                </div>
               </div>
-              <div class="form-group">
 
-                <button type="submit" class="hvr-grow-shadow">Search Now</button>
+               <div class="form-group col-md-3">
+                  <label>Balcony Available?</label>
+
+                  <select  class="form-control">
+                   <option>YES</option>
+                   <option>No</option>
+                 </select>
+               </div>
+                <div class="form-group col-md-9">
+                <label>Describe Your Accommodation</label>
+                  <input type="text" placeholder="Enter Square Feet" class="form-control">
+                </div>
+                
+
+
+
+              <div <div class="form-group col-md-3">                <button type="submit" class="hvr-grow-shadow">Search Now</button>
               </div>
             </form>
           </div>
