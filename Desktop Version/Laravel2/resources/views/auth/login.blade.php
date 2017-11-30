@@ -119,15 +119,73 @@
                             </div>
                     </div>
                   </div>
-
-                  <!--
+<!--
+                  
                   <div class="row">
-                    <div class="form-group col-md-12">
-                      <label for="form_choose_username">Choose Username</label>
-                      <input type="text" id="form_choose_username" name="form_choose_username" class="form-control" type="text">
+                    <div class="form-group col-md-6">
+                      <div class="form-group{{ $errors->has('username') ? ' has-error' : '' }}">
+                      <label for="username">Choose Username</label>
+                      <input type="text" id="username" name="username" class="form-control" value="{{ old('username') }}">
+                      @if ($errors->has('username'))
+                                    <span class="help-block">
+                                        <strong>{{ $errors->first('username') }}</strong>
+                                    </span>
+                                @endif
                     </div>
-                  </div>
-                -->
+
+                    <div class="form-group col-md-6">
+                       <div class="form-group{{ $errors->has('username') ? ' has-error' : '' }}">
+                      <label for="gender">Gender</label>
+                      <input type="text" id="gender" name="gender" class="form-control" type="text">
+                    </div>
+
+
+                    <label>Property Type</label>
+
+                  <select  class="form-control">
+                   <option> Apartments</option>
+                   <option>Penthouses</option>
+                   <option>Plazas</option>
+                   <option>Plots</option>
+                   <option>Rooms</option>
+                   <option>Duplex</option>
+                   <option>Buildings</option>
+                   <option>Offices</option>
+                   <option>Shops</option>
+                   <option>Open Floor</option>
+                   <option>Office Apartment</option>
+                   <option>Duplex</option>
+                   <option>Plazas</option>
+                   <option>Plots</option>
+                  </select>
+                </div>
+              </div>
+
+                
+                <div class="row">
+                    <div class="form-group col-md-6">
+                      <div class="form-group{{ $errors->has('username') ? ' has-error' : '' }}">
+                      <label for="username">Choose Username</label>
+                      <input type="text" id="username" name="username" class="form-control" value="{{ old('username') }}">
+                      @if ($errors->has('username'))
+                                    <span class="help-block">
+                                        <strong>{{ $errors->first('username') }}</strong>
+                                    </span>
+                                @endif
+                            </div>
+
+                    </div>
+                    <div class="form-group col-md-6">
+                      <div class="form-group{{ $errors->has('gender') ? ' has-error' : '' }}">
+                      <label for="gender">Gender</label>
+                      <select class="form-control" id=gender name=gender value="{{ old('gender') }}">
+                      <option>Male</option>
+                      <option>Female</option>
+                      </select>
+                            </div>
+                    </div>
+                    -->
+                
                   <div class="row">
                     <div class="form-group col-md-6">
                       <div class="form-group{{ $errors->has('password') ? ' has-error' : '' }}">
