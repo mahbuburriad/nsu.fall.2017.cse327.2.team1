@@ -23,8 +23,12 @@
               <div class="info p-20 bg-black-333">
                 <h4 class="text-uppercase text-white">{!! Auth::user()->name !!}</h4>
                 <ul class="list angle-double-right m-0">
-                  <li class="mt-0 text-gray-silver"><strong class="text-gray-lighter">Email</strong><br>{!! Auth::user()->email !!} </li>
-
+                  
+                  <li class="mt-0 text-gray-silver"><strong class="text-gray-lighter">User Name: </strong>{!! Auth::user()->username !!} </li>
+                  <li class="mt-0 text-gray-silver"><strong class="text-gray-lighter">Gender: </strong>{!! Auth::user()->gender !!} </li>
+                  <li class="mt-0 text-gray-silver"><strong class="text-gray-lighter">Email: </strong>{!! Auth::user()->email !!} </li>
+                  <li class="mt-0 text-gray-silver"><strong class="text-gray-lighter">Address: </strong>{!! Auth::user()->address !!}, {!! Auth::user()->city !!}  </li>
+                
                 </ul>
                 <ul class="styled-icons icon-gray icon-circled icon-sm mt-15 mb-15">
                   <li><a href="#"><i class="fa fa-facebook"></i></a></li>

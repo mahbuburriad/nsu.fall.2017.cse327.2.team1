@@ -160,7 +160,7 @@
                   </select>
                 </div>
               </div>
-
+-->
                 
                 <div class="row">
                     <div class="form-group col-md-6">
@@ -184,7 +184,32 @@
                       </select>
                             </div>
                     </div>
-                    -->
+
+                    <div class="row">
+                    <div class="form-group col-md-6">
+                      <div class="form-group{{ $errors->has('address') ? ' has-error' : '' }}">
+                      <label for="address">Choose Address</label>
+                      <input type="text" id="address" name="address" class="form-control" value="{{ old('address') }}">
+                      @if ($errors->has('address'))
+                                    <span class="help-block">
+                                        <strong>{{ $errors->first('address') }}</strong>
+                                    </span>
+                                @endif
+                            </div>
+
+                    </div>
+                    <div class="form-group col-md-6">
+                      <div class="form-group{{ $errors->has('city') ? ' has-error' : '' }}">
+                      <label for="city">Choose City</label>
+                      <input type="text" id="city" name="city" class="form-control" value="{{ old('city') }}">
+                      @if ($errors->has('city'))
+                                    <span class="help-block">
+                                        <strong>{{ $errors->first('city') }}</strong>
+                                    </span>
+                                @endif
+                            </div>
+                    </div>
+
                 
                   <div class="row">
                     <div class="form-group col-md-6">
