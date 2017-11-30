@@ -31,3 +31,7 @@ Route::get('about', 'linkcontroller@about');
 Route::get('account', 'linkcontroller@account');
 Route::get('editprofile', 'linkcontroller@editprofile');
 Route::get('admin', 'linkcontroller@admin');
+
+Auth::routes();
+
+Route::get('/home', 'HomeController@index')->name('home');

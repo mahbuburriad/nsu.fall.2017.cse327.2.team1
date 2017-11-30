@@ -86,9 +86,8 @@
                 <li class="text-white">|</li>
                 <li>
 
-                  {!! Html::link('login', 'Login', array('class' => 'text-white')) !!}
                   
-                 
+                  {!! Html::link('login', 'Login', array('class' => 'text-white')) !!}          
                 </li>
               </ul>
             </div>

@@ -34,30 +34,49 @@
               <div class="tab-pane fade in active p-15" id="login-tab">
                 <h4 class="text-gray mt-0 pt-5"> Login</h4>
                 <hr>
-                <p>Now login </p>
-                <form name="login-form" class="clearfix">
+
+                <form name="login-form" class="clearfix" method="POST" action="{{ route('login') }}" >
+                  {{ csrf_field() }}
                   <div class="row">
                     <div class="form-group col-md-12">
-                      <label for="form_username_email">Username/Email</label>
-                      <input id="form_username_email" name="form_username_email" class="form-control" type="text">
+                      <div class="form-group{{ $errors->has('email') ? ' has-error' : '' }}">
+                            <label for="email" >E-Mail Address</label>
+
+                                <input id="email" type="email" class="form-control" name="email" value="{{ old('email') }}" class="form-control" required autofocus>
+
+                                @if ($errors->has('email'))
+                                    <span class="help-block">
+                                        <strong>{{ $errors->first('email') }}</strong>
+                                    </span>
+                                @endif
+                           
+                        </div>
                     </div>
                   </div>
                   <div class="row">
                     <div class="form-group col-md-12">
-                      <label for="form_password">Password</label>
-                      <input type="password" id="form_password" name="form_password" class="form-control" type="text">
+                      <div class="form-group{{ $errors->has('password') ? ' has-error' : '' }}">
+                      <label for="password">Password</label>
+                      <input type="password" type="password" id="password" name="password" class="form-control" required>
+
+                      @if ($errors->has('password'))
+                                    <span class="help-block">
+                                        <strong>{{ $errors->first('password') }}</strong>
+                                    </span>
+                                @endif
+                    </div>
                     </div>
                   </div>
                   <div class="checkbox pull-left mt-15">
                     <label for="form_checkbox">
-                      <input id="form_checkbox" name="form_checkbox" type="checkbox">
+                      <input id="form_checkbox" name="form_checkbox" {{ old('remember') ? 'checked' : '' }} type="checkbox" >
                       Remember me </label>
                   </div>
                   <div class="form-group pull-right mt-10">
                     <button type="submit" class="btn btn-dark btn-sm">Login</button>
                   </div>
                   <div class="clear text-center pt-10">
-                    <a class="text-theme-colored font-weight-600 font-12" href="#">Forgot Your Password?</a>
+                    <a class="text-theme-colored font-weight-600 font-12" href="{{ route('password.request') }}">Forgot Your Password?</a>
                   </div>
                   <div class="clear text-center pt-10">
                     <a class="btn btn-dark btn-lg btn-block no-border mt-15 mb-15" href="#" data-bg-color="#3b5998">Login with facebook</a>
@@ -66,7 +85,8 @@
                 </form>
               </div>
               <div class="tab-pane fade in p-15" id="register-tab">
-                <form name="reg-form" class="register-form" method="post">
+                <form name="reg-form" class="register-form" method="POST" action="{{ route('register') }}">
+                        {{ csrf_field() }}
                   <div class="icon-box mb-0 p-0">
                     <a href="#" class="icon icon-bordered icon-rounded icon-sm pull-left mb-0 mr-10">
                       <i class="pe-7s-users"></i>
@@ -77,28 +97,55 @@
                   <p class="text-gray">here You can register.</p>
                   <div class="row">
                     <div class="form-group col-md-6">
-                      <label for="form_name">Name</label>
-                      <input name="form_name" class="form-control" type="text">
+                      <div class="form-group{{ $errors->has('name') ? ' has-error' : '' }}">
+                      <label for="name">Name</label>
+                      <input id="name" name="name" class="form-control" type="text" value="{{ old('name') }}" required autofocus>
+                      @if ($errors->has('name'))
+                                    <span class="help-block">
+                                        <strong>{{ $errors->first('name') }}</strong>
+                                    </span>
+                                @endif
+                            </div>
                     </div>
                     <div class="form-group col-md-6">
-                      <label>Email Address</label>
-                      <input name="form_email" class="form-control" type="email">
+                      <div class="form-group{{ $errors->has('email') ? ' has-error' : '' }}">
+                      <label for="email" >Email Address</label>
+                      <input id="email" name="email" class="form-control" type="email" value="{{ old('email') }}" required>
+                       @if ($errors->has('email'))
+                                    <span class="help-block">
+                                        <strong>{{ $errors->first('email') }}</strong>
+                                    </span>
+                                @endif
+                            </div>
                     </div>
                   </div>
+
+                  <!--
                   <div class="row">
                     <div class="form-group col-md-12">
                       <label for="form_choose_username">Choose Username</label>
                       <input type="text" id="form_choose_username" name="form_choose_username" class="form-control" type="text">
                     </div>
                   </div>
+                -->
                   <div class="row">
                     <div class="form-group col-md-6">
-                      <label for="form_choose_password">Choose Password</label>
-                      <input type="password" id="form_choose_password" name="form_choose_password" class="form-control" type="text">
+                      <div class="form-group{{ $errors->has('password') ? ' has-error' : '' }}">
+                      <label for="password">Choose Password</label>
+                      <input id="password" type="password" class="form-control" name="password" required>
+
+                       @if ($errors->has('password'))
+                                    <span class="help-block">
+                                        <strong>{{ $errors->first('password') }}</strong>
+                                    </span>
+                                @endif
+                            </div>
+
                     </div>
                     <div class="form-group col-md-6">
-                      <label>Re-enter Password</label>
-                      <input type="password" id="form_re_enter_password" name="form_re_enter_password"  class="form-control" type="text">
+                      <label for="password-confirm">Re-enter Password</label>
+                      <input id="password-confirm" type="password" class="form-control" name="password_confirmation" required>
+                            </div>
                     </div>
                   </div>
                   <div class="form-group">
