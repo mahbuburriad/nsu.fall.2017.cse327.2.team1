@@ -35,7 +35,7 @@ Route::get('admin', 'linkcontroller@admin');
 Auth::routes();
 
 Route::get('/home', 'HomeController@index')->name('home');
-Route::get('/', 'HomeController@logout')->name('logout');
+
 
 
 Route::get('login/facebook', 'Auth\LoginController@redirectToProvider');
