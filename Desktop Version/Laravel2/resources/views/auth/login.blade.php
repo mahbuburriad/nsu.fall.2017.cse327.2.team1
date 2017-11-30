@@ -79,8 +79,8 @@
                     <a class="text-theme-colored font-weight-600 font-12" href="{{ route('password.request') }}">Forgot Your Password?</a>
                   </div>
                   <div class="clear text-center pt-10">
-                    <a class="btn btn-dark btn-lg btn-block no-border mt-15 mb-15" href="#" data-bg-color="#3b5998">Login with facebook</a>
-                    <a class="btn btn-dark btn-lg btn-block no-border" href="#" data-bg-color="#d34836">Login with google+</a>
+                    <a class="btn btn-dark btn-lg btn-block no-border mt-15 mb-15" href="login/facebook" data-bg-color="#3b5998">Login with facebook</a>
+                    <a class="btn btn-dark btn-lg btn-block no-border" href="login/google" data-bg-color="#d34836">Login with google+</a>
                   </div>
                 </form>
               </div>
