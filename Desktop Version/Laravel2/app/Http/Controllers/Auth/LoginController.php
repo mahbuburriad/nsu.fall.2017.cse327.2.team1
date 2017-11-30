@@ -45,12 +45,31 @@ class LoginController extends Controller
     /**
      * Obtain the user information from facebook.
      *
-     * @return \Illuminate\Http\Response
-     */
+     * @return \Illuminate\Http\Response */
+     
     public function handleProviderCallback()
     {
         $user = Socialite::driver('facebook')->user();
 
        // $user->name;
+    }
+
+
+
+    public function redirectToProvider()
+    {
+        return Socialite::driver('google')->redirect();
+    }
+
+    /**
+     * Obtain the user information from google.
+     *
+     * @return \Illuminate\Http\Response
+     */
+    public function handleProviderCallback()
+    {
+        $user = Socialite::driver('google')->user();
+
+        // $user->token;
     }
 }
