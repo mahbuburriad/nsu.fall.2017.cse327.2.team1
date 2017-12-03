@@ -2,9 +2,10 @@
 
 namespace App\Http\Controllers;
 
+use App\Postad;
 use Illuminate\Http\Request;
 
-class Postad extends Controller
+class PostadController extends Controller
 {
     /**
      * Display a listing of the resource.
@@ -13,7 +14,9 @@ class Postad extends Controller
      */
     public function index()
     {
-        //
+        $postad - Postad::all();
+        return view('postad.index', ['postad'-> $postad]);
+
     }
 
     /**
@@ -40,10 +43,10 @@ class Postad extends Controller
     /**
      * Display the specified resource.
      *
-     * @param  int  $id
+     * @param  \App\Postad  $postad
      * @return \Illuminate\Http\Response
      */
-    public function show($id)
+    public function show(Postad $postad)
     {
         //
     }
@@ -51,10 +54,10 @@ class Postad extends Controller
     /**
      * Show the form for editing the specified resource.
      *
-     * @param  int  $id
+     * @param  \App\Postad  $postad
      * @return \Illuminate\Http\Response
      */
-    public function edit($id)
+    public function edit(Postad $postad)
     {
         //
     }
@@ -63,10 +66,10 @@ class Postad extends Controller
      * Update the specified resource in storage.
      *
      * @param  \Illuminate\Http\Request  $request
-     * @param  int  $id
+     * @param  \App\Postad  $postad
      * @return \Illuminate\Http\Response
      */
-    public function update(Request $request, $id)
+    public function update(Request $request, Postad $postad)
     {
         //
     }
@@ -74,10 +77,10 @@ class Postad extends Controller
     /**
      * Remove the specified resource from storage.
      *
-     * @param  int  $id
+     * @param  \App\Postad  $postad
      * @return \Illuminate\Http\Response
      */
-    public function destroy($id)
+    public function destroy(Postad $postad)
     {
         //
     }
