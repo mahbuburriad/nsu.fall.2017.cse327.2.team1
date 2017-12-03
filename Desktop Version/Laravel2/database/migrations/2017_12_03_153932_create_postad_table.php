@@ -14,7 +14,16 @@ class CreatePostadTable extends Migration
     public function up()
     {
         Schema::create('postad', function (Blueprint $table) {
-            $table->increments('id');
+            $table->increments('pid');
+            $table->string('location');
+            $table->string('propertytype');
+            $table->string('propertyfor');
+            $table->integer('price');
+            $table->integer('sqrft');
+            $table->integer('bedroom');
+            $table->integer('kitchen');
+            $table->integer('balcony');
+            $table->string('description');
             $table->timestamps();
         });
     }
