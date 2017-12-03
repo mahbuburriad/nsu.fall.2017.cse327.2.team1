@@ -14,8 +14,11 @@ class PostadController extends Controller
      */
     public function index()
     {
-        $postad - Postad::all();
-        return view('postad.index', ['postad'-> $postad]);
+      $postad = postad::all();
+
+  
+        return view('buy_appartment', ['postad' => $postad]);
+
 
     }
 
@@ -26,7 +29,7 @@ class PostadController extends Controller
      */
     public function create()
     {
-        //
+        return view(home);
     }
 
     /**
@@ -37,7 +40,9 @@ class PostadController extends Controller
      */
     public function store(Request $request)
     {
-        //
+        $input = $request->all();
+        Postad::Create($input);
+        return redirect('index');
     }
 
     /**
@@ -48,7 +53,9 @@ class PostadController extends Controller
      */
     public function show(Postad $postad)
     {
-        //
+       // $postad = Postad::where('pid', $postad->pid)->first();
+       // $postad = Postad::find($postad->pid);
+      //  return view('postad.details',['postad'=>$postad]);
     }
 
     /**
@@ -60,6 +67,9 @@ class PostadController extends Controller
     public function edit(Postad $postad)
     {
         //
+
+        // $postad = Postad::find($postad->pid);
+       // return view('postad.edit',['postad'=>$postad]);
     }
 
     /**

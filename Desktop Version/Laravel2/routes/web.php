@@ -45,4 +45,4 @@ Route::get('login/facebook/callback', 'Auth\LoginController@handleProviderCallba
 Route::get('login/google', 'Auth\LoginController@redirectToProvider');
 Route::get('login/google/callback', 'Auth\LoginController@handleProviderCallback');
 
-Route::resource('postad', 'Postadcontroller');
+Route::resource('buy_appartment', 'Postadcontroller');

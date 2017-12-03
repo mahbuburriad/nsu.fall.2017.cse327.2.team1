@@ -103,39 +103,40 @@
                     
   
             
-            <form action="#" method="post">
+            {!! Form::open(array('route' => 'postad.store' )) !!}
+
               <div class="row">
                 <div class="form-group col-md-6">
                   <label>Location</label>
-                  <input type="text" placeholder="Enter Location" class="form-control">
+                 
+                 
+                  {!! Form::text('location', $value = null, $attributes = array('class'=>'form-control', 'id'=>'location', 'placeholder'=>'Enter Location')); !!}
                 </div>
                 <div class="form-group col-md-3">
                   <label>Property Type</label>
 
-                  <select  class="form-control">
-                   <option> Apartments</option>
-                   <option>Penthouses</option>
-                   <option>Plazas</option>
-                   <option>Plots</option>
-                   <option>Rooms</option>
-                   <option>Duplex</option>
-                   <option>Buildings</option>
-                   <option>Offices</option>
-                   <option>Shops</option>
-                   <option>Open Floor</option>
-                   <option>Office Apartment</option>
-                   <option>Duplex</option>
-                   <option>Plazas</option>
-                   <option>Plots</option>
+                  <select  class="form-control" name="propertytype", id="propertytype">
+                   <option value="Apartments"> Apartments</option>
+                   <option value="Penthouses">Penthouses</option>
+                   <option value="Plazas">Plazas</option>
+                   <option value="Plots">Plots</option>
+                   <option value="Rooms">Rooms</option>
+                   <option value="Duplex">Duplex</option>
+                   <option value="Buildings">Buildings</option>
+                   <option value="Offices">Offices</option>
+                   <option value="Shops">Shops</option>
+                   <option value="OpenFloor">Open Floor</option>
+                   <option value="OfficeApartment">Office Apartment</option>
+    
                   </select>
                 </div>
 
                 <div class="form-group col-md-3">
                   <label>Property For</label>
 
-                  <select  class="form-control">
-                   <option>Rent</option>
-                   <option>Sell</option>
+                  <select  class="form-control" name="propertyfor" id=propertyfor">
+                   <option value="Rent">Rent</option>
+                   <option value="Sell">Sell</option>
                  </select>
                </div>
 
@@ -144,19 +145,19 @@
 
               <div class="form-group col-md-3">
                 <label>Price</label>
-                  <input type="text" placeholder="Enter your Price" class="form-control">
+                  <input type="text" placeholder="Enter your Price" class="form-control" name="price" id="price">
                 </div>
                 <div class="form-group col-md-3">
                 <label>Sqr. Ft</label>
-                  <input type="text" placeholder="Enter Square Feet" class="form-control">
+                  <input type="text" placeholder="Enter Square Feet" class="form-control" name="sqrft" id="sqrft">
                 </div>
                 <div class="form-group col-md-3">
                 <label>Bed Room</label>
-                  <input type="text" placeholder="Enter Bedroom Number" class="form-control">
+                  <input type="text" placeholder="Enter Bedroom Number" class="form-control" name="bedroom" id="bedroom">
                 </div>
                 <div class="form-group col-md-3">
                 <label>Kitchen</label>
-                  <input type="text" placeholder="Enter Kitchen Number" class="form-control">
+                  <input type="text" placeholder="Enter Kitchen Number" class="form-control" name="kitchen" id="kitchen">
                 </div>
 
                 </div>
@@ -165,20 +166,20 @@
                <div class="form-group col-md-3">
                   <label>Balcony Available?</label>
 
-                  <select  class="form-control">
-                   <option>YES</option>
-                   <option>No</option>
+                  <select  class="form-control" name="balcony" id="balcony">
+                   <option value="YES">YES</option>
+                   <option value="No">No</option>
                  </select>
                </div>
                 <div class="form-group col-md-9">
                 <label>Describe Your Accommodation</label>
-                  <input type="text" placeholder="Enter Square Feet" class="form-control">
+                  <input type="text" placeholder="Enter Square Feet" class="form-control" name="description" id="description">
                 </div>
                 
 
 
 
-              <div <div class="form-group col-md-3">                <button type="submit" class="hvr-grow-shadow">Search Now</button>
+              <div <div class="form-group col-md-3">                <button type="submit" class="hvr-grow-shadow">Add Post</button>
               </div>
             </form>
           </div>

@@ -51,7 +51,7 @@
   <button type="submit"  class="btn btn-primary text-white">Search Now</button>
   
               </div>
-			  </form>
+        </form>
                 <div class="tab-content">
                   <div role="tabpanel" class="tab-pane active" id="orders">
                     <div class="table-responsive">
@@ -66,19 +66,21 @@
                             </tr>
                          </thead>
                          <tbody>
-                            <tr> 
-                               <td>1</td>
-						    
-							 
-                               <td>Chittagong</td>
-						   
-                               <td>40,00,000</td>
-							   <td>no riview</td>
-						   
+                            
+                               @foreach ($postad as $postads)
                                
-							   
-						    </tr>
-							
+    <tr>
+      <td>{{ $postads->pid}}</td>
+      <td>{{ $postads->location}}</td>
+      <td><a class="btn btn-success btn-xs" href="/postad/{{$postads->pid}}">View Order</a></td>
+      <td><a class="btn btn-success btn-xs" href="/postad/{{$postads->pid}}/edit">Edit</a></td>
+  
+               
+               </tr>
+                               
+                 @endforeach
+                
+              
                            
                             
                            
@@ -86,7 +88,13 @@
                       </table>
                     </div>
                   </div>
-		</div>
+    
+    
+    
+
+
+
+    </div>
 </div>
 </section>
 @endsection

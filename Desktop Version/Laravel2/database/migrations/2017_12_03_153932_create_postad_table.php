@@ -22,7 +22,7 @@ class CreatePostadTable extends Migration
             $table->integer('sqrft');
             $table->integer('bedroom');
             $table->integer('kitchen');
-            $table->integer('balcony');
+            $table->string('balcony');
             $table->string('description');
             $table->timestamps();
         });
