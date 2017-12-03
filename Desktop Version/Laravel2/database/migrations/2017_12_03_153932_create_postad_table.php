@@ -4,7 +4,7 @@ use Illuminate\Support\Facades\Schema;
 use Illuminate\Database\Schema\Blueprint;
 use Illuminate\Database\Migrations\Migration;
 
-class Postad extends Migration
+class CreatePostadTable extends Migration
 {
     /**
      * Run the migrations.
@@ -15,16 +15,6 @@ class Postad extends Migration
     {
         Schema::create('postad', function (Blueprint $table) {
             $table->increments('id');
-            $table->string('location');
-            $table->string('propertytype');
-            $table->string('propertyfor');
-            $table->string('price');
-            $table->string('sqrft');
-            $table->string('bedroom');
-            $table->string('kitchen');
-            $table->string('balcony');
-            $table->string('description');
-            $table->rememberToken();
             $table->timestamps();
         });
     }
