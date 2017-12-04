@@ -17,13 +17,8 @@ Route::get('/', function () {
 
 Route::get('index', 'linkcontroller@index');
 Route::get('login', 'linkcontroller@login');
-Route::get('buy_house', 'linkcontroller@buy_house');
-Route::get('buy_shop', 'linkcontroller@buy_shop');
-Route::get('buy_appartment', 'linkcontroller@buy_appartment');
-Route::get('buy_openfloor', 'linkcontroller@buy_openfloor');
-Route::get('rent_house', 'linkcontroller@rent_house');
-Route::get('rent_appartment', 'linkcontroller@rent_appartment');
-Route::get('rent_shop', 'linkcontroller@rent_shop');
+Route::get('buy', 'linkcontroller@buy');
+Route::get('rent', 'linkcontroller@rent');
 Route::get('app_page', 'linkcontroller@app_page');
 Route::get('pricing', 'linkcontroller@pricing');
 Route::get('team', 'linkcontroller@team');
@@ -45,6 +40,6 @@ Route::get('login/facebook/callback', 'Auth\LoginController@handleProviderCallba
 Route::get('login/google', 'Auth\LoginController@redirectToProvider');
 Route::get('login/google/callback', 'Auth\LoginController@handleProviderCallback');
 
-Route::resource('buy_appartment', 'PostadController');
+Route::resource('buy', 'PostadController');
 //Route::resource('buy_shop', 'PostadController');
-Route::get('buy_shop', 'PostadController@sell');
+Route::get('rent', 'PostadController@rent');
