@@ -18,7 +18,8 @@
                         </div>
                     @endif
               <div class="doctor-thumb">
-                <img src="autoacco/images/user.png" alt="">
+               <!-- <img src="{!! Auth::user()->photo !!}">-->
+                 <img src="autoacco/images/user.png" alt="">
               </div>
               <div class="info p-20 bg-black-333">
                 <h4 class="text-uppercase text-white">{!! Auth::user()->name !!}</h4>
@@ -170,11 +171,15 @@
                    <option value="YES">YES</option>
                    <option value="No">No</option>
                  </select>
+                 <label>Owner</label>
+                 <input type="text" value="{!! Auth::user()->name !!}" class="form-control" name="owner" id="owner">
+
                </div>
                 <div class="form-group col-md-9">
                 <label>Describe Your Accommodation</label>
                   <input type="text" placeholder="Enter Square Feet" class="form-control" name="description" id="description">
                 </div>
+
                 
 
 

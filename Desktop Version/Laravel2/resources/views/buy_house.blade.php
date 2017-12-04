@@ -51,7 +51,7 @@
   <button type="submit"  class="btn btn-primary text-white">Search Now</button>
   
               </div>
-			  </form>
+</form>
                 <div class="tab-content">
                   <div role="tabpanel" class="tab-pane active" id="orders">
                     <div class="table-responsive">
@@ -61,24 +61,51 @@
                                <th>ID</th>
                                <th>Location</th>
                                <th>Price</th>
-                               <th>Review</th>
+                   
+                               <th>Squre ft</th>
+                               <th>Bed Room</th>
+                               <th>Kitchen</th>
+                               <th>Balcony</th>
+                               <th>Description</th>
+                               <th>Owner Name</th>
+                               <th>Order/book</th>
                               
                             </tr>
                          </thead>
                          <tbody>
-                            <tr> 
-                               <td>1</td>
-						    
-							 
-                               <td>Dhaka</td>
-						   
-                               <td>2,00,00,000</td>
-							   <td>no riview</td>
-						   
+
+       
+                             
+
+
+    
+                               @foreach ($postad as $postads)
                                
-							   
-						    </tr>
-							
+                               
+    <tr>
+      <td>{{ $postads->pid}}</td>
+      <td>{{ $postads->location}}</td>
+      <td>{{ $postads->price}}</td>
+      <td>{{ $postads->sqrft}}</td>
+      <td>{{ $postads->bedroom}}</td>
+      <td>{{ $postads->kitchen}}</td>
+      <td>{{ $postads->balcony}}</td>
+      <td>{{ $postads->description}}</td>
+      <td>{{ $postads->owner}}</td>
+       <td><a class="btn btn-success btn-xs" href="/postad/{{$postads->pid}}">Order</a> | <a class="btn btn-success btn-xs" href="/postad/{{$postads->pid}}">Book</a></td>
+
+      <!--<td><a class="btn btn-success btn-xs" href="/postad/{{$postads->pid}}">View Order</a></td>
+      <td><a class="btn btn-success btn-xs" href="/postad/{{$postads->pid}}/edit">Edit</a></td>-->
+  
+               
+               </tr>
+   
+                 @endforeach
+
+
+
+                
+              
                            
                             
                            
@@ -86,14 +113,13 @@
                       </table>
                     </div>
                   </div>
-		
-		
-		
+    
+    
+    
 
 
 
-		</div>
+    </div>
 </div>
 </section>
-
 @endsection

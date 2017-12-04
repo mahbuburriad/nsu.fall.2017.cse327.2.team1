@@ -24,6 +24,8 @@ class CreatePostadTable extends Migration
             $table->integer('kitchen');
             $table->string('balcony');
             $table->string('description');
+            $table->string('owner');
+          //  $table->string('photo');
             $table->timestamps();
         });
     }

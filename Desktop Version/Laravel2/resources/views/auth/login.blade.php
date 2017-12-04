@@ -229,6 +229,10 @@
                       <label for="password-confirm">Re-enter Password</label>
                       <input id="password-confirm" type="password" class="form-control" name="password_confirmation" required>
                             </div>
+                          <!-- <div class="form-group col-md-12">
+                      <label for="photo">Image Upload</label>
+                      <input id="photo" type="file" class="form-control" name="photo" value="photo" required>
+                            </div>-->
                     </div>
                   </div>
                   <div class="form-group">

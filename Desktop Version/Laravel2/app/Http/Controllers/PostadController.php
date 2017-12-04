@@ -4,6 +4,7 @@ namespace App\Http\Controllers;
 
 use App\Postad;
 use Illuminate\Http\Request;
+use Illuminate\Support\Facades\DB;
 
 class PostadController extends Controller
 {
@@ -14,10 +15,24 @@ class PostadController extends Controller
      */
     public function index()
     {
-      $postad = postad::all();
+      //$postad = postad::all();
+        //$postad = DB::table('postad')->get();
+        $postad = DB::table('postad')->where('propertyfor', 'Sell')->where('propertytype', 'Apartments')->get();
 
   
         return view('buy_appartment', ['postad' => $postad]);
+
+
+    }
+
+    public function sell()
+    {
+      //$postad = postad::all();
+        //$postad = DB::table('postad')->get();
+        $postad = DB::table('postad')->where('propertyfor', 'Rent')->get();
+
+  
+        return view('buy_shop', ['postad' => $postad]);
 
 
     }

@@ -6,6 +6,9 @@ use App\User;
 use App\Http\Controllers\Controller;
 use Illuminate\Support\Facades\Validator;
 use Illuminate\Foundation\Auth\RegistersUsers;
+use Illuminate\Support\Facades\Input;
+
+
 
 class RegisterController extends Controller
 {
@@ -55,6 +58,10 @@ class RegisterController extends Controller
             'city' => 'required|string|max:255',
             'email' => 'required|string|email|max:255|unique:users',
             'password' => 'required|string|min:6|confirmed',
+            
+            //'photo' => 'required|string',
+            //'photo' => 'required|image|mimes:jpeg,png,jpg,gif,svg|max:1024',
+
         ]);
     }
 
@@ -74,6 +81,23 @@ class RegisterController extends Controller
             'city' => $data['city'],
             'email' => $data['email'],
             'password' => bcrypt($data['password']),
+        
+            //'photo' => $data['photo'],
         ]);
     }
+   /* public function store(Request $request)
+    {
+        $user = new file;
+
+        $user->title = input::get('name');
+        if(Input::hasFile('photo'))
+            {
+                $file=input::file('photo');
+                $file->move(public_path(). '/', $file->getClientphoto();
+                $postad->photo=$file->getClientphoto();
+            }
+
+            $postad->save();
+
+    }*/
 }

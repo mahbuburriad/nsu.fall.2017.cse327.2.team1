@@ -23,6 +23,8 @@ class CreateUsersTable extends Migration
             $table->string('city');
             $table->string('email')->unique();
             $table->string('password');
+           // $table->string('mime');
+        //$table->string('original_filename');
             $table->rememberToken();
             $table->timestamps();
         });

@@ -17,5 +17,6 @@ class Postad extends Model
     'bedroom', 
     'kitchen',
      'balcony', 
-     'description'];
+     'description',
+     'owner'];
 }
