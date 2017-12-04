@@ -34,7 +34,7 @@
             <div  style="font-size:16px"><p>Here you can choose your suitable appartment from the list below.
             You can give your desire price range and location to find a suitable appartment</p></div>
             
-        </form>
+              </form>
                 <div class="tab-content">
                   <div role="tabpanel" class="tab-pane active" id="orders">
                     <div class="table-responsive">
@@ -43,6 +43,7 @@
                             <tr>
                                <th>ID</th>
                                <th>Location</th>
+                               <th>Property Type</th>
                                <th>Price</th>
                    
                                <th>Squre ft</th>
@@ -68,6 +69,7 @@
     <tr>
       <td>{{ $postads->pid}}</td>
       <td>{{ $postads->location}}</td>
+      <td>{{ $postads->propertytype}}</td>
       <td>{{ $postads->price}}</td>
       <td>{{ $postads->sqrft}}</td>
       <td>{{ $postads->bedroom}}</td>
@@ -105,4 +107,4 @@
     </div>
 </div>
 </section>
-@endsection
+@endsections

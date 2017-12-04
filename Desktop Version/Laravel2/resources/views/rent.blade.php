@@ -44,6 +44,7 @@
                             <tr>
                                <th>ID</th>
                                <th>Location</th>
+                               <th>Property Type</th>
                                <th>Price</th>
                    
                                <th>Squre ft</th>
@@ -69,6 +70,7 @@
     <tr>
       <td>{{ $postads->pid}}</td>
       <td>{{ $postads->location}}</td>
+      <td>{{ $postads->propertytype}}</td>
       <td>{{ $postads->price}}</td>
       <td>{{ $postads->sqrft}}</td>
       <td>{{ $postads->bedroom}}</td>
