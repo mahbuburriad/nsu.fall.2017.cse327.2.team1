@@ -104,7 +104,7 @@
                     
   
             
-            {!! Form::open(array('route' => 'buy_appartment.store' )) !!}
+            {!! Form::open(array('route' => 'buy.store' )) !!}
 
               <div class="row">
                 <div class="form-group col-md-6">

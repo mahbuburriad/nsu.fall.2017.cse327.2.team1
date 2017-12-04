@@ -17,25 +17,25 @@ class PostadController extends Controller
     {
       //$postad = postad::all();
         //$postad = DB::table('postad')->get();
-        $postad = DB::table('postad')->where('propertyfor', 'Sell')->where('propertytype', 'Apartments')->get();
+        $postad = DB::table('postad')->where('propertyfor', 'Sell')->get();
 
   
-        return view('buy_appartment', ['postad' => $postad]);
+        return view('buy', ['postad' => $postad]);
 
 
     }
 
-    public function sell()
+    public function rent()
     {
       //$postad = postad::all();
         //$postad = DB::table('postad')->get();
         $postad = DB::table('postad')->where('propertyfor', 'Rent')->get();
 
   
-        return view('buy_shop', ['postad' => $postad]);
+        return view('rent', ['postad' => $postad]);
 
 
-    }
+}
 
     /**
      * Show the form for creating a new resource.

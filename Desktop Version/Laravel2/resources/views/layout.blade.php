@@ -167,25 +167,11 @@
               <li>{!! Html::link('index', 'Home') !!}</li>
 
         
-         <li><a href="#">Buy</a>
-        <ul class="dropdown">
-                  <li>{!! Html::link('buy_house', 'House') !!}</li>
-          <li>{!! Html::link('buy_appartment', 'Apartment') !!}</li>
-           <li>{!! Html::link('buy_shop', 'Shops/Office') !!}</li>
-            <li>{!! Html::link('buy_openfloor', 'Open Floor') !!}</li>
-                </ul>
-                
-              </li>
+         <li>{!! Html::link('buy', 'Buy') !!}</li>
+            
+              <li>{!! Html::link('rent', 'Rent') !!}</li>
         
-         <li><a href="#">Rent</a>
-          <ul class="dropdown">
-                   <li>{!! Html::link('rent_house', 'House') !!}</li>
-          <li>{!! Html::link('rent_appartment', 'Apartment') !!}</li>
-           <li>{!! Html::link('rent_shop', 'Shops/Office') !!}</li>
-            <li>{!! Html::link('rent_openfloor', 'Open Floor') !!}</li>
-                </ul>
-        
-        </li>
+         
         <li>{!! Html::link('app_page', 'Mobile App') !!}</li>
         
            <li>{!! Html::link('pricing', 'Pricing') !!}</li>
