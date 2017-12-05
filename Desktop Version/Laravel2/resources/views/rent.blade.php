@@ -52,7 +52,7 @@
                                <th>Kitchen</th>
                                <th>Balcony</th>
                                <th>Description</th>
-                               <th>Owner Name</th>
+                        
                                <th>Order/book</th>
                               
                             </tr>
@@ -77,7 +77,7 @@
       <td>{{ $postads->kitchen}}</td>
       <td>{{ $postads->balcony}}</td>
       <td>{{ $postads->description}}</td>
-      <td>{{ $postads->owner}}</td>
+ 
        <td><a class="btn btn-success btn-xs" href="/postad/{{$postads->pid}}">Order</a> | <a class="btn btn-success btn-xs" href="/postad/{{$postads->pid}}">Book</a></td>
 
       <!--<td><a class="btn btn-success btn-xs" href="/postad/{{$postads->pid}}">View Order</a></td>
