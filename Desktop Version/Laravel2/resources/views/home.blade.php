@@ -38,7 +38,12 @@
                   <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
                 </ul>
                 {!! Html::link('editprofile', 'Edit Profile', array('class' => 'btn btn-info btn-flat mt-10 mb-sm-30')) !!}
-                {!! Html::link('logout', 'Logout', array('class' => 'btn btn-danger btn-flat mt-10 mb-sm-30')) !!}
+
+                 <a class="btn btn-danger btn-flat mt-10 mb-sm-30" href="{{ route('logout') }}" onclick="event.preventDefault();
+                                                     document.getElementById('logout-form').submit();">Logout</a>
+                                                     <form id="logout-form" action="{{ route('logout') }}" method="POST" style="display: none;">
+                                            {{ csrf_field() }}
+                                        </form>
 
 
               </div>
