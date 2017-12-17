@@ -57,7 +57,7 @@ class PostadController extends Controller
     {
         $input = $request->all();
         Postad::Create($input);
-        return redirect('index');
+        return redirect('buy');
     }
 
     /**
@@ -79,6 +79,14 @@ class PostadController extends Controller
      * @param  \App\Postad  $postad
      * @return \Illuminate\Http\Response
      */
+
+    public function home_details(Postad $postad)
+    {
+        $postad = Postad::find($postad->pid);
+        return view('postad', compact('postad'));
+    }
+
+
     public function edit(Postad $postad)
     {
         //

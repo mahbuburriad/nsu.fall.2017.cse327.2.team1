@@ -1,10 +1,6 @@
-<?php
-require_once ('header1.php');
-?>
-<title>Automated Accommodation || Home Profile</title>
-<?php
-require_once ('header2.php');
-?>
+@extends('layout')
+@section('title', 'Home Details')
+@section('content')
 
 <!-- Start main-content -->
   <div class="main-content">
@@ -685,8 +681,4 @@ For home seekers, we offer a wide selection of properties from individuals.</p>
     </section>
   </div>
   <!-- end main-content -->
-
-
-<?php
-require_once ('footer.php');
-?>
+@endsection

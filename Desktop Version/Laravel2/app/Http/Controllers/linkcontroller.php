@@ -60,4 +60,9 @@ class linkcontroller extends Controller
 	{
 		return view('admin');
 	}
+
+	public function home_details()
+	{
+		return view('home_details');
+	}
 }

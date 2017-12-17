@@ -77,7 +77,7 @@
       <td>{{ $postads->balcony}}</td>
       <td>{{ $postads->description}}</td>
     
-       <td><a class="btn btn-success btn-xs" href="/postad/{{$postads->pid}}">Order</a> | <a class="btn btn-success btn-xs" href="/postad/{{$postads->pid}}">Book</a></td>
+       <td><a class="btn btn-success btn-xs" href="/postad/{{$postads->pid}}">Details</a> | <a class="btn btn-success btn-xs" href="/postad/{{$postads->pid}}">Book</a></td>
 
       <!--<td><a class="btn btn-success btn-xs" href="/postad/{{$postads->pid}}">View Order</a></td>
       <td><a class="btn btn-success btn-xs" href="/postad/{{$postads->pid}}/edit">Edit</a></td>-->

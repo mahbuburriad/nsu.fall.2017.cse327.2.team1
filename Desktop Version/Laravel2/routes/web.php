@@ -26,6 +26,7 @@ Route::get('about', 'linkcontroller@about');
 Route::get('account', 'linkcontroller@account');
 Route::get('editprofile', 'linkcontroller@editprofile');
 Route::get('admin', 'linkcontroller@admin');
+Route::get('home_details', 'linkcontroller@home_details');
 
 Auth::routes();
 
@@ -43,3 +44,4 @@ Route::get('login/google/callback', 'Auth\LoginController@handleProviderCallback
 Route::resource('buy', 'PostadController');
 //Route::resource('buy_shop', 'PostadController');
 Route::get('rent', 'PostadController@rent');
+Route::get('home_details', 'PostadController@home_details');
