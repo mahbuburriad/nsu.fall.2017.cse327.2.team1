@@ -1,48 +1,72 @@
 <?php
 
 namespace App\Http\Controllers\Auth;
-
+use Socialite;
 use App\Http\Controllers\Controller;
 use Illuminate\Foundation\Auth\AuthenticatesUsers;
-use App\User;
-use Illuminate\Support\Facades\Validator;
-use Illuminate\Foundation\Auth\RegistersUsers;
-use Illuminate\Support\Facades\Input;
-use Illuminate\Http\Request;
-use App\Registers;
-use Redirect;
-use Illuminate\Database\Eloquent\Model;
-use Illuminate\Support\Facades\Auth;
+
 class LoginController extends Controller
 {
-
     /*
-    this function is ready to check the login credentials
+    |--------------------------------------------------------------------------
+    | Login Controller
+    |--------------------------------------------------------------------------
+    |
+    | This controller handles authenticating users for the application and
+    | redirecting them to your home screen. The controller uses a trait
+    | to conveniently provide its functionality to your applications.
+    |
     */
-    public function loginn()
+
+    use AuthenticatesUsers;
+
+    /**
+     * Where to redirect users after login.
+     *
+     * @var string
+     */
+    protected $redirectTo = '/home';
+
+    /**
+     * Create a new controller instance.
+     *
+     * @return void
+     */
+    public function __construct()
     {
-        $data=Input::except(array('_token'));
-        $rule=array(
-            'email'=>'required|email',
-            'password'=>'required|min:8',
-        );
-
-        $validator=Validator::make($data,$rule);
-
-        if($validator->fails())
-        {
-
-            return Redirect::to('login')->withErrors($validator);
-        }
-        else
-        {
-            $email=Input::get('email');
-            $password=Input::get('password');
-            if(Auth::attempt(['email' => $email, 'password' => $password]))
-                return Redirect::to('account');
-            else
-                return Redirect::to('login');
-        }
+        $this->middleware('guest')->except('logout');
     }
 
+     public function redirectToProvider()
+    {
+        return Socialite::driver('facebook')->redirect();
+    }
+
+    /**
+     * Obtain the user information from facebook.
+     *
+     * @return \Illuminate\Http\Response */
+     
+    public function handleProviderCallback()
+    {
+        $user = Socialite::driver('facebook')->user();
+
+       // $user->name;
+    }
+
+/*
+
+    public function redirectToProvider()
+    {
+        return Socialite::driver('google')->redirect();
+    }
+
+   
+    public function handleProviderCallback()
+    {
+        $user = Socialite::driver('google')->user();
+
+        // $user->token;
+    }
+    */
 }

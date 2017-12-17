@@ -7,16 +7,36 @@ use App\Http\Controllers\Controller;
 use Illuminate\Support\Facades\Validator;
 use Illuminate\Foundation\Auth\RegistersUsers;
 use Illuminate\Support\Facades\Input;
-use Illuminate\Http\Request;
-use App\Registers;
-use Redirect;
-use Illuminate\Database\Eloquent\Model;
+
+
 
 class RegisterController extends Controller
 {
+    /*
+    |--------------------------------------------------------------------------
+    | Register Controller
+    |--------------------------------------------------------------------------
+    |
+    | This controller handles the registration of new users as well as their
+    | validation and creation. By default this controller uses a trait to
+    | provide this functionality without requiring any additional code.
+    |
+    */
 
     use RegistersUsers;
 
+    /**
+     * Where to redirect users after registration.
+     *
+     * @var string
+     */
+    protected $redirectTo = '/home';
+
+    /**
+     * Create a new controller instance.
+     *
+     * @return void
+     */
     public function __construct()
     {
         $this->middleware('guest');
@@ -28,13 +48,20 @@ class RegisterController extends Controller
      * @param  array  $data
      * @return \Illuminate\Contracts\Validation\Validator
      */
-    //validate the input
     protected function validator(array $data)
     {
         return Validator::make($data, [
             'name' => 'required|string|max:255',
+            'username' => 'required|string|max:255',
+            'gender' => 'required|string|max:255',
+            'address' => 'required|string|max:255',
+            'city' => 'required|string|max:255',
             'email' => 'required|string|email|max:255|unique:users',
-            'password' => 'required|string|min:8|confirmed',
+            'password' => 'required|string|min:6|confirmed',
+            
+            //'photo' => 'required|string',
+            //'photo' => 'required|image|mimes:jpeg,png,jpg,gif,svg|max:1024',
+
         ]);
     }
 
@@ -47,39 +74,30 @@ class RegisterController extends Controller
     protected function create(array $data)
     {
         return User::create([
-            'name' => $data['name'],
-            'email' => $data['email'],
+            'name' => ucfirst($data['name']),
             'username' => $data['username'],
+            'gender' => $data['gender'],
+            'address' => $data['address'],
+            'city' => $data['city'],
+            'email' => $data['email'],
             'password' => bcrypt($data['password']),
+        
+            //'photo' => $data['photo'],
         ]);
     }
-    //get the inputs and store them into database for a new user
-    public function store()
+   /* public function store(Request $request)
     {
-        $data=Input::except(array('token'));
+        $user = new file;
 
-        $rule=array(
-            'username'=>'required',
-            'name'=>'required',
-            'email'=>'required',
-            'password'=>'required|min:8',
-            'repassword'=>'required|same:password'
-        );
+        $user->title = input::get('name');
+        if(Input::hasFile('photo'))
+            {
+                $file=input::file('photo');
+                $file->move(public_path(). '/', $file->getClientphoto();
+                $postad->photo=$file->getClientphoto();
+            }
 
-        $message=array(
-            'repassword.required'=>'Please confirm your passowrd',
-            'password.min'=>'password length must be greater than 7',
-            'repassword.same'=>'password did not match'
-        );
-        $validator=Validator::make($data,$rule,$message);
-        if($validator->fails())
-        {
-            return Redirect::to('login')->withErrors($validator);
-        }
-        else
-        {
-            RegisterController::create(Input::except(array('_token','repassword')));
-            return Redirect::to('login')->with('success','sucessfully registered');
-        }
-    }
+            $postad->save();
+
+    }*/
 }
