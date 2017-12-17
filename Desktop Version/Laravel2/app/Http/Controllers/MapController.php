@@ -10,4 +10,9 @@ class MapController extends Controller
     {
     	return view('map');
     }
+
+    public function realtimelocation()
+    {
+    	return view('realtimelocation');
+    }
 }
