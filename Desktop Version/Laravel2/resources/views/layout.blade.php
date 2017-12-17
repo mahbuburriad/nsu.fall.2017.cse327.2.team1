@@ -83,12 +83,23 @@
                 <li>
                   <a class="text-white" href="#">Help Desk</a>
                 </li>
-                <li class="text-white">|</li>
+                <li class="text-white">|</li>  
+                @if(Auth::user())
                 <li>
+                 <!-- {!! Html::link('logout', 'Logout', array('class' => 'text-white')) !!}-->
 
-                  
+                 <a class="text-white" href="{{ route('logout') }}" onclick="event.preventDefault();
+                                                     document.getElementById('logout-form').submit();">Logout</a>
+                                                     <form id="logout-form" action="{{ route('logout') }}" method="POST"  style="display: none;">
+                                            {{ csrf_field() }}
+                                        </form>
+                           
+                </li>
+                @else
+                <li>
                   {!! Html::link('login', 'Login', array('class' => 'text-white')) !!}          
                 </li>
+                @endif
               </ul>
             </div>
           </div>
@@ -139,7 +150,7 @@
                 <li><i class="fa fa-phone-square text-theme-colored font-36 mt-5 sm-display-block"></i></li>
                 <li>
                   <a href="#" class="font-12 text-gray text-uppercase">Call us today!</a>
-                  <h5 class="font-14 m-0"> +(88) 55555555555</h5>
+                  <h5 class="font-14 m-0">8247</h5>
                 </li>
               </ul>
             </div>
@@ -197,7 +208,7 @@
                 </ul>
               </li>
         
-        <li><a href="contact-us.php">Contact Us</a></li>
+        <li><a href="contact">Contact Us</a></li>
         
          
               <!--  <li><a href="javascript:void(0)">Mega Menu</a>

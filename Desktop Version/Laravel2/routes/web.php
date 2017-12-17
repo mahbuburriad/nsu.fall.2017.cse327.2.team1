@@ -45,6 +45,3 @@ Route::resource('buy', 'PostadController');
 //Route::resource('buy_shop', 'PostadController');
 Route::get('rent', 'PostadController@rent');
 Route::get('home_details', 'PostadController@home_details');
-
-Route::get('/map', 'MapController@map');
-Route::get('/realtimelocation', 'MapController@realtimelocation');
