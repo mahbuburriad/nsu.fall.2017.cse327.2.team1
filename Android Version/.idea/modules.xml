@@ -3,11 +3,10 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://C:\Users\Majedur Rahman\Desktop\Hackathon_NSU-master\Hackathon_NSU.iml" filepath="C:\Users\Majedur Rahman\Desktop\Hackathon_NSU-master\Hackathon_NSU.iml" />
-      <module fileurl="file://C:\Users\Arman\Desktop\homerent\HomeRent12\Hackathon_NSU-master.iml" filepath="C:\Users\Arman\Desktop\homerent\HomeRent12\Hackathon_NSU-master.iml" />
-      <module fileurl="file://$PROJECT_DIR$/HomeRent12.iml" filepath="$PROJECT_DIR$/HomeRent12.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Hackathon_NSU-master.iml" filepath="$PROJECT_DIR$/Hackathon_NSU-master.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Hackathon_NSU-master111-master.iml" filepath="$PROJECT_DIR$/Hackathon_NSU-master111-master.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
       <module fileurl="file://C:\Users\Majedur Rahman\Desktop\Hackathon_NSU-master\app\app.iml" filepath="C:\Users\Majedur Rahman\Desktop\Hackathon_NSU-master\app\app.iml" />
-      <module fileurl="file://C:\Users\Arman\Desktop\homerent\HomeRent12\app\app.iml" filepath="C:\Users\Arman\Desktop\homerent\HomeRent12\app\app.iml" />
     </modules>
   </component>
 </project>

@@ -28,7 +28,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 /**
-
+ * Created by Majedur Rahman on 9/29/2017.
  * set up recycler view custom adapter
  */
 

@@ -7,7 +7,7 @@ import android.support.v4.app.FragmentPagerAdapter;
 import java.util.ArrayList;
 
 /**
-
+ * Created by Majedur Rahman on 9/29/2017.
  * setup navigation bar
  */
 

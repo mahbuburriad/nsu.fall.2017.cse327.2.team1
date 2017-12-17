@@ -21,4 +21,8 @@ public class DetailsActivity extends AppCompatActivity {
          */
         startActivity(new Intent(this,Degree360.class));
     }
+
+    public void Onclick2(View view) {
+        startActivity(new Intent(this,CameraViewActivity.class));
+    }
 }
